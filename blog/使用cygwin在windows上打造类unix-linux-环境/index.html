@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='引 长期接触Linux的小伙伴们难免在项目开发中遇到“误入”Linux命令的尴尬场景。 1 2 3 C:\workspace\my-project&amp;gt;ll &amp;#39;ll&amp;#39; 不是内部或外部命令，也不是可运行的程序 或批处理'>
+<title>使用Cygwin在Windows上打造类Unix（Linux）环境</title>
+
+<link rel='canonical' href='https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/'>
+
+<link rel="stylesheet" href="/scss/style.min.8191399262444ab68b72a18c97392f5349be20a1615d77445be51e974c144cff.css"><meta property='og:title' content='使用Cygwin在Windows上打造类Unix（Linux）环境'>
+<meta property='og:description' content='引 长期接触Linux的小伙伴们难免在项目开发中遇到“误入”Linux命令的尴尬场景。 1 2 3 C:\workspace\my-project&amp;gt;ll &amp;#39;ll&amp;#39; 不是内部或外部命令，也不是可运行的程序 或批处理'>
+<meta property='og:url' content='https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/'>
+<meta property='og:site_name' content='柠萌赛博自留地'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2022-06-19T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-09-19T15:15:00&#43;00:00'/><meta property='og:image' content='https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/header.png' />
+<meta name="twitter:title" content="使用Cygwin在Windows上打造类Unix（Linux）环境">
+<meta name="twitter:description" content="引 长期接触Linux的小伙伴们难免在项目开发中遇到“误入”Linux命令的尴尬场景。 1 2 3 C:\workspace\my-project&amp;gt;ll &amp;#39;ll&amp;#39; 不是内部或外部命令，也不是可运行的程序 或批处理"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/header.png' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu3d03a01dcc18bc5be0e67db3d8d209a6_71723_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🤗</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">柠萌赛博自留地</a></h1>
+            <h2 class="site-description">Developer, Undergraduate</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://git.qmcmc.cn/qctech'
+                        target="_blank"
+                        title="Gitea"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-git" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <circle cx="16" cy="12" r="1" />
+  <circle cx="12" cy="8" r="1" />
+  <circle cx="12" cy="16" r="1" />
+  <path d="M12 15v-6" />
+  <path d="M15 11l-2 -2" />
+  <path d="M11 7l-1.9 -1.9" />
+  <path d="M10.5 20.4l-6.9 -6.9c-.781 -.781 -.781 -2.219 0 -3l6.9 -6.9c.781 -.781 2.219 -.781 3 0l6.9 6.9c.781 .781 .781 2.219 0 3l-6.9 6.9c-.781 .781 -2.219 .781 -3 0z" />
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/tennousuathena/'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/_tennousuathena'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>首页</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
+  <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/%E9%93%BE%E6%8E%A5/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>链接</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://lemoe.cn/en/" >English</option>
+                        
+                            <option value="https://lemoe.cn/" selected>中文</option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#引">引</a></li>
+    <li><a href="#行">行</a>
+      <ol>
+        <li><a href="#安装cygwin">安装Cygwin</a></li>
+        <li><a href="#调教cygwin">调教Cygwin</a></li>
+        <li><a href="#配置windows-terminal">配置Windows Terminal</a></li>
+        <li><a href="#后记">后记</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/">
+                <img src="/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/header_hu2df81af7ea79fd95c705c632cda4a5b9_884442_800x0_resize_box_3.png"
+                        srcset="/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/header_hu2df81af7ea79fd95c705c632cda4a5b9_884442_800x0_resize_box_3.png 800w, /blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/header_hu2df81af7ea79fd95c705c632cda4a5b9_884442_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="533" 
+                        loading="lazy"
+                        alt="Featured image of post 使用Cygwin在Windows上打造类Unix（Linux）环境" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/">使用Cygwin在Windows上打造类Unix（Linux）环境</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2022-06-19, Sunday</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 3 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="引">引</h2>
+<p>长期接触Linux的小伙伴们难免在项目开发中遇到“误入”Linux命令的尴尬场景。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">C:<span class="se">\w</span>orkspace<span class="se">\m</span>y-project&gt;ll
+</span></span><span class="line"><span class="cl"><span class="s1">&#39;ll&#39;</span> 不是内部或外部命令，也不是可运行的程序
+</span></span><span class="line"><span class="cl">或批处理文件。
+</span></span></code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>❓ 何为Cygwin？</p>
+</blockquote>
+<p><a class="link" href="https://www.cygwin.com/"  target="_blank" rel="noopener"
+    >Cygwin</a>是许多自由软件的集合，用于在Windows上，“运行”类UNIX系统。Cygwin的主要目的是通过<strong>重新编译</strong>，将*NIX系统上的软件移植到Windows上。</p>
+<p>简而言之，Cygwin在Windows上提供了类似UNIX的工具。</p>
+<p>需要注意的是，这不代表Cygwin可以直接在Windows上执行UNIX上的原生应用（如二进制包、deb包等），如果你的需求如此，请使用虚拟机或WSL。</p>
+<p>那么为什么不直接安装虚拟机或WSL呢？——虚拟机和宿主机隔着一层”厚障壁“，即使是号称无缝集成的WSL2，执行也会带来一定的时间与内存开销。相反，Cygwin运行的就是土生土编译的PE(_portable executable)_文件，效率更高更方便。</p>
+<h2 id="行">行</h2>
+<h3 id="安装cygwin">安装Cygwin</h3>
+<p>我们开始吧！</p>
+<p>首先从Cygwin官网下载最新安装包文件 <a class="link" href="https://www.cygwin.com/setup-x86_64.exe"  target="_blank" rel="noopener"
+    >https://www.cygwin.com/setup-x86_64.exe</a></p>
+<p>下载后的setup不必删除，如果需要安装新的包时仍然需要这个文件。</p>
+<p><img src="/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/5e6ffa4c-0044-4ed3-bafa-68d6ede04097.png"
+	width="450"
+	height="50"
+	srcset="/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/5e6ffa4c-0044-4ed3-bafa-68d6ede04097_hu590e85acb50bbc7f117e75f378095251_3958_480x0_resize_box_3.png 480w, /blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/5e6ffa4c-0044-4ed3-bafa-68d6ede04097_hu590e85acb50bbc7f117e75f378095251_3958_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="当然，从互联网下载"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="900"
+		data-flex-basis="2160px"
+	
+></p>
+<p>接着选定安装路径，请记住这个路径，因为我们即将添加到PATH环境变量</p>
+<p><img src="/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/e8ca8d59-f615-4be1-943c-638198950b4e.png"
+	width="743"
+	height="88"
+	srcset="/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/e8ca8d59-f615-4be1-943c-638198950b4e_hue23b8b88668fe98dafcc63870fb2710d_4735_480x0_resize_box_3.png 480w, /blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/e8ca8d59-f615-4be1-943c-638198950b4e_hue23b8b88668fe98dafcc63870fb2710d_4735_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="路径可以随意填写"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="844"
+		data-flex-basis="2026px"
+	
+></p>
+<p>选定本地包目录，随意。</p>
+<p>设置系统代理，根据实际情况填写。</p>
+<p>选择镜像，建议选择国内高校，此处以<a class="link" href="https://mirrors.tuna.tsinghua.edu.cn/help/cygwin/"  target="_blank" rel="noopener"
+    >清华大学开源软件镜像站</a>为例</p>
+<p>选择<code>Install from Internet</code>, 在”User URL”处输入以下地址：</p>
+<p><code>https://mirrors.tuna.tsinghua.edu.cn/cygwin/</code></p>
+<p><img src="/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/04628043-2413-4981-bb89-090b823caf01.png"
+	width="763"
+	height="375"
+	srcset="/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/04628043-2413-4981-bb89-090b823caf01_hu69e8760e74a3e415f9fbfa14961030cd_24486_480x0_resize_box_3.png 480w, /blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/04628043-2413-4981-bb89-090b823caf01_hu69e8760e74a3e415f9fbfa14961030cd_24486_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="203"
+		data-flex-basis="488px"
+	
+></p>
+<p>接着需要选择要安装的包，首先我们设置View为Full，然后在Search框内添加需要的软件包，在下方结果页中的New中选择最新的版本号即可，以lynx为例，稍后我们需要lynx下载apt-cyg</p>
+<p><img src="/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/9fc108af-5c91-4655-bcff-14c4162ab1b2.png"
+	width="1138"
+	height="188"
+	srcset="/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/9fc108af-5c91-4655-bcff-14c4162ab1b2_hu3f5c6b0a6764754e08985de5d57aeac5_13933_480x0_resize_box_3.png 480w, /blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/9fc108af-5c91-4655-bcff-14c4162ab1b2_hu3f5c6b0a6764754e08985de5d57aeac5_13933_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="605"
+		data-flex-basis="1452px"
+	
+></p>
+<p>完成！最后可以勾选创建Cygwin Terminal桌面图标与启动菜单，如果你打算用自己喜欢的终端运行（如Mobaxterm、Cmder等，稍后本文将以Windows Terminal配置方法为例）则不用勾选。</p>
+<p><img src="/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/d8885ceb-13ec-4240-ab95-9dd0935d71cb.png"
+	width="763"
+	height="338"
+	srcset="/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/d8885ceb-13ec-4240-ab95-9dd0935d71cb_hu38b1f6ff8b2d2000c171abe67fc365f2_12909_480x0_resize_box_3.png 480w, /blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/d8885ceb-13ec-4240-ab95-9dd0935d71cb_hu38b1f6ff8b2d2000c171abe67fc365f2_12909_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="225"
+		data-flex-basis="541px"
+	
+></p>
+<h3 id="调教cygwin">调教Cygwin</h3>
+<ul>
+<li>
+<p>设置环境变量，越往上优先级越高，不建议超过系统优先级</p>
+<p><img src="/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/c549a1dc-88b3-4c84-a03c-2c0ed73714db.jpg"
+	width="2218"
+	height="1078"
+	srcset="/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/c549a1dc-88b3-4c84-a03c-2c0ed73714db_huef746ae60c3b2f479ec88b9411a0ce66_188373_480x0_resize_q75_box.jpg 480w, /blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/c549a1dc-88b3-4c84-a03c-2c0ed73714db_huef746ae60c3b2f479ec88b9411a0ce66_188373_1024x0_resize_q75_box.jpg 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="205"
+		data-flex-basis="493px"
+	
+></p>
+</li>
+<li>
+<p>配置包管理器<strong>apt-cyg</strong></p>
+</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg &gt; apt-cyg
+</span></span><span class="line"><span class="cl">install apt-cyg /bin
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>安装Nano</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">apt-cyg install nano
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>编辑~/.bashrc，添加如下内容供参考</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">alias</span> <span class="nv">ls</span><span class="o">=</span><span class="s1">&#39;ls -hF --color=tty&#39;</span>                 <span class="c1"># classify files in colour</span>
+</span></span><span class="line"><span class="cl"><span class="nb">alias</span> <span class="nv">dir</span><span class="o">=</span><span class="s1">&#39;ls --color=auto --format=vertical&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">alias</span> <span class="nv">vdir</span><span class="o">=</span><span class="s1">&#39;ls --color=auto --format=long&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">alias</span> <span class="nv">ll</span><span class="o">=</span><span class="s1">&#39;ls -la&#39;</span>                              <span class="c1"># long list</span>
+</span></span><span class="line"><span class="cl"><span class="nb">alias</span> <span class="nv">la</span><span class="o">=</span><span class="s1">&#39;ls -A&#39;</span>                              <span class="c1"># all but . and ..</span>
+</span></span><span class="line"><span class="cl"><span class="nb">alias</span> <span class="nv">l</span><span class="o">=</span><span class="s1">&#39;ls -CF&#39;</span>                              <span class="c1">#</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">alias</span> <span class="nv">apt</span><span class="o">=</span><span class="s1">&#39;apt-cyg&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">alias</span> apt-get<span class="o">=</span><span class="s1">&#39;apt-cyg&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 避免日常手误</span>
+</span></span><span class="line"><span class="cl"><span class="nb">alias</span> cd..<span class="o">=</span><span class="s1">&#39;cd ..&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 退出当前目录</span>
+</span></span><span class="line"><span class="cl"><span class="nb">alias</span> ..<span class="o">=</span><span class="s1">&#39;cd ..&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">alias</span> ...<span class="o">=</span><span class="s1">&#39;cd ../../..&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">alias</span> ....<span class="o">=</span><span class="s1">&#39;cd ../../../..&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">alias</span> .....<span class="o">=</span><span class="s1">&#39;cd ../../../..&#39;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>随后<code>$ source .bashrc</code></p>
+<h3 id="配置windows-terminal">配置Windows Terminal</h3>
+<p>参考内容如下</p>
+<p><img src="/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/2e88a431-de71-44e8-85e8-d53610e72efa.jpg"
+	width="1730"
+	height="1014"
+	srcset="/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/2e88a431-de71-44e8-85e8-d53610e72efa_hu58848d454916f0b253aa5b1f2b5b4d94_77063_480x0_resize_q75_box.jpg 480w, /blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/2e88a431-de71-44e8-85e8-d53610e72efa_hu58848d454916f0b253aa5b1f2b5b4d94_77063_1024x0_resize_q75_box.jpg 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="170"
+		data-flex-basis="409px"
+	
+></p>
+<p>如有问题，欢迎留言。</p>
+<p>以上。</p>
+<h3 id="后记">后记</h3>
+<p><strong>Cygwin 和MinGW 的区别与联系是怎样的？</strong></p>
+<ul>
+<li>区别（小结）：Cygwin是模拟 POSIX 系统，源码移植 Linux 应用到 Windows 下；MinGW 是
+用于开发 Windows 应用的开发环境。</li>
+<li>联系：均提供了部分 Linux 下的应用，多跑在 Windows 上；MinGW 作为 Cygwin 下的软件包，
+可以在 Cygwin 上运行。</li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>署名-相同方式共享 4.0 国际 (CC BY-SA 4.0)</span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 2022-09-19 15:15 CST
+        </span>
+    </section></footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.querySelector(`.article-content`), {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    <script src="//cdn.jsdelivr.net/npm/twikoo@1.5.11/dist/twikoo.all.min.js"></script>
+<div id="tcomment"></div>
+<style>
+    .twikoo {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+    :root[data-scheme="dark"] {
+        --twikoo-body-text-color-main: rgba(255, 255, 255, 0.9);
+        --twikoo-body-text-color: rgba(255, 255, 255, 0.7);
+    }
+    .twikoo .el-input-group__prepend,
+    .twikoo .tk-action-icon,
+    .twikoo .tk-time,
+    .twikoo .tk-comments-count {
+        color: var(--twikoo-body-text-color);
+    }
+    .twikoo .el-input__inner,
+    .twikoo .el-textarea__inner,
+    .twikoo .tk-preview-container,
+    .twikoo .tk-content,
+    .twikoo .tk-nick,
+    .twikoo .tk-send {
+        color: var(--twikoo-body-text-color-main);
+    }
+    .twikoo .el-button{
+        color: var(--twikoo-body-text-color)!important;
+    }
+    .OwO .OwO-body {
+        background-color: var(--body-background) !important;
+        color: var(--body-text-color) !important;
+    }
+</style><script>
+    twikoo.init({
+        envId: 'oac-1625586813-7gh4l1f625045281',
+        el: '#tcomment',})
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2023 柠萌赛博自留地
+    </section>
+    
+    <section class="powerby">
+        
+            View <a href='https://legacy.lemoe.cn/' target='_blank'>Legacy Version</a> | <a href='https://0wo.top/' target='_blank'>0wo Live Version</a>  <br/>
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.16.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

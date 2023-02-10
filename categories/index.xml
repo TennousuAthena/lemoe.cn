@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on 柠萌赛博自留地</title>
+        <link>https://lemoe.cn/categories/</link>
+        <description>Recent content in Categories on 柠萌赛博自留地</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Sun, 15 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lemoe.cn/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Homelab</title>
+        <link>https://lemoe.cn/categories/homelab/</link>
+        <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://lemoe.cn/categories/homelab/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>博客</title>
+        <link>https://lemoe.cn/categories/blog/</link>
+        <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://lemoe.cn/categories/blog/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>DevOps</title>
+        <link>https://lemoe.cn/categories/devops/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://lemoe.cn/categories/devops/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>旅行</title>
+        <link>https://lemoe.cn/categories/travel/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://lemoe.cn/categories/travel/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>人工智能</title>
+        <link>https://lemoe.cn/categories/ai/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://lemoe.cn/categories/ai/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>云计算</title>
+        <link>https://lemoe.cn/categories/cloud/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://lemoe.cn/categories/cloud/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

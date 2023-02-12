@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Linux on 柠萌赛博自留地</title>
+        <link>https://lemoe.cn/tags/linux/</link>
+        <description>Recent content in Linux on 柠萌赛博自留地</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Sun, 19 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lemoe.cn/tags/linux/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>使用Cygwin在Windows上打造类Unix（Linux）环境</title>
+        <link>https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/</link>
+        <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/</guid>
+        <description>&lt;img src="https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/header.png" alt="Featured image of post 使用Cygwin在Windows上打造类Unix（Linux）环境" /&gt;&lt;h2 id=&#34;引&#34;&gt;引&lt;/h2&gt;
+&lt;p&gt;长期接触Linux的小伙伴们难免在项目开发中遇到“误入”Linux命令的尴尬场景。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;C:&lt;span class=&#34;se&#34;&gt;\w&lt;/span&gt;orkspace&lt;span class=&#34;se&#34;&gt;\m&lt;/span&gt;y-project&amp;gt;ll
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;ll&amp;#39;&lt;/span&gt; 不是内部或外部命令，也不是可运行的程序
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;或批处理文件。
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;❓ 何为Cygwin？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.cygwin.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Cygwin&lt;/a&gt;是许多自由软件的集合，用于在Windows上，“运行”类UNIX系统。Cygwin的主要目的是通过&lt;strong&gt;重新编译&lt;/strong&gt;，将*NIX系统上的软件移植到Windows上。&lt;/p&gt;
+&lt;p&gt;简而言之，Cygwin在Windows上提供了类似UNIX的工具。&lt;/p&gt;
+&lt;p&gt;需要注意的是，这不代表Cygwin可以直接在Windows上执行UNIX上的原生应用（如二进制包、deb包等），如果你的需求如此，请使用虚拟机或WSL。&lt;/p&gt;
+&lt;p&gt;那么为什么不直接安装虚拟机或WSL呢？——虚拟机和宿主机隔着一层”厚障壁“，即使是号称无缝集成的WSL2，执行也会带来一定的时间与内存开销。相反，Cygwin运行的就是土生土编译的PE(_portable executable)_文件，效率更高更方便。&lt;/p&gt;
+&lt;h2 id=&#34;行&#34;&gt;行&lt;/h2&gt;
+&lt;h3 id=&#34;安装cygwin&#34;&gt;安装Cygwin&lt;/h3&gt;
+&lt;p&gt;我们开始吧！&lt;/p&gt;
+&lt;p&gt;首先从Cygwin官网下载最新安装包文件 &lt;a class=&#34;link&#34; href=&#34;https://www.cygwin.com/setup-x86_64.exe&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.cygwin.com/setup-x86_64.exe&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载后的setup不必删除，如果需要安装新的包时仍然需要这个文件。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/5e6ffa4c-0044-4ed3-bafa-68d6ede04097.png&#34;
+	width=&#34;450&#34;
+	height=&#34;50&#34;
+	srcset=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/5e6ffa4c-0044-4ed3-bafa-68d6ede04097_hu590e85acb50bbc7f117e75f378095251_3958_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/5e6ffa4c-0044-4ed3-bafa-68d6ede04097_hu590e85acb50bbc7f117e75f378095251_3958_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;当然，从互联网下载&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;900&#34;
+		data-flex-basis=&#34;2160px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;接着选定安装路径，请记住这个路径，因为我们即将添加到PATH环境变量&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/e8ca8d59-f615-4be1-943c-638198950b4e.png&#34;
+	width=&#34;743&#34;
+	height=&#34;88&#34;
+	srcset=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/e8ca8d59-f615-4be1-943c-638198950b4e_hue23b8b88668fe98dafcc63870fb2710d_4735_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/e8ca8d59-f615-4be1-943c-638198950b4e_hue23b8b88668fe98dafcc63870fb2710d_4735_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;路径可以随意填写&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;844&#34;
+		data-flex-basis=&#34;2026px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;选定本地包目录，随意。&lt;/p&gt;
+&lt;p&gt;设置系统代理，根据实际情况填写。&lt;/p&gt;
+&lt;p&gt;选择镜像，建议选择国内高校，此处以&lt;a class=&#34;link&#34; href=&#34;https://mirrors.tuna.tsinghua.edu.cn/help/cygwin/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;清华大学开源软件镜像站&lt;/a&gt;为例&lt;/p&gt;
+&lt;p&gt;选择&lt;code&gt;Install from Internet&lt;/code&gt;, 在”User URL”处输入以下地址：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;https://mirrors.tuna.tsinghua.edu.cn/cygwin/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/04628043-2413-4981-bb89-090b823caf01.png&#34;
+	width=&#34;763&#34;
+	height=&#34;375&#34;
+	srcset=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/04628043-2413-4981-bb89-090b823caf01_hu69e8760e74a3e415f9fbfa14961030cd_24486_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/04628043-2413-4981-bb89-090b823caf01_hu69e8760e74a3e415f9fbfa14961030cd_24486_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;203&#34;
+		data-flex-basis=&#34;488px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;接着需要选择要安装的包，首先我们设置View为Full，然后在Search框内添加需要的软件包，在下方结果页中的New中选择最新的版本号即可，以lynx为例，稍后我们需要lynx下载apt-cyg&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/9fc108af-5c91-4655-bcff-14c4162ab1b2.png&#34;
+	width=&#34;1138&#34;
+	height=&#34;188&#34;
+	srcset=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/9fc108af-5c91-4655-bcff-14c4162ab1b2_hu3f5c6b0a6764754e08985de5d57aeac5_13933_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/9fc108af-5c91-4655-bcff-14c4162ab1b2_hu3f5c6b0a6764754e08985de5d57aeac5_13933_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;605&#34;
+		data-flex-basis=&#34;1452px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;完成！最后可以勾选创建Cygwin Terminal桌面图标与启动菜单，如果你打算用自己喜欢的终端运行（如Mobaxterm、Cmder等，稍后本文将以Windows Terminal配置方法为例）则不用勾选。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/d8885ceb-13ec-4240-ab95-9dd0935d71cb.png&#34;
+	width=&#34;763&#34;
+	height=&#34;338&#34;
+	srcset=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/d8885ceb-13ec-4240-ab95-9dd0935d71cb_hu38b1f6ff8b2d2000c171abe67fc365f2_12909_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/d8885ceb-13ec-4240-ab95-9dd0935d71cb_hu38b1f6ff8b2d2000c171abe67fc365f2_12909_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;225&#34;
+		data-flex-basis=&#34;541px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;调教cygwin&#34;&gt;调教Cygwin&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;设置环境变量，越往上优先级越高，不建议超过系统优先级&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/c549a1dc-88b3-4c84-a03c-2c0ed73714db.jpg&#34;
+	width=&#34;2218&#34;
+	height=&#34;1078&#34;
+	srcset=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/c549a1dc-88b3-4c84-a03c-2c0ed73714db_huef746ae60c3b2f479ec88b9411a0ce66_188373_480x0_resize_q75_box.jpg 480w, https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/c549a1dc-88b3-4c84-a03c-2c0ed73714db_huef746ae60c3b2f479ec88b9411a0ce66_188373_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;205&#34;
+		data-flex-basis=&#34;493px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;配置包管理器&lt;strong&gt;apt-cyg&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg &amp;gt; apt-cyg
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;install apt-cyg /bin
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;安装Nano&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;apt-cyg install nano
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;编辑~/.bashrc，添加如下内容供参考&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;alias&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;ls&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;ls -hF --color=tty&amp;#39;&lt;/span&gt;                 &lt;span class=&#34;c1&#34;&gt;# classify files in colour&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;alias&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;dir&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;ls --color=auto --format=vertical&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;alias&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;vdir&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;ls --color=auto --format=long&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;alias&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;ll&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;ls -la&amp;#39;&lt;/span&gt;                              &lt;span class=&#34;c1&#34;&gt;# long list&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;alias&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;la&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;ls -A&amp;#39;&lt;/span&gt;                              &lt;span class=&#34;c1&#34;&gt;# all but . and ..&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;alias&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;ls -CF&amp;#39;&lt;/span&gt;                              &lt;span class=&#34;c1&#34;&gt;#&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;alias&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;apt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;apt-cyg&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;alias&lt;/span&gt; apt-get&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;apt-cyg&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 避免日常手误&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;alias&lt;/span&gt; cd..&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;cd ..&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 退出当前目录&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;alias&lt;/span&gt; ..&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;cd ..&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;alias&lt;/span&gt; ...&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;cd ../../..&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;alias&lt;/span&gt; ....&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;cd ../../../..&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;alias&lt;/span&gt; .....&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;cd ../../../..&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;随后&lt;code&gt;$ source .bashrc&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;配置windows-terminal&#34;&gt;配置Windows Terminal&lt;/h3&gt;
+&lt;p&gt;参考内容如下&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/2e88a431-de71-44e8-85e8-d53610e72efa.jpg&#34;
+	width=&#34;1730&#34;
+	height=&#34;1014&#34;
+	srcset=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/2e88a431-de71-44e8-85e8-d53610e72efa_hu58848d454916f0b253aa5b1f2b5b4d94_77063_480x0_resize_q75_box.jpg 480w, https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/2e88a431-de71-44e8-85e8-d53610e72efa_hu58848d454916f0b253aa5b1f2b5b4d94_77063_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;170&#34;
+		data-flex-basis=&#34;409px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;如有问题，欢迎留言。&lt;/p&gt;
+&lt;p&gt;以上。&lt;/p&gt;
+&lt;h3 id=&#34;后记&#34;&gt;后记&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Cygwin 和MinGW 的区别与联系是怎样的？&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;区别（小结）：Cygwin是模拟 POSIX 系统，源码移植 Linux 应用到 Windows 下；MinGW 是
+用于开发 Windows 应用的开发环境。&lt;/li&gt;
+&lt;li&gt;联系：均提供了部分 Linux 下的应用，多跑在 Windows 上；MinGW 作为 Cygwin 下的软件包，
+可以在 Cygwin 上运行。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

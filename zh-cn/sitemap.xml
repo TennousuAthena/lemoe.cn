@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://lemoe.cn/</loc>
-    <lastmod>2023-02-12T17:29:00+00:00</lastmod>
+    <lastmod>2023-02-13T14:39:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,14 +15,36 @@
                 href="https://lemoe.cn/"
                 />
   </url><url>
-    <loc>https://lemoe.cn/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/</loc>
-    <lastmod>2023-02-12T17:29:00+00:00</lastmod>
+    <loc>https://lemoe.cn/tags/blog/</loc>
+    <lastmod>2023-02-13T14:39:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lemoe.cn/categories/</loc>
+    <lastmod>2023-02-13T14:39:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lemoe.cn/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://lemoe.cn/categories/"
+                />
+  </url><url>
+    <loc>https://lemoe.cn/tags/hexo/</loc>
+    <lastmod>2023-02-13T14:39:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lemoe.cn/tags/hugo/</loc>
+    <lastmod>2023-02-13T14:39:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/</loc>
+    <lastmod>2023-02-13T14:39:00+00:00</lastmod>
   </url><url>
     <loc>https://lemoe.cn/post/</loc>
-    <lastmod>2023-02-12T17:29:00+00:00</lastmod>
+    <lastmod>2023-02-13T14:39:00+00:00</lastmod>
   </url><url>
     <loc>https://lemoe.cn/tags/</loc>
-    <lastmod>2023-02-12T17:29:00+00:00</lastmod>
+    <lastmod>2023-02-13T14:39:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -34,21 +56,17 @@
                 href="https://lemoe.cn/tags/"
                 />
   </url><url>
-    <loc>https://lemoe.cn/tags/%E7%94%9F%E7%89%A9%E5%8C%BB%E5%AD%A6/</loc>
+    <loc>https://lemoe.cn/tags/wordpress/</loc>
+    <lastmod>2023-02-13T14:39:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lemoe.cn/categories/blog/</loc>
+    <lastmod>2023-02-13T14:39:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lemoe.cn/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/</loc>
     <lastmod>2023-02-12T17:29:00+00:00</lastmod>
   </url><url>
-    <loc>https://lemoe.cn/categories/</loc>
-    <lastmod>2023-02-12T17:26:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://lemoe.cn/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://lemoe.cn/categories/"
-                />
+    <loc>https://lemoe.cn/tags/%E7%94%9F%E7%89%A9%E5%8C%BB%E5%AD%A6/</loc>
+    <lastmod>2023-02-12T17:29:00+00:00</lastmod>
   </url><url>
     <loc>https://lemoe.cn/categories/homelab/</loc>
     <lastmod>2023-02-08T03:01:00+00:00</lastmod>
@@ -98,16 +116,10 @@
     <loc>https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/</loc>
     <lastmod>2023-02-06T14:15:00+00:00</lastmod>
   </url><url>
-    <loc>https://lemoe.cn/tags/blog/</loc>
-    <lastmod>2023-02-12T17:28:00+00:00</lastmod>
-  </url><url>
     <loc>https://lemoe.cn/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2023-02-08T12:27:00+00:00</lastmod>
   </url><url>
     <loc>https://lemoe.cn/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/</loc>
-    <lastmod>2023-02-12T17:26:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lemoe.cn/categories/blog/</loc>
     <lastmod>2023-02-12T17:26:00+00:00</lastmod>
   </url><url>
     <loc>https://lemoe.cn/tags/%E6%8A%BD%E5%8D%A1/</loc>

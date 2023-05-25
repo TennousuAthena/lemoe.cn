@@ -16,34 +16,46 @@
 &lt;p&gt;最初的Lemoe只是一个静态站（当然可以请求Github API获取一些信息&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.lemoe.cn/#&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;bookmark&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/86a2785e-44d6-4687-b014-e69cdf5929e2.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/86a2785e-44d6-4687-b014-e69cdf5929e2.png&#34;
+	width=&#34;1853&#34;
+	height=&#34;1167&#34;
+	srcset=&#34;https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/86a2785e-44d6-4687-b014-e69cdf5929e2_hub4a36ca6a37476fe08471d35902effc0_2795491_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/86a2785e-44d6-4687-b014-e69cdf5929e2_hub4a36ca6a37476fe08471d35902effc0_2795491_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;158&#34;
+		data-flex-basis=&#34;381px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h1 id=&#34;lemoe-v1&#34;&gt;Lemoe v1&lt;/h1&gt;
 &lt;p&gt;也许是对这个域名爱不释手，很快本站就使用WordPress搭建为博客站&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/c3192d1e-a70a-429c-ae02-55e737d35745.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/c3192d1e-a70a-429c-ae02-55e737d35745.png&#34;
+	width=&#34;1914&#34;
+	height=&#34;1165&#34;
+	srcset=&#34;https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/c3192d1e-a70a-429c-ae02-55e737d35745_hu63feeda9219426494b13d7df22957474_1314059_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/c3192d1e-a70a-429c-ae02-55e737d35745_hu63feeda9219426494b13d7df22957474_1314059_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;164&#34;
+		data-flex-basis=&#34;394px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;使用的&lt;a class=&#34;link&#34; href=&#34;https://github.com/ShawnZeng1996/Memory&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/ShawnZeng1996/Memory&lt;/a&gt;主题&lt;/p&gt;
 &lt;p&gt;WordPress是有个优秀的博客程序以及CMS，然而由于其历史包袱、运维以及安全性方面考量后，该方案最终停用。&lt;/p&gt;
 &lt;h1 id=&#34;lemoe-v2&#34;&gt;Lemoe v2&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/e2dfbdfa-8828-4f9d-957c-3aee966f3e80.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/e2dfbdfa-8828-4f9d-957c-3aee966f3e80.png&#34;
+	width=&#34;2211&#34;
+	height=&#34;1280&#34;
+	srcset=&#34;https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/e2dfbdfa-8828-4f9d-957c-3aee966f3e80_hu98868d46ab2e406e31b4178e64284499_2612949_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/e2dfbdfa-8828-4f9d-957c-3aee966f3e80_hu98868d46ab2e406e31b4178e64284499_2612949_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;414px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;V2站采用Hexo构建并使用了&lt;a class=&#34;link&#34; href=&#34;https://github.com/YunYouJun/hexo-theme-yun&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -52,12 +64,16 @@
     &gt;https://legacy.lemoe.cn/&lt;/a&gt;访问。&lt;/p&gt;
 &lt;p&gt;该版本在原有主题上定制，添加了jQuery-Pjax&lt;/p&gt;
 &lt;p&gt;同时，该站会在构建时生成版本信息（commit&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/50f31740-5dcb-4738-985c-24e3fe4ced0f.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/50f31740-5dcb-4738-985c-24e3fe4ced0f.png&#34;
+	width=&#34;414&#34;
+	height=&#34;130&#34;
+	srcset=&#34;https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/50f31740-5dcb-4738-985c-24e3fe4ced0f_hu878975190a01bedb10185783f6b9cad3_75457_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/50f31740-5dcb-4738-985c-24e3fe4ced0f_hu878975190a01bedb10185783f6b9cad3_75457_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;318&#34;
+		data-flex-basis=&#34;764px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;见&lt;a class=&#34;link&#34; href=&#34;https://github.com/TennousuAthena/legacy.lemoe.cn/blob/master/get-version.py&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -87,12 +103,16 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;最终在CloudFlare Pages上部署&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/2ad10ba5-f9d0-4429-9eed-7010ba798344.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/2ad10ba5-f9d0-4429-9eed-7010ba798344.png&#34;
+	width=&#34;674&#34;
+	height=&#34;134&#34;
+	srcset=&#34;https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/2ad10ba5-f9d0-4429-9eed-7010ba798344_hu8dc57600642f351b78bc2d186425dfc1_9441_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/2ad10ba5-f9d0-4429-9eed-7010ba798344_hu8dc57600642f351b78bc2d186425dfc1_9441_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;502&#34;
+		data-flex-basis=&#34;1207px&#34;
 	
 &gt;&lt;/p&gt;
 </description>
@@ -1232,7 +1252,7 @@
         <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
         
         <guid>https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/</guid>
-        <description>&lt;img src="https://lemoe.cn/header.png" alt="Featured image of post 网课整活小记：OBS虚拟摄像头、Live2D、虚拟桌面……" /&gt;&lt;h2 id=&#34;obs介绍&#34;&gt;OBS介绍&lt;/h2&gt;
+        <description>&lt;img src="https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/header.png" alt="Featured image of post 网课整活小记：OBS虚拟摄像头、Live2D、虚拟桌面……" /&gt;&lt;h2 id=&#34;obs介绍&#34;&gt;OBS介绍&lt;/h2&gt;
 &lt;p&gt;**OBS（Open Broadcaster Software）**是由OBS Project开发的自由开源推流和录像程序。&lt;/p&gt;
 &lt;p&gt;你可以在&lt;a class=&#34;link&#34; href=&#34;https://obsproject.com/download&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Download | OBS (obsproject.com)&lt;/a&gt;下载相应软件，&lt;a class=&#34;link&#34; href=&#34;https://share.weiyun.com/QyXFPBFC&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -1691,6 +1711,20 @@
 &lt;h3 id=&#34;cloudflare加速&#34;&gt;Cloudflare加速&lt;/h3&gt;
 &lt;p&gt;需要注意的是，该项目无法通过Cloudflare Page部署由于其并非完全静态站，而Vercel提供Serverless服务。&lt;/p&gt;
 &lt;p&gt;使用Clourdlare，可以添加如下规则，增加缓存时间，提升访问速度&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;URL&lt;/th&gt;
+&lt;th&gt;S&lt;strong&gt;ettings&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;example.com/_next/image*&lt;/td&gt;
+&lt;td&gt;Cache Level: Cache Everything&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;p&gt;示例如下：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/384c6824-0f26-4d99-8f7c-65789af29b7d.png&#34;
 	width=&#34;2385&#34;
@@ -1718,6 +1752,36 @@
 		data-flex-basis=&#34;872px&#34;
 	
 &gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;cf-cache-status&lt;/th&gt;
+&lt;th&gt;状态&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;HIT&lt;/td&gt;
+&lt;td&gt;已命中Cloudflare的缓存，无需回源&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MISS&lt;/td&gt;
+&lt;td&gt;已配置缓存，但没有找到，资源已在回源后获取，下次即为HIT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;BYPASS&lt;/td&gt;
+&lt;td&gt;被要求不缓存该文件，每次均回源&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;EXPIRED&lt;/td&gt;
+&lt;td&gt;上次缓存已经过期，CF将会再度回源获取资源，当下次请求时该文件就会显示HIT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DYNAMIC&lt;/td&gt;
+&lt;td&gt;默认不会缓存，也没有对应的缓存配置，每次均回源&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;h3 id=&#34;google-analytics&#34;&gt;Google analytics&lt;/h3&gt;
 &lt;p&gt;若使用Tagmanager或GA4放置在页面头部可能导致图片懒加载blur异常，Vercel自带的analytics不会造成此问题。也可以使用Cloudflare的Web Analytics。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/06b031f3-0adf-4989-8919-2381781b1f94.png&#34;

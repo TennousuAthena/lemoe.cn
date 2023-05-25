@@ -73,7 +73,7 @@
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/">柠萌赛博自留地</a></h1>
-            <h2 class="site-description">Developer, Undergraduate</h2>
+            <h2 class="site-description">「敩学半」</h2>
         </div>
     </header><ol class="social-menu">
             
@@ -645,6 +645,20 @@
 <h3 id="cloudflare加速">Cloudflare加速</h3>
 <p>需要注意的是，该项目无法通过Cloudflare Page部署由于其并非完全静态站，而Vercel提供Serverless服务。</p>
 <p>使用Clourdlare，可以添加如下规则，增加缓存时间，提升访问速度</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>URL</th>
+<th>S<strong>ettings</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>example.com/_next/image*</td>
+<td>Cache Level: Cache Everything</td>
+</tr>
+</tbody>
+</table></div>
 <p>示例如下：</p>
 <p><img src="/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/384c6824-0f26-4d99-8f7c-65789af29b7d.png"
 	width="2385"
@@ -672,6 +686,36 @@
 		data-flex-basis="872px"
 	
 ></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>cf-cache-status</th>
+<th>状态</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HIT</td>
+<td>已命中Cloudflare的缓存，无需回源</td>
+</tr>
+<tr>
+<td>MISS</td>
+<td>已配置缓存，但没有找到，资源已在回源后获取，下次即为HIT</td>
+</tr>
+<tr>
+<td>BYPASS</td>
+<td>被要求不缓存该文件，每次均回源</td>
+</tr>
+<tr>
+<td>EXPIRED</td>
+<td>上次缓存已经过期，CF将会再度回源获取资源，当下次请求时该文件就会显示HIT</td>
+</tr>
+<tr>
+<td>DYNAMIC</td>
+<td>默认不会缓存，也没有对应的缓存配置，每次均回源</td>
+</tr>
+</tbody>
+</table></div>
 <h3 id="google-analytics">Google analytics</h3>
 <p>若使用Tagmanager或GA4放置在页面头部可能导致图片懒加载blur异常，Vercel自带的analytics不会造成此问题。也可以使用Cloudflare的Web Analytics。</p>
 <p><img src="/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/06b031f3-0adf-4989-8919-2381781b1f94.png"

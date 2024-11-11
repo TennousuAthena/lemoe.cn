@@ -40,7 +40,7 @@
 &lt;p&gt;首先从Cygwin官网下载最新安装包文件 &lt;a class=&#34;link&#34; href=&#34;https://www.cygwin.com/setup-x86_64.exe&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.cygwin.com/setup-x86_64.exe&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;下载后的setup不必删除，如果需要安装新的包时仍然需要这个文件。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/5e6ffa4c-0044-4ed3-bafa-68d6ede04097/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T114737Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=764d516e75fbf4a9e6a7bc1c747bf30f3e56ac9b6ce0d01597688e96ae7870f6&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/5e6ffa4c-0044-4ed3-bafa-68d6ede04097/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T115755Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=fb1ffbd46533522422be8ac14670b11643e80a29319e39230b1520dd35905505&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -51,7 +51,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;接着选定安装路径，请记住这个路径，因为我们即将添加到PATH环境变量&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/e8ca8d59-f615-4be1-943c-638198950b4e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T114737Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=015eb0e940f67b383b876d13d34b5bdc6eeb850af89c4014fb2c6099bba2e50c&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/e8ca8d59-f615-4be1-943c-638198950b4e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T115755Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=d4f4a4d22aadc9d25f6c3551f8883b958fe1a72f3ca6001af5f57d6971128db3&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -67,7 +67,7 @@
     &gt;清华大学开源软件镜像站&lt;/a&gt;为例&lt;/p&gt;
 &lt;p&gt;选择&lt;code&gt;Install from Internet&lt;/code&gt;, 在”User URL”处输入以下地址：&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;https://mirrors.tuna.tsinghua.edu.cn/cygwin/&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/04628043-2413-4981-bb89-090b823caf01/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T114737Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=38a3cf3da87160cd315d6f642fed6fabfb6c82c59347aea0f5e20f9160d5e6a4&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/04628043-2413-4981-bb89-090b823caf01/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T115755Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=95dbf9af71ef15b1e313add36662477d17ddb6edbe7d4861dede126a96079415&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -76,7 +76,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;接着需要选择要安装的包，首先我们设置View为Full，然后在Search框内添加需要的软件包，在下方结果页中的New中选择最新的版本号即可，以lynx为例，稍后我们需要lynx下载apt-cyg&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/9fc108af-5c91-4655-bcff-14c4162ab1b2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T114737Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=2694e14768d3ccd54be6fa1c528ce34c62fb17d333d05d625980921154e2f16b&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/9fc108af-5c91-4655-bcff-14c4162ab1b2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T115755Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=64a5647ad088d037380e91b027ab7e4b716dd5b6abd6206ea4b7e5201dcd3016&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -85,7 +85,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;完成！最后可以勾选创建Cygwin Terminal桌面图标与启动菜单，如果你打算用自己喜欢的终端运行（如Mobaxterm、Cmder等，稍后本文将以Windows Terminal配置方法为例）则不用勾选。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/d8885ceb-13ec-4240-ab95-9dd0935d71cb/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T114737Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=434ce19e579d7f56d08d89f5046f6f44c1da049c56373c1203da7118f6d64793&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/d8885ceb-13ec-4240-ab95-9dd0935d71cb/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T115755Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=0931f22ee4ce8f6f99d68d6142db4d39547b5449d213d369c2b3fa24d0f33bd2&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -97,7 +97,7 @@
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;设置环境变量，越往上优先级越高，不建议超过系统优先级&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/c549a1dc-88b3-4c84-a03c-2c0ed73714db/image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T114737Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=7e7f274f5bd30d2fd005c03ee4b093daed553089ec12f83451b8e3da8ea14b01&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/c549a1dc-88b3-4c84-a03c-2c0ed73714db/image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T115755Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=9c7ba43268171c1a54752588f868b8344a5dfd25dfa4805dfffc37021900fa8c&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -177,7 +177,7 @@
 &lt;/div&gt;&lt;p&gt;随后&lt;code&gt;$ source .bashrc&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;配置windows-terminal&#34;&gt;配置Windows Terminal
 &lt;/h3&gt;&lt;p&gt;参考内容如下&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/2e88a431-de71-44e8-85e8-d53610e72efa/image_%281%29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T114737Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=1d7fa984647f45e38e3710940de728c0c3a62b1b2c568d5f5a0731fa91944f89&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/2e88a431-de71-44e8-85e8-d53610e72efa/image_%281%29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T115755Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=50b28b3c9b76906e239bd765accbeaa8abb59251902c08f271d6f5c547959bd7&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	

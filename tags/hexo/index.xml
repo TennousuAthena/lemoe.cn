@@ -6,7 +6,7 @@
         <description>Recent content in Hexo on 柠萌赛博自留地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Mon, 11 Nov 2024 12:08:00 +0000</lastBuildDate><atom:link href="https://lemoe.cn/tags/hexo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 11 Nov 2024 12:17:00 +0000</lastBuildDate><atom:link href="https://lemoe.cn/tags/hexo/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Lemoe.cn v3全新架构！Notion2Hugo</title>
         <link>https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/</link>
         <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
@@ -16,7 +16,7 @@
 &lt;/h1&gt;&lt;p&gt;最初的Lemoe只是一个静态站（当然可以请求Github API获取一些信息&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.lemoe.cn/#&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;bookmark&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/86a2785e-44d6-4687-b014-e69cdf5929e2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T120915Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=a5eb840c4bbd18ffc82a9844f528889bc5ddde4dd9cea13914d504a8b7b1b1dc&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/86a2785e-44d6-4687-b014-e69cdf5929e2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T121806Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=94df18eabc5587cef1d33d279c8c65f4c783ecd3fe771393c9d1ca8fb2add2c7&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -26,7 +26,7 @@
 &gt;&lt;/p&gt;
 &lt;h1 id=&#34;lemoe-v1&#34;&gt;Lemoe v1
 &lt;/h1&gt;&lt;p&gt;也许是对这个域名爱不释手，很快本站就使用WordPress搭建为博客站&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/c3192d1e-a70a-429c-ae02-55e737d35745/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T120915Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=7066c35811c8e6172dc6a6303f1ff387c44c512d63779a5a0dde76f7f5c995c0&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/c3192d1e-a70a-429c-ae02-55e737d35745/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T121806Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=06b2633f2d21102427a2472da5d23cf1980c07b82f0f3a23ce73d288c7ed7835&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -38,7 +38,7 @@
     &gt;https://github.com/ShawnZeng1996/Memory&lt;/a&gt;主题&lt;/p&gt;
 &lt;p&gt;WordPress是有个优秀的博客程序以及CMS，然而由于其历史包袱、运维以及安全性方面考量后，该方案最终停用。&lt;/p&gt;
 &lt;h1 id=&#34;lemoe-v2&#34;&gt;Lemoe v2
-&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/e2dfbdfa-8828-4f9d-957c-3aee966f3e80/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T120915Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=524ac2665564326fee7d1fe6a375cc6fe1429fb282260ad26c61617ebc318532&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/e2dfbdfa-8828-4f9d-957c-3aee966f3e80/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T121806Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=d3b200b213cc25d90c6ef4f27a0cce22f622981ae4c64968d349388e80a1e5ae&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -52,7 +52,7 @@
     &gt;https://legacy.lemoe.cn/&lt;/a&gt;访问。&lt;/p&gt;
 &lt;p&gt;该版本在原有主题上定制，添加了jQuery-Pjax&lt;/p&gt;
 &lt;p&gt;同时，该站会在构建时生成版本信息（commit&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/50f31740-5dcb-4738-985c-24e3fe4ced0f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T120915Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=e89e4923a3f13b67cebd349568c8a46e895ac4b1a1958289a7059bffe8a2e49f&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/50f31740-5dcb-4738-985c-24e3fe4ced0f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T121806Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=06101f09aa02275dc15267a84b53742607d68a0ea1f9145447648f88566d39b7&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -71,10 +71,10 @@
 &lt;h3 id=&#34;notion2hugo&#34;&gt;Notion2Hugo
 &lt;/h3&gt;&lt;p&gt;当前版本会使用Notion API将某个Database的内容遍历并处理为Markdown文件。&lt;/p&gt;
 &lt;p&gt;源代码见&lt;a class=&#34;link&#34; href=&#34;https://git.qmcmc.cn/qctech/notion2hugo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://git.qmcmc.cn/qctech/notion2hugo&lt;/a&gt;&lt;/p&gt;
+    &gt;&lt;del&gt;https://git.qmcmc.cn/qctech/notion2hugo&lt;/del&gt;&lt;/a&gt; &lt;del&gt;业务调整&lt;/del&gt;&lt;/p&gt;
 &lt;h3 id=&#34;自动部署&#34;&gt;自动部署
 &lt;/h3&gt;&lt;p&gt;项目采用Drone持续部署，使用n8n Notion Hook追踪Notion变化&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/eea605b8-b3a9-4d7a-a905-34d934736e7c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T120915Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=0fd09481774dffbfd631e900f2ab950511e1b139a0f51fd6bcbc2488ac65be9c&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/eea605b8-b3a9-4d7a-a905-34d934736e7c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T121806Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=34d14a2ad5565f99ce7948e355ba4205230dc9a7511f5b66ffd1a09b494f0cb9&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -83,7 +83,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;最终在CloudFlare Pages上部署&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/2ad10ba5-f9d0-4429-9eed-7010ba798344/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T120915Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=57a42ad0357f57d602bc091e0a50df0b81af9ea88e5741789d4021a31eadcc05&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/2ad10ba5-f9d0-4429-9eed-7010ba798344/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T121806Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=f7b58e9c6b3fe6a61a3d3ee3c353187d85e220581af365ba7383b1c0e241bf1e&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -95,6 +95,9 @@
 &lt;h1 id=&#34;lemoe-v31&#34;&gt;Lemoe v3.1
 &lt;/h1&gt;&lt;p&gt;遗憾的，由于&lt;del&gt;跑路了&lt;/del&gt;业务调整，自建的Gitea与Drone CI不再提供服务。&lt;/p&gt;
 &lt;p&gt;经过长时间的沉眠，该项目已迁移至Github Action 并重获新生&lt;/p&gt;
+&lt;p&gt;新的代码存储在 &lt;a class=&#34;link&#34; href=&#34;https://github.com/TennousuAthena/notion2hugo/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/TennousuAthena/notion2hugo/&lt;/a&gt;，而构建好的代码存储在&lt;a class=&#34;link&#34; href=&#34;https://github.com/TennousuAthena/lemoe.cn&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/TennousuAthena/lemoe.cn&lt;/a&gt;并使用Cloudflare Pages部署。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1

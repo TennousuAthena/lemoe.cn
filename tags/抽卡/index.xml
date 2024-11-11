@@ -6,7 +6,7 @@
         <description>Recent content in 抽卡 on 柠萌赛博自留地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lemoe.cn/tags/%E6%8A%BD%E5%8D%A1/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 17 Sep 2024 16:37:00 +0000</lastBuildDate><atom:link href="https://lemoe.cn/tags/%E6%8A%BD%E5%8D%A1/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>CASIO fx-991CN X学生科学计算器模拟器实现概率发生器（抽卡）</title>
         <link>https://lemoe.cn/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/</link>
         <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
@@ -24,21 +24,17 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;在紧张的学习生活中，想不想体验抽&lt;del&gt;赌&lt;/del&gt;卡&lt;del&gt;博&lt;/del&gt;的快感？想不想和同学比比谁先&lt;strong&gt;脱非入欧&lt;/strong&gt;？苦于身边没有智能设备？那就自己动手丰衣足食吧！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/65bcba40-95f9-4bdd-bf2f-581a2c2a61ae.png&#34;
-	width=&#34;918&#34;
-	height=&#34;1809&#34;
-	srcset=&#34;https://lemoe.cn/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/65bcba40-95f9-4bdd-bf2f-581a2c2a61ae_hu7940a6f142a2a5ce9b89694b81edc200_336253_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/65bcba40-95f9-4bdd-bf2f-581a2c2a61ae_hu7940a6f142a2a5ce9b89694b81edc200_336253_1024x0_resize_box_3.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/65bcba40-95f9-4bdd-bf2f-581a2c2a61ae/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084115Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=beb927acb8a52743026b840b23fbef580ce81aa3561676951f368ebcfb49301c&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
 	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;50&#34;
-		data-flex-basis=&#34;121px&#34;
-	
 &gt;&lt;/p&gt;
 &lt;p&gt;CASIO fx-991CN X可谓是广受好评的面向中文用户的科学函数计算器，尽管这不是可写入程序的图形计算器，我们还是可以通过数学表达式来完成一部分功能。&lt;/p&gt;
-&lt;h2 id=&#34;模拟器&#34;&gt;模拟器&lt;/h2&gt;
-&lt;p&gt;对于手上没有计算器的读者，可以前往下载CASIO Calculator Emulator，原内容由&lt;a class=&#34;link&#34; href=&#34;https://hbte.ch/1790.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h2 id=&#34;模拟器&#34;&gt;模拟器
+&lt;/h2&gt;&lt;p&gt;对于手上没有计算器的读者，可以前往下载CASIO Calculator Emulator，原内容由&lt;a class=&#34;link&#34; href=&#34;https://hbte.ch/1790.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;可能是全网最全的 CASIO Calculator Emulator 下载&lt;/a&gt;提供，存档于&lt;a class=&#34;link&#34; href=&#34;https://www.notion.so/921c682adc04400c8346667877e1b185&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Untitled&lt;/a&gt; 。&lt;/p&gt;
 &lt;p&gt;下载地址：&lt;/p&gt;
@@ -48,18 +44,14 @@
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://file-cdn.qmcmc.cn/uploads/2022/03/CASIO%20Calculator%20Emulator%20V20.8.11.7z&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;CDN分流&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;原理&#34;&gt;原理&lt;/h2&gt;
-&lt;p&gt;Alpha+RanInt+范围可以产生&lt;del&gt;伪&lt;/del&gt;随机整数&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/00ce72cc-8ac4-4039-a2be-4d34ae9e69e3.png&#34;
-	width=&#34;957&#34;
-	height=&#34;1853&#34;
-	srcset=&#34;https://lemoe.cn/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/00ce72cc-8ac4-4039-a2be-4d34ae9e69e3_hu9b8bc4a52ce119e7aa80fcfeb68c040c_339385_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/00ce72cc-8ac4-4039-a2be-4d34ae9e69e3_hu9b8bc4a52ce119e7aa80fcfeb68c040c_339385_1024x0_resize_box_3.png 1024w&#34;
+&lt;h2 id=&#34;原理&#34;&gt;原理
+&lt;/h2&gt;&lt;p&gt;Alpha+RanInt+范围可以产生&lt;del&gt;伪&lt;/del&gt;随机整数&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/00ce72cc-8ac4-4039-a2be-4d34ae9e69e3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084115Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=5601e4002c3dd212e78d369bae45cd739018fc40d0397a87c311f143045edc8c&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;51&#34;
-		data-flex-basis=&#34;123px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;而Σ可以多次产生，同时若出现除数=0或对数≤0等数学错误，运算则会直接抛出异常。&lt;/p&gt;
@@ -80,8 +72,8 @@ $$&lt;/p&gt;
 	
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;改进&#34;&gt;改进&lt;/h2&gt;
-&lt;p&gt;由于硬件平台限制，我们只能做到这样了……对吧？&lt;/p&gt;
+&lt;h2 id=&#34;改进&#34;&gt;改进
+&lt;/h2&gt;&lt;p&gt;由于硬件平台限制，我们只能做到这样了……对吧？&lt;/p&gt;
 &lt;p&gt;不过，上次运算结果是可以调用的，也许，我们可以做到抽卡次数记录&lt;/p&gt;
 &lt;p&gt;$$
 \sum_{x=1}^{10}(ln_{RanInt\sharp (-2,497)}\times 0+1 ) + Ans
@@ -95,8 +87,8 @@ $$&lt;/p&gt;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;然而，输出结果均为整十的数字……说明即使求和途中出现数学错误，计算器仍会硬着头皮算下去？&lt;/p&gt;
-&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
-&lt;p&gt;通过随机数生成函数与求和，我们能在一台普通的函数计算器上基本实现概率发生器并记录试验次数，因而能亲身体会概率的大小。当然，对于大/小保底以及更加精准的试验还有待于讨论交流。&lt;/p&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结
+&lt;/h2&gt;&lt;p&gt;通过随机数生成函数与求和，我们能在一台普通的函数计算器上基本实现概率发生器并记录试验次数，因而能亲身体会概率的大小。当然，对于大/小保底以及更加精准的试验还有待于讨论交流。&lt;/p&gt;
 &lt;p&gt;不过，既然你已经能阅读这篇文章，那就直接打开&lt;a class=&#34;link&#34; href=&#34;https://github.com/uzair-ashraf/genshin-impact-wish-simulator&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Github&lt;/a&gt;上的&lt;a class=&#34;link&#34; href=&#34;https://gi-wish-simulator.uzairashraf.dev/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;genshin-impact-wish-simulator&lt;/a&gt;吧。&lt;/p&gt;

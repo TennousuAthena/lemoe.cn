@@ -6,33 +6,29 @@
         <description>Recent content in OBS on 柠萌赛博自留地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Thu, 14 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lemoe.cn/tags/obs/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 17 Sep 2024 16:37:00 +0000</lastBuildDate><atom:link href="https://lemoe.cn/tags/obs/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>网课整活小记：OBS虚拟摄像头、Live2D、虚拟桌面……</title>
         <link>https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/</link>
         <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
         
         <guid>https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/</guid>
-        <description>&lt;img src="https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/header.png" alt="Featured image of post 网课整活小记：OBS虚拟摄像头、Live2D、虚拟桌面……" /&gt;&lt;h2 id=&#34;obs介绍&#34;&gt;OBS介绍&lt;/h2&gt;
-&lt;p&gt;**OBS（Open Broadcaster Software）**是由OBS Project开发的自由开源推流和录像程序。&lt;/p&gt;
+        <description>&lt;img src="https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/header.png" alt="Featured image of post 网课整活小记：OBS虚拟摄像头、Live2D、虚拟桌面……" /&gt;&lt;h2 id=&#34;obs介绍&#34;&gt;OBS介绍
+&lt;/h2&gt;&lt;p&gt;**OBS（Open Broadcaster Software）**是由OBS Project开发的自由开源推流和录像程序。&lt;/p&gt;
 &lt;p&gt;你可以在&lt;a class=&#34;link&#34; href=&#34;https://obsproject.com/download&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Download | OBS (obsproject.com)&lt;/a&gt;下载相应软件，&lt;a class=&#34;link&#34; href=&#34;https://share.weiyun.com/QyXFPBFC&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;微云镜像&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;在本场景中，我们只需要&lt;strong&gt;虚拟摄像头&lt;/strong&gt;，无需录像或推流。&lt;/p&gt;
 &lt;p&gt;界面大概是这样的：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/d13afa9a-e05e-4b6b-98c6-62cde368e5f2.png&#34;
-	width=&#34;3243&#34;
-	height=&#34;2044&#34;
-	srcset=&#34;https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/d13afa9a-e05e-4b6b-98c6-62cde368e5f2_hue10d2f26ef527d22513094664f839f9d_170783_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/d13afa9a-e05e-4b6b-98c6-62cde368e5f2_hue10d2f26ef527d22513094664f839f9d_170783_1024x0_resize_box_3.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/d13afa9a-e05e-4b6b-98c6-62cde368e5f2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084118Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=1df63c5748c429d8fd764cbb106e6c15cb264d9bacea31f6b20745f166216b44&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
 	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;158&#34;
-		data-flex-basis=&#34;380px&#34;
-	
 &gt;&lt;/p&gt;
-&lt;h3 id=&#34;添加小钟表&#34;&gt;添加小钟表&lt;/h3&gt;
-&lt;p&gt;效果：&lt;/p&gt;
+&lt;h3 id=&#34;添加小钟表&#34;&gt;添加小钟表
+&lt;/h3&gt;&lt;p&gt;效果：&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://codepen.io/qctech/pen/LYeggXy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;embed&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;创建clock.html，将以上内容复制。&lt;/p&gt;
@@ -45,32 +41,24 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;https://file-cdn.qmcmc.cn/static/clock.html
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/f4b22e50-8b18-42b3-ac97-e6805c182cc4.png&#34;
-	width=&#34;482&#34;
-	height=&#34;1127&#34;
-	srcset=&#34;https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/f4b22e50-8b18-42b3-ac97-e6805c182cc4_hude610e9ce1f08903641d97e285dbf2d4_76129_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/f4b22e50-8b18-42b3-ac97-e6805c182cc4_hude610e9ce1f08903641d97e285dbf2d4_76129_1024x0_resize_box_3.png 1024w&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/f4b22e50-8b18-42b3-ac97-e6805c182cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084118Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=146ca1f4c15b043813e5021859ccea24c3469ae30b103873248d913d48b6aebf&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
 	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;42&#34;
-		data-flex-basis=&#34;102px&#34;
-	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/b26a6def-d004-4eaa-b4a1-23f8030a2d7d.png&#34;
-	width=&#34;2160&#34;
-	height=&#34;1740&#34;
-	srcset=&#34;https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/b26a6def-d004-4eaa-b4a1-23f8030a2d7d_hu2da12874ffbed7c9a180a96e13e53ffe_188814_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/b26a6def-d004-4eaa-b4a1-23f8030a2d7d_hu2da12874ffbed7c9a180a96e13e53ffe_188814_1024x0_resize_box_3.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/b26a6def-d004-4eaa-b4a1-23f8030a2d7d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084118Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=8f01653e701247ff02903356e6f675170bb05a49fe2315aaa11597974ebcfbc5&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
 	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;124&#34;
-		data-flex-basis=&#34;297px&#34;
-	
 &gt;&lt;/p&gt;
-&lt;h3 id=&#34;樱花飘落&#34;&gt;樱花飘落&lt;/h3&gt;
-&lt;p&gt;感谢江宝提供的源代码&lt;a class=&#34;link&#34; href=&#34;https://github.com/censujiang/special-code&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;樱花飘落&#34;&gt;樱花飘落
+&lt;/h3&gt;&lt;p&gt;感谢江宝提供的源代码&lt;a class=&#34;link&#34; href=&#34;https://github.com/censujiang/special-code&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/censujiang/special-code&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://codepen.io/qctech/pen/mdpzzgL&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;embed&lt;/a&gt;&lt;/p&gt;
@@ -82,37 +70,29 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;https://file-cdn.qmcmc.cn/static/sakura.html
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/d98b6aa8-c6d8-415d-8954-15ee104789a9.png&#34;
-	width=&#34;1075&#34;
-	height=&#34;466&#34;
-	srcset=&#34;https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/d98b6aa8-c6d8-415d-8954-15ee104789a9_huc5b0104e602992d1d7b935d194d9a379_20607_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/d98b6aa8-c6d8-415d-8954-15ee104789a9_huc5b0104e602992d1d7b935d194d9a379_20607_1024x0_resize_box_3.png 1024w&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/d98b6aa8-c6d8-415d-8954-15ee104789a9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084118Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=733ad74e94239d8d1876e7b9cd8328c4b862c3629e75f01709a4da5e6ef0b015&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;230&#34;
-		data-flex-basis=&#34;553px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;宽高设置为1920x1080，置于顶层，覆盖屏幕。&lt;/p&gt;
-&lt;h3 id=&#34;赛博全息地球&#34;&gt;赛博全息地球&lt;/h3&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://2050.earth/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;赛博全息地球&#34;&gt;赛博全息地球
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://2050.earth/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;bookmark&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;如果弹出一些窗口，可以点击&lt;strong&gt;互动&lt;/strong&gt;并关闭&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/d08c132f-1dc8-4f4f-8715-7e677bb7560e.png&#34;
-	width=&#34;2472&#34;
-	height=&#34;612&#34;
-	srcset=&#34;https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/d08c132f-1dc8-4f4f-8715-7e677bb7560e_hudb38ac9f63d6702308c1cd06d5036d24_1035905_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/d08c132f-1dc8-4f4f-8715-7e677bb7560e_hudb38ac9f63d6702308c1cd06d5036d24_1035905_1024x0_resize_box_3.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/d08c132f-1dc8-4f4f-8715-7e677bb7560e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084118Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=aa20b6753d179e633a23c58154cf1455f7cbb8e71536a1543bae976472ce4a5e&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
 	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;403&#34;
-		data-flex-basis=&#34;969px&#34;
-	
 &gt;&lt;/p&gt;
-&lt;h3 id=&#34;国际空间站直播&#34;&gt;国际空间站直播&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;h3 id=&#34;国际空间站直播&#34;&gt;国际空间站直播
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
@@ -122,47 +102,35 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;https://www.youtube.com/embed/86YLFOog4GM
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;虚拟桌面&#34;&gt;虚拟桌面&lt;/h3&gt;
-&lt;p&gt;首先，你需要一个纯色背景的桌面或桌布，最好为红、绿、蓝色，且确保衣着不含该颜色以免成为赛博透明人。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/5ea2d6b9-5897-4551-be8f-f79259b9c910.png&#34;
-	width=&#34;2583&#34;
-	height=&#34;2076&#34;
-	srcset=&#34;https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/5ea2d6b9-5897-4551-be8f-f79259b9c910_hue8f7c6c342bc02686b4e3147d757cf2d_587691_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/5ea2d6b9-5897-4551-be8f-f79259b9c910_hue8f7c6c342bc02686b4e3147d757cf2d_587691_1024x0_resize_box_3.png 1024w&#34;
+&lt;/div&gt;&lt;h3 id=&#34;虚拟桌面&#34;&gt;虚拟桌面
+&lt;/h3&gt;&lt;p&gt;首先，你需要一个纯色背景的桌面或桌布，最好为红、绿、蓝色，且确保衣着不含该颜色以免成为赛博透明人。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/5ea2d6b9-5897-4551-be8f-f79259b9c910/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084118Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=77b435dad71fa34e77345c2d5442ffd0f8c6c0289c03ac30a5331c1724e1b452&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;124&#34;
-		data-flex-basis=&#34;298px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;添加视频采集设备→滤镜→色值→关键颜色类型，然后调节相似度，直到隐去桌面。&lt;/p&gt;
 &lt;p&gt;将需要的图层置于&lt;strong&gt;视频采集设备&lt;/strong&gt;以下。&lt;/p&gt;
 &lt;p&gt;效果&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/a37bb19b-4c44-41a4-b755-9490386c3bb9.png&#34;
-	width=&#34;2074&#34;
-	height=&#34;806&#34;
-	srcset=&#34;https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/a37bb19b-4c44-41a4-b755-9490386c3bb9_huda2bebb820616f72945f44257846c890_988723_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/a37bb19b-4c44-41a4-b755-9490386c3bb9_huda2bebb820616f72945f44257846c890_988723_1024x0_resize_box_3.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/a37bb19b-4c44-41a4-b755-9490386c3bb9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084118Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=18466826562bdc9676201ebdf61f09bfbb28d3bc21ee04c1084e85e32b792fcf&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;257&#34;
-		data-flex-basis=&#34;617px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h3 id=&#34;自动念诗&#34;&gt;自动念诗&lt;/h3&gt;
-&lt;p&gt;原理：从Hotokoto每30s自动更新到文本&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/8809c589-34d0-4a05-b31c-112e458cbd14.png&#34;
-	width=&#34;1358&#34;
-	height=&#34;193&#34;
-	srcset=&#34;https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/8809c589-34d0-4a05-b31c-112e458cbd14_hu48ac71ba9816e09c596621142ae4e293_181254_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/8809c589-34d0-4a05-b31c-112e458cbd14_hu48ac71ba9816e09c596621142ae4e293_181254_1024x0_resize_box_3.png 1024w&#34;
+&lt;h3 id=&#34;自动念诗&#34;&gt;自动念诗
+&lt;/h3&gt;&lt;p&gt;原理：从Hotokoto每30s自动更新到文本&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/8809c589-34d0-4a05-b31c-112e458cbd14/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084118Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=5d323f0d29cf3d3c0b461efb9b862cd4eae678dd4c285955743c0ed5db26fc8a&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;703&#34;
-		data-flex-basis=&#34;1688px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;Python源代码&lt;/p&gt;
@@ -198,41 +166,33 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;创建p.txt，然后在OBS中添加_文本（GDI+）2_，字体建议选手写体，这里用的是&lt;a class=&#34;link&#34; href=&#34;https://fonts.google.com/specimen/Zhi&amp;#43;Mang&amp;#43;Xing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;strong&gt;Zhi Mang Xing&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;live2d&#34;&gt;Live2d&lt;/h3&gt;
-&lt;p&gt;WEB实现&lt;a class=&#34;link&#34; href=&#34;https://github.com/imuncle/live2d&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;live2d&#34;&gt;Live2d
+&lt;/h3&gt;&lt;p&gt;WEB实现&lt;a class=&#34;link&#34; href=&#34;https://github.com/imuncle/live2d&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/imuncle/live2d&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://imuncle.github.io/live2d/live2d_3/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;预览&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;面部捕捉实现：&lt;strong&gt;Live2DViewerEX&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://store.steampowered.com/app/616720/Live2DViewerEX/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;bookmark&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;效果（&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/95434670-cedb-4b09-aa9a-41595458f733.png&#34;
-	width=&#34;1225&#34;
-	height=&#34;668&#34;
-	srcset=&#34;https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/95434670-cedb-4b09-aa9a-41595458f733_hud5755622f535610933cb2a4feaf885f8_105332_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/95434670-cedb-4b09-aa9a-41595458f733_hud5755622f535610933cb2a4feaf885f8_105332_1024x0_resize_box_3.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/95434670-cedb-4b09-aa9a-41595458f733/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084118Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=7dad24bdb295746ad906c26d8cb88fa58474a9bced226269e97a338447ed4068&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
 	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;183&#34;
-		data-flex-basis=&#34;440px&#34;
-	
 &gt;&lt;/p&gt;
-&lt;h3 id=&#34;最终整活效果&#34;&gt;最终整活效果&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/1b5f049c-f1d7-4efb-87c9-695d914ed4cc.png&#34;
-	width=&#34;3243&#34;
-	height=&#34;2044&#34;
-	srcset=&#34;https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/1b5f049c-f1d7-4efb-87c9-695d914ed4cc_hue10d2f26ef527d22513094664f839f9d_1373001_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/%E7%BD%91%E8%AF%BE%E6%95%B4%E6%B4%BB%E5%B0%8F%E8%AE%B0-obs%E8%99%9A%E6%8B%9F%E6%91%84%E5%83%8F%E5%A4%B4-live2d-%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2/1b5f049c-f1d7-4efb-87c9-695d914ed4cc_hue10d2f26ef527d22513094664f839f9d_1373001_1024x0_resize_box_3.png 1024w&#34;
+&lt;h3 id=&#34;最终整活效果&#34;&gt;最终整活效果
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/1b5f049c-f1d7-4efb-87c9-695d914ed4cc/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084118Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=033cf499eb68a34ec10aaec324f50c641fe8d51e188601818713c63f3c9ad6f8&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
 	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;158&#34;
-		data-flex-basis=&#34;380px&#34;
-	
 &gt;&lt;/p&gt;
-&lt;h3 id=&#34;实时字幕生成&#34;&gt;实时字幕生成&lt;/h3&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://gitee.com/xm1994/obs-auto-subtitle&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;实时字幕生成&#34;&gt;实时字幕生成
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://gitee.com/xm1994/obs-auto-subtitle&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;bookmark&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>

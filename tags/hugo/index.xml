@@ -6,56 +6,44 @@
         <description>Recent content in Hugo on 柠萌赛博自留地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Mon, 13 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lemoe.cn/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 17 Sep 2024 16:37:00 +0000</lastBuildDate><atom:link href="https://lemoe.cn/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Lemoe.cn v3全新架构！Notion2Hugo</title>
         <link>https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/</link>
         <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
         
         <guid>https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/</guid>
-        <description>&lt;img src="https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/header.png" alt="Featured image of post Lemoe.cn v3全新架构！Notion2Hugo" /&gt;&lt;h1 id=&#34;lemoe-v0&#34;&gt;Lemoe v0&lt;/h1&gt;
-&lt;p&gt;最初的Lemoe只是一个静态站（当然可以请求Github API获取一些信息&lt;/p&gt;
+        <description>&lt;img src="https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/header.png" alt="Featured image of post Lemoe.cn v3全新架构！Notion2Hugo" /&gt;&lt;h1 id=&#34;lemoe-v0&#34;&gt;Lemoe v0
+&lt;/h1&gt;&lt;p&gt;最初的Lemoe只是一个静态站（当然可以请求Github API获取一些信息&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.lemoe.cn/#&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;bookmark&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/86a2785e-44d6-4687-b014-e69cdf5929e2.png&#34;
-	width=&#34;1853&#34;
-	height=&#34;1167&#34;
-	srcset=&#34;https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/86a2785e-44d6-4687-b014-e69cdf5929e2_hub4a36ca6a37476fe08471d35902effc0_2795491_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/86a2785e-44d6-4687-b014-e69cdf5929e2_hub4a36ca6a37476fe08471d35902effc0_2795491_1024x0_resize_box_3.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/86a2785e-44d6-4687-b014-e69cdf5929e2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084115Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=fc64bd47623bb52d89fdfca086461b82c5faffcef2e563d685a2bb9e7f172ba3&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;158&#34;
-		data-flex-basis=&#34;381px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h1 id=&#34;lemoe-v1&#34;&gt;Lemoe v1&lt;/h1&gt;
-&lt;p&gt;也许是对这个域名爱不释手，很快本站就使用WordPress搭建为博客站&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/c3192d1e-a70a-429c-ae02-55e737d35745.png&#34;
-	width=&#34;1914&#34;
-	height=&#34;1165&#34;
-	srcset=&#34;https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/c3192d1e-a70a-429c-ae02-55e737d35745_hu63feeda9219426494b13d7df22957474_1314059_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/c3192d1e-a70a-429c-ae02-55e737d35745_hu63feeda9219426494b13d7df22957474_1314059_1024x0_resize_box_3.png 1024w&#34;
+&lt;h1 id=&#34;lemoe-v1&#34;&gt;Lemoe v1
+&lt;/h1&gt;&lt;p&gt;也许是对这个域名爱不释手，很快本站就使用WordPress搭建为博客站&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/c3192d1e-a70a-429c-ae02-55e737d35745/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084115Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=7c884a4c9db4c6c14e81e338c45c5886648ca9f06f6850c936d21115cd0865fc&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;164&#34;
-		data-flex-basis=&#34;394px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;使用的&lt;a class=&#34;link&#34; href=&#34;https://github.com/ShawnZeng1996/Memory&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/ShawnZeng1996/Memory&lt;/a&gt;主题&lt;/p&gt;
 &lt;p&gt;WordPress是有个优秀的博客程序以及CMS，然而由于其历史包袱、运维以及安全性方面考量后，该方案最终停用。&lt;/p&gt;
-&lt;h1 id=&#34;lemoe-v2&#34;&gt;Lemoe v2&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/e2dfbdfa-8828-4f9d-957c-3aee966f3e80.png&#34;
-	width=&#34;2211&#34;
-	height=&#34;1280&#34;
-	srcset=&#34;https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/e2dfbdfa-8828-4f9d-957c-3aee966f3e80_hu98868d46ab2e406e31b4178e64284499_2612949_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/e2dfbdfa-8828-4f9d-957c-3aee966f3e80_hu98868d46ab2e406e31b4178e64284499_2612949_1024x0_resize_box_3.png 1024w&#34;
+&lt;h1 id=&#34;lemoe-v2&#34;&gt;Lemoe v2
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/e2dfbdfa-8828-4f9d-957c-3aee966f3e80/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084115Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=15fe8f045cd39254ebe96bb9377f706ea560404b2d893cb61fb3041ac14ac92f&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;172&#34;
-		data-flex-basis=&#34;414px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;V2站采用Hexo构建并使用了&lt;a class=&#34;link&#34; href=&#34;https://github.com/YunYouJun/hexo-theme-yun&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -64,55 +52,43 @@
     &gt;https://legacy.lemoe.cn/&lt;/a&gt;访问。&lt;/p&gt;
 &lt;p&gt;该版本在原有主题上定制，添加了jQuery-Pjax&lt;/p&gt;
 &lt;p&gt;同时，该站会在构建时生成版本信息（commit&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/50f31740-5dcb-4738-985c-24e3fe4ced0f.png&#34;
-	width=&#34;414&#34;
-	height=&#34;130&#34;
-	srcset=&#34;https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/50f31740-5dcb-4738-985c-24e3fe4ced0f_hu878975190a01bedb10185783f6b9cad3_75457_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/50f31740-5dcb-4738-985c-24e3fe4ced0f_hu878975190a01bedb10185783f6b9cad3_75457_1024x0_resize_box_3.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/50f31740-5dcb-4738-985c-24e3fe4ced0f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084115Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=fd62a8cf6232d4692c6259f85def24882c4035bf2487991fe7af7a3742731ab2&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;318&#34;
-		data-flex-basis=&#34;764px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;见&lt;a class=&#34;link&#34; href=&#34;https://github.com/TennousuAthena/legacy.lemoe.cn/blob/master/get-version.py&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/TennousuAthena/legacy.lemoe.cn/blob/master/get-version.py&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;不过由于便携Markdown并Push还是太麻烦（？），没有一种赛博的美。再加上与Pjax带来的兼容性问题遂放弃维护。&lt;/p&gt;
-&lt;h1 id=&#34;lemoe-v3-当前版本&#34;&gt;Lemoe v3 ←当前版本&lt;/h1&gt;
-&lt;h2 id=&#34;0wotop&#34;&gt;0wo.top&lt;/h2&gt;
-&lt;p&gt;该实验站采用Nextjs在Vercel Edge构建&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;85a2800e-182f-4638-8ce1-7bf0f0213f0c&#34; &gt;link_to_page&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;不过由于维护本地Markdown文件并Push还是太麻烦（？），没有一种赛博的美。再加上与Pjax带来的兼容性问题遂放弃维护。&lt;/p&gt;
+&lt;h1 id=&#34;lemoe-v3-当前版本&#34;&gt;Lemoe v3 ←当前版本
+&lt;/h1&gt;&lt;h2 id=&#34;0wotop&#34;&gt;0wo.top
+&lt;/h2&gt;&lt;p&gt;该实验站采用Nextjs在Vercel Edge构建&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;2c0b42e6-5aed-4973-9fcb-6a890032b084&#34; &gt;link_to_page&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;效果很棒，可以99%展现Notion的形态，然而构建有延迟并存在构建失败产生404的问题，目前仍在测试。&lt;/p&gt;
-&lt;h3 id=&#34;notion2hugo&#34;&gt;Notion2Hugo&lt;/h3&gt;
-&lt;p&gt;当前版本会使用Notion API将某个Database的内容遍历并处理为Markdown文件。&lt;/p&gt;
+&lt;h3 id=&#34;notion2hugo&#34;&gt;Notion2Hugo
+&lt;/h3&gt;&lt;p&gt;当前版本会使用Notion API将某个Database的内容遍历并处理为Markdown文件。&lt;/p&gt;
 &lt;p&gt;源代码见&lt;a class=&#34;link&#34; href=&#34;https://git.qmcmc.cn/qctech/notion2hugo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://git.qmcmc.cn/qctech/notion2hugo&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;自动部署&#34;&gt;自动部署&lt;/h3&gt;
-&lt;p&gt;项目采用Drone持续部署，使用n8n Notion Hook追踪Notion变化&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/eea605b8-b3a9-4d7a-a905-34d934736e7c.png&#34;
-	width=&#34;1565&#34;
-	height=&#34;521&#34;
-	srcset=&#34;https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/eea605b8-b3a9-4d7a-a905-34d934736e7c_hu381bfba403020b9a75fada00ec425077_80722_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/eea605b8-b3a9-4d7a-a905-34d934736e7c_hu381bfba403020b9a75fada00ec425077_80722_1024x0_resize_box_3.png 1024w&#34;
+&lt;h3 id=&#34;自动部署&#34;&gt;自动部署
+&lt;/h3&gt;&lt;p&gt;项目采用Drone持续部署，使用n8n Notion Hook追踪Notion变化&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/eea605b8-b3a9-4d7a-a905-34d934736e7c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084115Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=e9800ba00e2be76a41136ab8e1801f8250219bd99932a008be1325b7cc2c185b&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;300&#34;
-		data-flex-basis=&#34;720px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;最终在CloudFlare Pages上部署&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/2ad10ba5-f9d0-4429-9eed-7010ba798344.png&#34;
-	width=&#34;674&#34;
-	height=&#34;134&#34;
-	srcset=&#34;https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/2ad10ba5-f9d0-4429-9eed-7010ba798344_hu8dc57600642f351b78bc2d186425dfc1_9441_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/2ad10ba5-f9d0-4429-9eed-7010ba798344_hu8dc57600642f351b78bc2d186425dfc1_9441_1024x0_resize_box_3.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/2ad10ba5-f9d0-4429-9eed-7010ba798344/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084115Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=239c14367f7a5be49d228fdceeda8214e6a8fae8a4b52443e5ae4fbacc99c7b2&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;502&#34;
-		data-flex-basis=&#34;1207px&#34;
 	
 &gt;&lt;/p&gt;
 </description>

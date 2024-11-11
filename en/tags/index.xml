@@ -5,6 +5,6 @@
         <link>https://lemoe.cn/en/tags/</link>
         <description>Recent content in Tags on Lemoe Cyber Space</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language><atom:link href="https://lemoe.cn/en/tags/index.xml" rel="self" type="application/rss+xml" />
+        <language>en</language><atom:link href="https://lemoe.cn/en/tags/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

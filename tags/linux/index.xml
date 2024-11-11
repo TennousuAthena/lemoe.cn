@@ -6,14 +6,14 @@
         <description>Recent content in Linux on 柠萌赛博自留地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sun, 19 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lemoe.cn/tags/linux/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 17 Sep 2024 16:37:00 +0000</lastBuildDate><atom:link href="https://lemoe.cn/tags/linux/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>使用Cygwin在Windows上打造类Unix（Linux）环境</title>
         <link>https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/</link>
         <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
         
         <guid>https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/</guid>
-        <description>&lt;img src="https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/header.png" alt="Featured image of post 使用Cygwin在Windows上打造类Unix（Linux）环境" /&gt;&lt;h2 id=&#34;引&#34;&gt;引&lt;/h2&gt;
-&lt;p&gt;长期接触Linux的小伙伴们难免在项目开发中遇到“误入”Linux命令的尴尬场景。&lt;/p&gt;
+        <description>&lt;img src="https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/header.png" alt="Featured image of post 使用Cygwin在Windows上打造类Unix（Linux）环境" /&gt;&lt;h2 id=&#34;引&#34;&gt;引
+&lt;/h2&gt;&lt;p&gt;长期接触Linux的小伙伴们难免在项目开发中遇到“误入”Linux命令的尴尬场景。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -34,39 +34,31 @@
 &lt;p&gt;简而言之，Cygwin在Windows上提供了类似UNIX的工具。&lt;/p&gt;
 &lt;p&gt;需要注意的是，这不代表Cygwin可以直接在Windows上执行UNIX上的原生应用（如二进制包、deb包等），如果你的需求如此，请使用虚拟机或WSL。&lt;/p&gt;
 &lt;p&gt;那么为什么不直接安装虚拟机或WSL呢？——虚拟机和宿主机隔着一层”厚障壁“，即使是号称无缝集成的WSL2，执行也会带来一定的时间与内存开销。相反，Cygwin运行的就是土生土编译的PE(_portable executable)_文件，效率更高更方便。&lt;/p&gt;
-&lt;h2 id=&#34;行&#34;&gt;行&lt;/h2&gt;
-&lt;h3 id=&#34;安装cygwin&#34;&gt;安装Cygwin&lt;/h3&gt;
-&lt;p&gt;我们开始吧！&lt;/p&gt;
+&lt;h2 id=&#34;行&#34;&gt;行
+&lt;/h2&gt;&lt;h3 id=&#34;安装cygwin&#34;&gt;安装Cygwin
+&lt;/h3&gt;&lt;p&gt;我们开始吧！&lt;/p&gt;
 &lt;p&gt;首先从Cygwin官网下载最新安装包文件 &lt;a class=&#34;link&#34; href=&#34;https://www.cygwin.com/setup-x86_64.exe&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.cygwin.com/setup-x86_64.exe&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;下载后的setup不必删除，如果需要安装新的包时仍然需要这个文件。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/5e6ffa4c-0044-4ed3-bafa-68d6ede04097.png&#34;
-	width=&#34;450&#34;
-	height=&#34;50&#34;
-	srcset=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/5e6ffa4c-0044-4ed3-bafa-68d6ede04097_hu590e85acb50bbc7f117e75f378095251_3958_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/5e6ffa4c-0044-4ed3-bafa-68d6ede04097_hu590e85acb50bbc7f117e75f378095251_3958_1024x0_resize_box_3.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/5e6ffa4c-0044-4ed3-bafa-68d6ede04097/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084115Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=72d3722b406aa1727b354e75e329a99ef4af5ab7a49b36bee145e88df0fa267e&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;当然，从互联网下载&#34;
 	
 	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;900&#34;
-		data-flex-basis=&#34;2160px&#34;
-	
 &gt;&lt;/p&gt;
 &lt;p&gt;接着选定安装路径，请记住这个路径，因为我们即将添加到PATH环境变量&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/e8ca8d59-f615-4be1-943c-638198950b4e.png&#34;
-	width=&#34;743&#34;
-	height=&#34;88&#34;
-	srcset=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/e8ca8d59-f615-4be1-943c-638198950b4e_hue23b8b88668fe98dafcc63870fb2710d_4735_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/e8ca8d59-f615-4be1-943c-638198950b4e_hue23b8b88668fe98dafcc63870fb2710d_4735_1024x0_resize_box_3.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/e8ca8d59-f615-4be1-943c-638198950b4e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084115Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=35ccd4cf9424b776b305bd566d596ca9c94e3ba9bded391673d3a37e61f05602&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;路径可以随意填写&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;844&#34;
-		data-flex-basis=&#34;2026px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;选定本地包目录，随意。&lt;/p&gt;
@@ -75,58 +67,42 @@
     &gt;清华大学开源软件镜像站&lt;/a&gt;为例&lt;/p&gt;
 &lt;p&gt;选择&lt;code&gt;Install from Internet&lt;/code&gt;, 在”User URL”处输入以下地址：&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;https://mirrors.tuna.tsinghua.edu.cn/cygwin/&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/04628043-2413-4981-bb89-090b823caf01.png&#34;
-	width=&#34;763&#34;
-	height=&#34;375&#34;
-	srcset=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/04628043-2413-4981-bb89-090b823caf01_hu69e8760e74a3e415f9fbfa14961030cd_24486_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/04628043-2413-4981-bb89-090b823caf01_hu69e8760e74a3e415f9fbfa14961030cd_24486_1024x0_resize_box_3.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/04628043-2413-4981-bb89-090b823caf01/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084115Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=e6640c208deace261d009511d8d26bb9cb79fc7f700af81d64fa7bf23ca72413&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;203&#34;
-		data-flex-basis=&#34;488px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;接着需要选择要安装的包，首先我们设置View为Full，然后在Search框内添加需要的软件包，在下方结果页中的New中选择最新的版本号即可，以lynx为例，稍后我们需要lynx下载apt-cyg&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/9fc108af-5c91-4655-bcff-14c4162ab1b2.png&#34;
-	width=&#34;1138&#34;
-	height=&#34;188&#34;
-	srcset=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/9fc108af-5c91-4655-bcff-14c4162ab1b2_hu3f5c6b0a6764754e08985de5d57aeac5_13933_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/9fc108af-5c91-4655-bcff-14c4162ab1b2_hu3f5c6b0a6764754e08985de5d57aeac5_13933_1024x0_resize_box_3.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/9fc108af-5c91-4655-bcff-14c4162ab1b2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084115Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=4fcea7a833ddc81524be5fb8697b739de5242ef05526f9abd3055ef43615e1ec&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;605&#34;
-		data-flex-basis=&#34;1452px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;完成！最后可以勾选创建Cygwin Terminal桌面图标与启动菜单，如果你打算用自己喜欢的终端运行（如Mobaxterm、Cmder等，稍后本文将以Windows Terminal配置方法为例）则不用勾选。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/d8885ceb-13ec-4240-ab95-9dd0935d71cb.png&#34;
-	width=&#34;763&#34;
-	height=&#34;338&#34;
-	srcset=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/d8885ceb-13ec-4240-ab95-9dd0935d71cb_hu38b1f6ff8b2d2000c171abe67fc365f2_12909_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/d8885ceb-13ec-4240-ab95-9dd0935d71cb_hu38b1f6ff8b2d2000c171abe67fc365f2_12909_1024x0_resize_box_3.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/d8885ceb-13ec-4240-ab95-9dd0935d71cb/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084115Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=2f31ea47fcd85a87f4c600aa7caa01c92b337733e8443c8906fdac41e4cdee73&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;225&#34;
-		data-flex-basis=&#34;541px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h3 id=&#34;调教cygwin&#34;&gt;调教Cygwin&lt;/h3&gt;
-&lt;ul&gt;
+&lt;h3 id=&#34;调教cygwin&#34;&gt;调教Cygwin
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;设置环境变量，越往上优先级越高，不建议超过系统优先级&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/c549a1dc-88b3-4c84-a03c-2c0ed73714db.jpg&#34;
-	width=&#34;2218&#34;
-	height=&#34;1078&#34;
-	srcset=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/c549a1dc-88b3-4c84-a03c-2c0ed73714db_huef746ae60c3b2f479ec88b9411a0ce66_188373_480x0_resize_q75_box.jpg 480w, https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/c549a1dc-88b3-4c84-a03c-2c0ed73714db_huef746ae60c3b2f479ec88b9411a0ce66_188373_1024x0_resize_q75_box.jpg 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/c549a1dc-88b3-4c84-a03c-2c0ed73714db/image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084115Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=84ef4e2f2a9468a06be132cd0bc3581cd918c830bbfc8365d4cbdeb77aceaecb&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;205&#34;
-		data-flex-basis=&#34;493px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -199,24 +175,20 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;随后&lt;code&gt;$ source .bashrc&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;配置windows-terminal&#34;&gt;配置Windows Terminal&lt;/h3&gt;
-&lt;p&gt;参考内容如下&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/2e88a431-de71-44e8-85e8-d53610e72efa.jpg&#34;
-	width=&#34;1730&#34;
-	height=&#34;1014&#34;
-	srcset=&#34;https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/2e88a431-de71-44e8-85e8-d53610e72efa_hu58848d454916f0b253aa5b1f2b5b4d94_77063_480x0_resize_q75_box.jpg 480w, https://lemoe.cn/blog/%E4%BD%BF%E7%94%A8cygwin%E5%9C%A8windows%E4%B8%8A%E6%89%93%E9%80%A0%E7%B1%BBunix-linux-%E7%8E%AF%E5%A2%83/2e88a431-de71-44e8-85e8-d53610e72efa_hu58848d454916f0b253aa5b1f2b5b4d94_77063_1024x0_resize_q75_box.jpg 1024w&#34;
+&lt;h3 id=&#34;配置windows-terminal&#34;&gt;配置Windows Terminal
+&lt;/h3&gt;&lt;p&gt;参考内容如下&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/2e88a431-de71-44e8-85e8-d53610e72efa/image_%281%29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084115Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=2c7b3ca3778a6cd934f48248655a1bea8784c0b386581f9d5420dd5d3f4d2157&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;170&#34;
-		data-flex-basis=&#34;409px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;如有问题，欢迎留言。&lt;/p&gt;
 &lt;p&gt;以上。&lt;/p&gt;
-&lt;h3 id=&#34;后记&#34;&gt;后记&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Cygwin 和MinGW 的区别与联系是怎样的？&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;后记&#34;&gt;后记
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Cygwin 和MinGW 的区别与联系是怎样的？&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;区别（小结）：Cygwin是模拟 POSIX 系统，源码移植 Linux 应用到 Windows 下；MinGW 是
 用于开发 Windows 应用的开发环境。&lt;/li&gt;

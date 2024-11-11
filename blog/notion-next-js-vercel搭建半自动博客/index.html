@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='👀 辣眼睛提醒：本文没有适配夜间模式 概览 实例（没错就是本站）：猴子打字机产物 (0wo.top) 准备材料： 一个GitHub账号 一个Notion账号 使用Githu'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=" 👀 辣眼睛提醒：本文没有适配夜间模式\n概览 实例（没错就是本站）：猴子打字机产物 (0wo.top)\n准备材料： 一个GitHub账号 一个Notion账号 使用Github登录vercel 一个域名（如果有） 开始 Notion新建一页 ">
 <title>Notion Next.js &amp; Vercel搭建半自动博客</title>
 
 <link rel='canonical' href='https://lemoe.cn/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/'>
 
-<link rel="stylesheet" href="/scss/style.min.8191399262444ab68b72a18c97392f5349be20a1615d77445be51e974c144cff.css"><meta property='og:title' content='Notion Next.js &amp; Vercel搭建半自动博客'>
-<meta property='og:description' content='👀 辣眼睛提醒：本文没有适配夜间模式 概览 实例（没错就是本站）：猴子打字机产物 (0wo.top) 准备材料： 一个GitHub账号 一个Notion账号 使用Githu'>
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Notion Next.js & Vercel搭建半自动博客">
+<meta property='og:description' content=" 👀 辣眼睛提醒：本文没有适配夜间模式\n概览 实例（没错就是本站）：猴子打字机产物 (0wo.top)\n准备材料： 一个GitHub账号 一个Notion账号 使用Github登录vercel 一个域名（如果有） 开始 Notion新建一页 ">
 <meta property='og:url' content='https://lemoe.cn/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/'>
 <meta property='og:site_name' content='柠萌赛博自留地'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Blog' /><meta property='article:published_time' content='2022-04-11T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-02-08T12:27:00&#43;00:00'/><meta property='og:image' content='https://lemoe.cn/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/header.png' />
-<meta name="twitter:title" content="Notion Next.js &amp; Vercel搭建半自动博客">
-<meta name="twitter:description" content="👀 辣眼睛提醒：本文没有适配夜间模式 概览 实例（没错就是本站）：猴子打字机产物 (0wo.top) 准备材料： 一个GitHub账号 一个Notion账号 使用Githu"><meta name="twitter:card" content="summary_large_image">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Blog' /><meta property='article:published_time' content='2022-04-11T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-09-17T16:37:00&#43;00:00'/><meta property='og:image' content='https://lemoe.cn/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/header.png' />
+<meta name="twitter:title" content="Notion Next.js & Vercel搭建半自动博客">
+<meta name="twitter:description" content=" 👀 辣眼睛提醒：本文没有适配夜间模式\n概览 实例（没错就是本站）：猴子打字机产物 (0wo.top)\n准备材料： 一个GitHub账号 一个Notion账号 使用Github登录vercel 一个域名（如果有） 开始 Notion新建一页 "><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://lemoe.cn/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/header.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
@@ -59,7 +59,7 @@
                     
                     
                         
-                        <img src="/img/avatar_hu3d03a01dcc18bc5be0e67db3d8d209a6_71723_300x0_resize_q75_box.jpg" width="300"
+                        <img src="/img/avatar_hu11306308074117984370.jpg" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -73,9 +73,9 @@
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/">柠萌赛博自留地</a></h1>
-            <h2 class="site-description">「敩学半」</h2>
+            <h2 class="site-description">Developer, Undergraduate</h2>
         </div>
-    </header><ol class="social-menu">
+    </header><ol class="menu-social">
             
                 <li>
                     <a 
@@ -143,112 +143,11 @@
         </ol><ol class="menu" id="main-menu">
         
         
-        
-
-        <li >
-            <a href='/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <polyline points="5 12 3 12 12 3 21 12 19 12" />
-  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
-  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
-</svg>
-
-
-
-                
-                <span>首页</span>
-            </a>
-        </li>
-        
-        
-
-        <li >
-            <a href='/about/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
-  <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
-</svg>
-
-
-
-                
-                <span>关于</span>
-            </a>
-        </li>
-        
-        
-
-        <li >
-            <a href='/search/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="10" cy="10" r="7" />
-  <line x1="21" y1="21" x2="15" y2="15" />
-</svg>
-
-
-
-                
-                <span>搜索</span>
-            </a>
-        </li>
-        
-        
-
-        <li >
-            <a href='/archives/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <rect x="3" y="4" width="18" height="4" rx="2" />
-  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
-  <line x1="10" y1="12" x2="14" y2="12" />
-</svg>
-
-
-
-                
-                <span>归档</span>
-            </a>
-        </li>
-        
-        
-
-        <li >
-            <a href='/%E9%93%BE%E6%8E%A5/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-
-                
-                <span>链接</span>
-            </a>
-        </li>
-        
-
-        <div class="menu-bottom-section">
-                <li id="i18n-switch">  
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <path d="M4 5h7" />
   <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
@@ -259,19 +158,20 @@
 
 
 
-                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
-                        
-                            <option value="https://lemoe.cn/en/" >English</option>
-                        
-                            <option value="https://lemoe.cn/" selected>中文</option>
-                        
-                    </select>
-                </li>
-            
-            
-            
-                <li id="dark-mode-toggle">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://lemoe.cn/en/" >English</option>
+                                
+                                    <option value="https://lemoe.cn/" selected>中文</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <circle cx="8" cy="12" r="2" />
   <rect x="2" y="6" width="20" height="12" rx="6" />
@@ -279,7 +179,7 @@
 
 
 
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <circle cx="16" cy="12" r="2" />
   <rect x="2" y="6" width="20" height="12" rx="6" />
@@ -287,10 +187,11 @@
 
 
 
-                    <span>暗色模式</span>
-                </li>
-            
-        </div>
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
     </ol>
 </aside>
 
@@ -348,8 +249,8 @@
     <header class="article-header">
         <div class="article-image">
             <a href="/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/">
-                <img src="/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/header_hu611a60a97cf250ca886ae2f0693e68f2_3112960_800x0_resize_box_3.png"
-                        srcset="/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/header_hu611a60a97cf250ca886ae2f0693e68f2_3112960_800x0_resize_box_3.png 800w, /blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/header_hu611a60a97cf250ca886ae2f0693e68f2_3112960_1600x0_resize_box_3.png 1600w"
+                <img src="/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/header_hu12879547327183201676.png"
+                        srcset="/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/header_hu12879547327183201676.png 800w, /blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/header_hu729863079899114895.png 1600w"
                         width="800" 
                         height="449" 
                         loading="lazy"
@@ -419,11 +320,11 @@
     <blockquote>
 <p>👀 辣眼睛提醒：本文没有适配夜间<strong>模式</strong></p>
 </blockquote>
-<h2 id="概览">概览</h2>
-<p>实例（没错就是本站）：<a class="link" href="https://0wo.top/"  target="_blank" rel="noopener"
+<h2 id="概览">概览
+</h2><p>实例（没错就是本站）：<a class="link" href="https://0wo.top/"  target="_blank" rel="noopener"
     >猴子打字机产物 (0wo.top)</a></p>
-<h3 id="准备材料">准备材料：</h3>
-<ul>
+<h3 id="准备材料">准备材料：
+</h3><ul>
 <li>一个<a class="link" href="https://github.com/"  target="_blank" rel="noopener"
     >GitHub</a>账号</li>
 <li>一个<a class="link" href="https://www.notion.so/"  target="_blank" rel="noopener"
@@ -432,39 +333,31 @@
     >vercel</a></li>
 <li>一个域名（如果有）</li>
 </ul>
-<h2 id="开始">开始</h2>
-<h3 id="notion新建一页">Notion新建一页</h3>
-<p><img src="/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/09c69e23-74c8-45e9-884b-7449d440ac10.png"
-	width="2185"
-	height="1245"
-	srcset="/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/09c69e23-74c8-45e9-884b-7449d440ac10_hu59a3d74ccf4aa1e1e85264eea9851696_296276_480x0_resize_box_3.png 480w, /blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/09c69e23-74c8-45e9-884b-7449d440ac10_hu59a3d74ccf4aa1e1e85264eea9851696_296276_1024x0_resize_box_3.png 1024w"
+<h2 id="开始">开始
+</h2><h3 id="notion新建一页">Notion新建一页
+</h3><p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/09c69e23-74c8-45e9-884b-7449d440ac10/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20241111T084115Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=85cd3433182dd01be7a24e3bf98c684dd7e44de4cf4eaa9ed9ab9519ddb51229&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject"
+	
+	
+	
 	loading="lazy"
 	
-	
-		class="gallery-image" 
-		data-flex-grow="175"
-		data-flex-basis="421px"
 	
 ></p>
 <p>公开并复制URL，保留最后的Page Id，如”18330b7d58314c368ede9d641f36c1cf”</p>
-<h3 id="fork">Fork</h3>
-<p>前往<a class="link" href="https://github.com/transitive-bullshit/nextjs-notion-starter-kit"  target="_blank" rel="noopener"
+<h3 id="fork">Fork
+</h3><p>前往<a class="link" href="https://github.com/transitive-bullshit/nextjs-notion-starter-kit"  target="_blank" rel="noopener"
     >https://github.com/transitive-bullshit/nextjs-notion-starter-kit</a> ，Fork一个副本（本站为<a class="link" href="https://github.com/TennousuAthena/nextjs-notion"  target="_blank" rel="noopener"
     >https://github.com/TennousuAthena/nextjs-notion</a>）</p>
-<p><img src="/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/3989ada4-df53-43bd-8aeb-78bc5a2b89fb.png"
-	width="3475"
-	height="1676"
-	srcset="/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/3989ada4-df53-43bd-8aeb-78bc5a2b89fb_huaeca58e0a6bdc1f91d7f21a3289ffdfd_381547_480x0_resize_box_3.png 480w, /blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/3989ada4-df53-43bd-8aeb-78bc5a2b89fb_huaeca58e0a6bdc1f91d7f21a3289ffdfd_381547_1024x0_resize_box_3.png 1024w"
+<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/3989ada4-df53-43bd-8aeb-78bc5a2b89fb/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20241111T084115Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=1f5966f7085d49e12f6d8a6d378a99072f480d9a8f70e939400a8bc312cc862e&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject"
+	
+	
+	
 	loading="lazy"
 	
 	
-		class="gallery-image" 
-		data-flex-grow="207"
-		data-flex-basis="497px"
-	
 ></p>
-<h3 id="配置">配置</h3>
-<p>编辑<code>/**site.config.ts**</code>，示例如下（请以您的项目文件为准）</p>
+<h3 id="配置">配置
+</h3><p>编辑<code>/**site.config.ts**</code>，示例如下（请以您的项目文件为准）</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -596,156 +489,135 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Commit并Push</p>
-<h3 id="配置vercel">配置Vercel</h3>
-<p><img src="/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/94876bce-41b4-46ba-8fbf-3ad51d844e67.png"
-	width="1573"
-	height="1228"
-	srcset="/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/94876bce-41b4-46ba-8fbf-3ad51d844e67_hu8819085ef3038bb683c90d0e3f9f1999_106445_480x0_resize_box_3.png 480w, /blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/94876bce-41b4-46ba-8fbf-3ad51d844e67_hu8819085ef3038bb683c90d0e3f9f1999_106445_1024x0_resize_box_3.png 1024w"
+<h3 id="配置vercel">配置Vercel
+</h3><p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/94876bce-41b4-46ba-8fbf-3ad51d844e67/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20241111T084115Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=b2c0dcdb94d971864b4c35135c133f2aeedbc8bb3ab370c246f26f7c2fb9bfe0&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject"
+	
+	
+	
 	loading="lazy"
 	
-	
-		class="gallery-image" 
-		data-flex-grow="128"
-		data-flex-basis="307px"
 	
 ></p>
 <p>New Project → Import 即可</p>
-<h3 id="配置域名">配置域名</h3>
-<p><img src="/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/16aa6b34-fc8f-4e78-be22-7af43cd7beff.png"
-	width="2007"
-	height="1060"
-	srcset="/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/16aa6b34-fc8f-4e78-be22-7af43cd7beff_hua600d1b37af1ed314eed7005a4c62318_125373_480x0_resize_box_3.png 480w, /blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/16aa6b34-fc8f-4e78-be22-7af43cd7beff_hua600d1b37af1ed314eed7005a4c62318_125373_1024x0_resize_box_3.png 1024w"
+<h3 id="配置域名">配置域名
+</h3><p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/16aa6b34-fc8f-4e78-be22-7af43cd7beff/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20241111T084115Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=73cd5057c293e6412602485cdc8e0941653d80efe5e24540d09cfd2f052f2a25&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject"
+	
+	
+	
 	loading="lazy"
 	
-	
-		class="gallery-image" 
-		data-flex-grow="189"
-		data-flex-basis="454px"
 	
 ></p>
 <p>即可</p>
 <p>（没有域名也不用担心，Vercel会自动创建一个默认域名<!-- raw HTML omitted -->.vercel.app）</p>
 <p>然后按照提示添加解析记录</p>
 <div class="table-wrapper"><table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Name</th>
-<th><strong>Value</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>A</td>
-<td>xxx</td>
-<td>76.76.21.21</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th><strong>Value</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>A</td>
+          <td>xxx</td>
+          <td>76.76.21.21</td>
+      </tr>
+  </tbody>
 </table></div>
-<h3 id="cloudflare加速">Cloudflare加速</h3>
-<p>需要注意的是，该项目无法通过Cloudflare Page部署由于其并非完全静态站，而Vercel提供Serverless服务。</p>
+<p>undefined</p>
+<h3 id="cloudflare加速">Cloudflare加速
+</h3><p>需要注意的是，该项目无法通过Cloudflare Page部署由于其并非完全静态站，而Vercel提供Serverless服务。</p>
 <p>使用Clourdlare，可以添加如下规则，增加缓存时间，提升访问速度</p>
 <div class="table-wrapper"><table>
-<thead>
-<tr>
-<th>URL</th>
-<th>S<strong>ettings</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>example.com/_next/image*</td>
-<td>Cache Level: Cache Everything</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>URL</th>
+          <th>S<strong>ettings</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>example.com/_next/image*</td>
+          <td>Cache Level: Cache Everything</td>
+      </tr>
+  </tbody>
 </table></div>
-<p>示例如下：</p>
-<p><img src="/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/384c6824-0f26-4d99-8f7c-65789af29b7d.png"
-	width="2385"
-	height="1523"
-	srcset="/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/384c6824-0f26-4d99-8f7c-65789af29b7d_hu0e65cc4a0bfa02d3fdcbe6f0c8d995a4_211263_480x0_resize_box_3.png 480w, /blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/384c6824-0f26-4d99-8f7c-65789af29b7d_hu0e65cc4a0bfa02d3fdcbe6f0c8d995a4_211263_1024x0_resize_box_3.png 1024w"
+<p>undefined
+示例如下：</p>
+<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/384c6824-0f26-4d99-8f7c-65789af29b7d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20241111T084115Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=96e9393b53bd366ae79a4ccb1850f40bd260419893b59d8dff36ee6f13da62c9&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject"
+	
+	
+	
 	loading="lazy"
 	
-	
-		class="gallery-image" 
-		data-flex-grow="156"
-		data-flex-basis="375px"
 	
 ></p>
 <p>Update 2022-04-16 :</p>
 <p>如何判断缓存状态：按下F12打开Network，找到图片，查看响应头</p>
-<p><img src="/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/55c68a0c-7726-4879-b998-3a73fae46cea.png"
-	width="1715"
-	height="472"
-	srcset="/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/55c68a0c-7726-4879-b998-3a73fae46cea_hu16df56beb0341e344d242072678d7ab3_127328_480x0_resize_box_3.png 480w, /blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/55c68a0c-7726-4879-b998-3a73fae46cea_hu16df56beb0341e344d242072678d7ab3_127328_1024x0_resize_box_3.png 1024w"
+<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/55c68a0c-7726-4879-b998-3a73fae46cea/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20241111T084115Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=15a2dd213a6bb03ddfde29f1592ff42f0c8e7e5b6c205c99c5d380457ec54c1a&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject"
+	
+	
+	
 	loading="lazy"
 	
-	
-		class="gallery-image" 
-		data-flex-grow="363"
-		data-flex-basis="872px"
 	
 ></p>
 <div class="table-wrapper"><table>
-<thead>
-<tr>
-<th>cf-cache-status</th>
-<th>状态</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>HIT</td>
-<td>已命中Cloudflare的缓存，无需回源</td>
-</tr>
-<tr>
-<td>MISS</td>
-<td>已配置缓存，但没有找到，资源已在回源后获取，下次即为HIT</td>
-</tr>
-<tr>
-<td>BYPASS</td>
-<td>被要求不缓存该文件，每次均回源</td>
-</tr>
-<tr>
-<td>EXPIRED</td>
-<td>上次缓存已经过期，CF将会再度回源获取资源，当下次请求时该文件就会显示HIT</td>
-</tr>
-<tr>
-<td>DYNAMIC</td>
-<td>默认不会缓存，也没有对应的缓存配置，每次均回源</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>cf-cache-status</th>
+          <th>状态</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>HIT</td>
+          <td>已命中Cloudflare的缓存，无需回源</td>
+      </tr>
+      <tr>
+          <td>MISS</td>
+          <td>已配置缓存，但没有找到，资源已在回源后获取，下次即为HIT</td>
+      </tr>
+      <tr>
+          <td>BYPASS</td>
+          <td>被要求不缓存该文件，每次均回源</td>
+      </tr>
+      <tr>
+          <td>EXPIRED</td>
+          <td>上次缓存已经过期，CF将会再度回源获取资源，当下次请求时该文件就会显示HIT</td>
+      </tr>
+      <tr>
+          <td>DYNAMIC</td>
+          <td>默认不会缓存，也没有对应的缓存配置，每次均回源</td>
+      </tr>
+  </tbody>
 </table></div>
-<h3 id="google-analytics">Google analytics</h3>
-<p>若使用Tagmanager或GA4放置在页面头部可能导致图片懒加载blur异常，Vercel自带的analytics不会造成此问题。也可以使用Cloudflare的Web Analytics。</p>
-<p><img src="/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/06b031f3-0adf-4989-8919-2381781b1f94.png"
-	width="3193"
-	height="1834"
-	srcset="/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/06b031f3-0adf-4989-8919-2381781b1f94_huf0eb85bd8ea77acd50764b034eb8b892_239675_480x0_resize_box_3.png 480w, /blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/06b031f3-0adf-4989-8919-2381781b1f94_huf0eb85bd8ea77acd50764b034eb8b892_239675_1024x0_resize_box_3.png 1024w"
+<p>undefined</p>
+<h3 id="google-analytics">Google analytics
+</h3><p>若使用Tagmanager或GA4放置在页面头部可能导致图片懒加载blur异常，Vercel自带的analytics不会造成此问题。也可以使用Cloudflare的Web Analytics。</p>
+<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/06b031f3-0adf-4989-8919-2381781b1f94/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20241111T084115Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=7052fc62db5b20759016b386b357034d7f8e5899ba1065006f931717f2a54cfb&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject"
+	
+	
+	
 	loading="lazy"
 	
 	
-		class="gallery-image" 
-		data-flex-grow="174"
-		data-flex-basis="417px"
-	
 ></p>
-<h3 id="半自动">半自动</h3>
-<p>等等，Vercel的Serverless不是能自动同步Notion上的最新内容吗？</p>
+<h3 id="半自动">半自动
+</h3><p>等等，Vercel的Serverless不是能自动同步Notion上的最新内容吗？</p>
 <p>是的……但有时候，如页面标题发生更改导致Url改变、页面结构复杂等问题会导致页面无法及时更新。解决方法是在Vercel上<strong>Redeploy</strong>一下。</p>
-<p><img src="/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/6441deee-1ae0-4d00-90da-f1ae141dcfee.png"
-	width="2503"
-	height="1028"
-	srcset="/blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/6441deee-1ae0-4d00-90da-f1ae141dcfee_huc167d0b25fc49d1d26803dddeebfbc80_664632_480x0_resize_box_3.png 480w, /blog/notion-next-js-vercel%E6%90%AD%E5%BB%BA%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8D%9A%E5%AE%A2/6441deee-1ae0-4d00-90da-f1ae141dcfee_huc167d0b25fc49d1d26803dddeebfbc80_664632_1024x0_resize_box_3.png 1024w"
+<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/6441deee-1ae0-4d00-90da-f1ae141dcfee/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20241111T084115Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=a63ba03e459ab432b37199c29c5359643c6f495fc6694c3426332c5a6b0b3785&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject"
+	
+	
+	
 	loading="lazy"
 	
 	
-		class="gallery-image" 
-		data-flex-grow="243"
-		data-flex-basis="584px"
-	
 ></p>
-<p>有时候，Database过于复杂同样会导致拉取失败，因此，该方法构建的Blog并不稳定，仅供图~一~乐~</p>
+<p>有时候，Database过于复杂同样会导致拉取失败，因此，该方法构建的Blog并不稳定，仅供图<del>一</del>乐~</p>
 
 </section>
 
@@ -781,7 +653,7 @@
 
 
         <span>
-            最后更新于 2023-02-08 12:27 CST
+            最后更新于 2024-09-17 16:37 CST
         </span>
     </section></footer>
 
@@ -789,24 +661,25 @@
     
         <link 
                 rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
             ><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
                 defer
                 >
             </script><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
                 defer
                 >
             </script><script>
     window.addEventListener("DOMContentLoaded", () => {
-        renderMathInElement(document.querySelector(`.article-content`), {
+        renderMathInElement(document.body, {
             delimiters: [
                 { left: "$$", right: "$$", display: true },
                 { left: "$", right: "$", display: false },
                 { left: "\\(", right: "\\)", display: false },
                 { left: "\\[", right: "\\]", display: true }
-            ]
+            ],
+            ignoredClasses: ["gist"]
         });})
 </script>
     
@@ -819,7 +692,7 @@
      
     
         
-    <script src="//cdn.jsdelivr.net/npm/twikoo@1.5.11/dist/twikoo.all.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
 <div id="tcomment"></div>
 <style>
     .twikoo {
@@ -834,7 +707,9 @@
     }
     .twikoo .el-input-group__prepend,
     .twikoo .tk-action-icon,
+    .twikoo .tk-submit-action-icon,
     .twikoo .tk-time,
+    .twikoo .tk-comments-no,
     .twikoo .tk-comments-count {
         color: var(--twikoo-body-text-color);
     }
@@ -848,6 +723,9 @@
     }
     .twikoo .el-button{
         color: var(--twikoo-body-text-color)!important;
+    }
+    .twikoo .el-input__count {
+        color: var(--twikoo-body-text-color) !important;
     }
     .OwO .OwO-body {
         background-color: var(--body-background) !important;
@@ -867,14 +745,14 @@
         
             2020 - 
         
-        2023 柠萌赛博自留地
+        2024 柠萌赛博自留地
     </section>
     
     <section class="powerby">
         
             View <a href='https://legacy.lemoe.cn/' target='_blank'>Legacy Version</a> | <a href='https://0wo.top/' target='_blank'>0wo Live Version</a>  <br/>
-        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.16.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
     </section>
 </footer>
 
@@ -963,7 +841,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

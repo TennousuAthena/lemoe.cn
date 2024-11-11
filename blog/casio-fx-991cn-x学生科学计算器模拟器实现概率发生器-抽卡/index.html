@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='生命的意义在于整活 ——我。 在紧张的学习生活中，想不想体验抽赌卡博的快感？想不想和同学比比谁先脱非入欧？苦于身边没有智能设备？那就自己动手丰衣'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=" 生命的意义在于整活 ——我。\n在紧张的学习生活中，想不想体验抽赌卡博的快感？想不想和同学比比谁先脱非入欧？苦于身边没有智能设备？那就自己动手丰衣足食吧！\n">
 <title>CASIO fx-991CN X学生科学计算器模拟器实现概率发生器（抽卡）</title>
 
 <link rel='canonical' href='https://lemoe.cn/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/'>
 
-<link rel="stylesheet" href="/scss/style.min.8191399262444ab68b72a18c97392f5349be20a1615d77445be51e974c144cff.css"><meta property='og:title' content='CASIO fx-991CN X学生科学计算器模拟器实现概率发生器（抽卡）'>
-<meta property='og:description' content='生命的意义在于整活 ——我。 在紧张的学习生活中，想不想体验抽赌卡博的快感？想不想和同学比比谁先脱非入欧？苦于身边没有智能设备？那就自己动手丰衣'>
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="CASIO fx-991CN X学生科学计算器模拟器实现概率发生器（抽卡）">
+<meta property='og:description' content=" 生命的意义在于整活 ——我。\n在紧张的学习生活中，想不想体验抽赌卡博的快感？想不想和同学比比谁先脱非入欧？苦于身边没有智能设备？那就自己动手丰衣足食吧！\n">
 <meta property='og:url' content='https://lemoe.cn/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/'>
 <meta property='og:site_name' content='柠萌赛博自留地'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='整活' /><meta property='article:tag' content='抽卡' /><meta property='article:published_time' content='2022-03-25T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-02-12T17:26:00&#43;00:00'/><meta property='og:image' content='https://lemoe.cn/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/header.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='整活' /><meta property='article:tag' content='抽卡' /><meta property='article:published_time' content='2022-03-25T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-09-17T16:37:00&#43;00:00'/><meta property='og:image' content='https://lemoe.cn/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/header.png' />
 <meta name="twitter:title" content="CASIO fx-991CN X学生科学计算器模拟器实现概率发生器（抽卡）">
-<meta name="twitter:description" content="生命的意义在于整活 ——我。 在紧张的学习生活中，想不想体验抽赌卡博的快感？想不想和同学比比谁先脱非入欧？苦于身边没有智能设备？那就自己动手丰衣"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content=" 生命的意义在于整活 ——我。\n在紧张的学习生活中，想不想体验抽赌卡博的快感？想不想和同学比比谁先脱非入欧？苦于身边没有智能设备？那就自己动手丰衣足食吧！\n"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://lemoe.cn/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/header.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
@@ -59,7 +59,7 @@
                     
                     
                         
-                        <img src="/img/avatar_hu3d03a01dcc18bc5be0e67db3d8d209a6_71723_300x0_resize_q75_box.jpg" width="300"
+                        <img src="/img/avatar_hu11306308074117984370.jpg" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -73,9 +73,9 @@
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/">柠萌赛博自留地</a></h1>
-            <h2 class="site-description">「敩学半」</h2>
+            <h2 class="site-description">Developer, Undergraduate</h2>
         </div>
-    </header><ol class="social-menu">
+    </header><ol class="menu-social">
             
                 <li>
                     <a 
@@ -143,112 +143,11 @@
         </ol><ol class="menu" id="main-menu">
         
         
-        
-
-        <li >
-            <a href='/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <polyline points="5 12 3 12 12 3 21 12 19 12" />
-  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
-  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
-</svg>
-
-
-
-                
-                <span>首页</span>
-            </a>
-        </li>
-        
-        
-
-        <li >
-            <a href='/about/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
-  <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
-</svg>
-
-
-
-                
-                <span>关于</span>
-            </a>
-        </li>
-        
-        
-
-        <li >
-            <a href='/search/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="10" cy="10" r="7" />
-  <line x1="21" y1="21" x2="15" y2="15" />
-</svg>
-
-
-
-                
-                <span>搜索</span>
-            </a>
-        </li>
-        
-        
-
-        <li >
-            <a href='/archives/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <rect x="3" y="4" width="18" height="4" rx="2" />
-  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
-  <line x1="10" y1="12" x2="14" y2="12" />
-</svg>
-
-
-
-                
-                <span>归档</span>
-            </a>
-        </li>
-        
-        
-
-        <li >
-            <a href='/%E9%93%BE%E6%8E%A5/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-
-                
-                <span>链接</span>
-            </a>
-        </li>
-        
-
-        <div class="menu-bottom-section">
-                <li id="i18n-switch">  
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <path d="M4 5h7" />
   <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
@@ -259,19 +158,20 @@
 
 
 
-                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
-                        
-                            <option value="https://lemoe.cn/en/" >English</option>
-                        
-                            <option value="https://lemoe.cn/" selected>中文</option>
-                        
-                    </select>
-                </li>
-            
-            
-            
-                <li id="dark-mode-toggle">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://lemoe.cn/en/" >English</option>
+                                
+                                    <option value="https://lemoe.cn/" selected>中文</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <circle cx="8" cy="12" r="2" />
   <rect x="2" y="6" width="20" height="12" rx="6" />
@@ -279,7 +179,7 @@
 
 
 
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <circle cx="16" cy="12" r="2" />
   <rect x="2" y="6" width="20" height="12" rx="6" />
@@ -287,10 +187,11 @@
 
 
 
-                    <span>暗色模式</span>
-                </li>
-            
-        </div>
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
     </ol>
 </aside>
 
@@ -335,8 +236,8 @@
     <header class="article-header">
         <div class="article-image">
             <a href="/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/">
-                <img src="/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/header_hu9fbdf869987ffd02cbede1d9cecc3c1f_1942836_800x0_resize_box_3.png"
-                        srcset="/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/header_hu9fbdf869987ffd02cbede1d9cecc3c1f_1942836_800x0_resize_box_3.png 800w, /blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/header_hu9fbdf869987ffd02cbede1d9cecc3c1f_1942836_1600x0_resize_box_3.png 1600w"
+                <img src="/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/header_hu9356673135226182974.png"
+                        srcset="/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/header_hu9356673135226182974.png 800w, /blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/header_hu5971231813236021138.png 1600w"
                         width="800" 
                         height="533" 
                         loading="lazy"
@@ -350,8 +251,8 @@
     
     <header class="article-category">
         
-            <a href="/categories/blog/" style="background-color: #F7BA1E; color: #fff;">
-                博客
+            <a href="/categories/blog/" >
+                Blog
             </a>
         
     </header>
@@ -423,21 +324,17 @@
 	
 ></p>
 <p>在紧张的学习生活中，想不想体验抽<del>赌</del>卡<del>博</del>的快感？想不想和同学比比谁先<strong>脱非入欧</strong>？苦于身边没有智能设备？那就自己动手丰衣足食吧！</p>
-<p><img src="/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/65bcba40-95f9-4bdd-bf2f-581a2c2a61ae.png"
-	width="918"
-	height="1809"
-	srcset="/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/65bcba40-95f9-4bdd-bf2f-581a2c2a61ae_hu7940a6f142a2a5ce9b89694b81edc200_336253_480x0_resize_box_3.png 480w, /blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/65bcba40-95f9-4bdd-bf2f-581a2c2a61ae_hu7940a6f142a2a5ce9b89694b81edc200_336253_1024x0_resize_box_3.png 1024w"
+<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/65bcba40-95f9-4bdd-bf2f-581a2c2a61ae/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20241111T084115Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=beb927acb8a52743026b840b23fbef580ce81aa3561676951f368ebcfb49301c&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject"
+	
+	
+	
 	loading="lazy"
 	
 	
-		class="gallery-image" 
-		data-flex-grow="50"
-		data-flex-basis="121px"
-	
 ></p>
 <p>CASIO fx-991CN X可谓是广受好评的面向中文用户的科学函数计算器，尽管这不是可写入程序的图形计算器，我们还是可以通过数学表达式来完成一部分功能。</p>
-<h2 id="模拟器">模拟器</h2>
-<p>对于手上没有计算器的读者，可以前往下载CASIO Calculator Emulator，原内容由<a class="link" href="https://hbte.ch/1790.html"  target="_blank" rel="noopener"
+<h2 id="模拟器">模拟器
+</h2><p>对于手上没有计算器的读者，可以前往下载CASIO Calculator Emulator，原内容由<a class="link" href="https://hbte.ch/1790.html"  target="_blank" rel="noopener"
     >可能是全网最全的 CASIO Calculator Emulator 下载</a>提供，存档于<a class="link" href="https://www.notion.so/921c682adc04400c8346667877e1b185"  target="_blank" rel="noopener"
     >Untitled</a> 。</p>
 <p>下载地址：</p>
@@ -447,18 +344,14 @@
 <li><a class="link" href="https://file-cdn.qmcmc.cn/uploads/2022/03/CASIO%20Calculator%20Emulator%20V20.8.11.7z"  target="_blank" rel="noopener"
     >CDN分流</a></li>
 </ul>
-<h2 id="原理">原理</h2>
-<p>Alpha+RanInt+范围可以产生<del>伪</del>随机整数</p>
-<p><img src="/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/00ce72cc-8ac4-4039-a2be-4d34ae9e69e3.png"
-	width="957"
-	height="1853"
-	srcset="/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/00ce72cc-8ac4-4039-a2be-4d34ae9e69e3_hu9b8bc4a52ce119e7aa80fcfeb68c040c_339385_480x0_resize_box_3.png 480w, /blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/00ce72cc-8ac4-4039-a2be-4d34ae9e69e3_hu9b8bc4a52ce119e7aa80fcfeb68c040c_339385_1024x0_resize_box_3.png 1024w"
+<h2 id="原理">原理
+</h2><p>Alpha+RanInt+范围可以产生<del>伪</del>随机整数</p>
+<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/00ce72cc-8ac4-4039-a2be-4d34ae9e69e3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20241111T084115Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=5601e4002c3dd212e78d369bae45cd739018fc40d0397a87c311f143045edc8c&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject"
+	
+	
+	
 	loading="lazy"
 	
-	
-		class="gallery-image" 
-		data-flex-grow="51"
-		data-flex-basis="123px"
 	
 ></p>
 <p>而Σ可以多次产生，同时若出现除数=0或对数≤0等数学错误，运算则会直接抛出异常。</p>
@@ -479,8 +372,8 @@ $$</p>
 	
 	
 ></p>
-<h2 id="改进">改进</h2>
-<p>由于硬件平台限制，我们只能做到这样了……对吧？</p>
+<h2 id="改进">改进
+</h2><p>由于硬件平台限制，我们只能做到这样了……对吧？</p>
 <p>不过，上次运算结果是可以调用的，也许，我们可以做到抽卡次数记录</p>
 <p>$$
 \sum_{x=1}^{10}(ln_{RanInt\sharp (-2,497)}\times 0+1 ) + Ans
@@ -494,8 +387,8 @@ $$</p>
 	
 ></p>
 <p>然而，输出结果均为整十的数字……说明即使求和途中出现数学错误，计算器仍会硬着头皮算下去？</p>
-<h2 id="总结">总结</h2>
-<p>通过随机数生成函数与求和，我们能在一台普通的函数计算器上基本实现概率发生器并记录试验次数，因而能亲身体会概率的大小。当然，对于大/小保底以及更加精准的试验还有待于讨论交流。</p>
+<h2 id="总结">总结
+</h2><p>通过随机数生成函数与求和，我们能在一台普通的函数计算器上基本实现概率发生器并记录试验次数，因而能亲身体会概率的大小。当然，对于大/小保底以及更加精准的试验还有待于讨论交流。</p>
 <p>不过，既然你已经能阅读这篇文章，那就直接打开<a class="link" href="https://github.com/uzair-ashraf/genshin-impact-wish-simulator"  target="_blank" rel="noopener"
     >Github</a>上的<a class="link" href="https://gi-wish-simulator.uzairashraf.dev/"  target="_blank" rel="noopener"
     >genshin-impact-wish-simulator</a>吧。</p>
@@ -537,7 +430,7 @@ $$</p>
 
 
         <span>
-            最后更新于 2023-02-12 17:26 CST
+            最后更新于 2024-09-17 16:37 CST
         </span>
     </section></footer>
 
@@ -545,24 +438,25 @@ $$</p>
     
         <link 
                 rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
             ><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
                 defer
                 >
             </script><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
                 defer
                 >
             </script><script>
     window.addEventListener("DOMContentLoaded", () => {
-        renderMathInElement(document.querySelector(`.article-content`), {
+        renderMathInElement(document.body, {
             delimiters: [
                 { left: "$$", right: "$$", display: true },
                 { left: "$", right: "$", display: false },
                 { left: "\\(", right: "\\)", display: false },
                 { left: "\\[", right: "\\]", display: true }
-            ]
+            ],
+            ignoredClasses: ["gist"]
         });})
 </script>
     
@@ -583,13 +477,13 @@ $$</p>
         
         
             <div class="article-image">
-                <img src="/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/header.e150855e5aa90a310f25744eb1ba4859_hu0183749f4d5fd1098182f5f12747c7d4_2014866_250x150_fill_box_smart1_3.png" 
+                <img src="/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/header.fcf8d8cecd76cd78fe4bbab35f6e9d2c_hu15531158836032229451.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
                         alt="Featured image of post Lemoe.cn v3全新架构！Notion2Hugo"
                         data-key="lemoe-cn-v3全新架构-notion2hugo" 
-                        data-hash="md5-4VCFXlqpCjEPJXROsbpIWQ==">
+                        data-hash="md5-/PjYzs12zXj&#43;S7qzX26dLA==">
                 
             </div>
         
@@ -608,7 +502,7 @@ $$</p>
      
     
         
-    <script src="//cdn.jsdelivr.net/npm/twikoo@1.5.11/dist/twikoo.all.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
 <div id="tcomment"></div>
 <style>
     .twikoo {
@@ -623,7 +517,9 @@ $$</p>
     }
     .twikoo .el-input-group__prepend,
     .twikoo .tk-action-icon,
+    .twikoo .tk-submit-action-icon,
     .twikoo .tk-time,
+    .twikoo .tk-comments-no,
     .twikoo .tk-comments-count {
         color: var(--twikoo-body-text-color);
     }
@@ -637,6 +533,9 @@ $$</p>
     }
     .twikoo .el-button{
         color: var(--twikoo-body-text-color)!important;
+    }
+    .twikoo .el-input__count {
+        color: var(--twikoo-body-text-color) !important;
     }
     .OwO .OwO-body {
         background-color: var(--body-background) !important;
@@ -656,14 +555,14 @@ $$</p>
         
             2020 - 
         
-        2023 柠萌赛博自留地
+        2024 柠萌赛博自留地
     </section>
     
     <section class="powerby">
         
             View <a href='https://legacy.lemoe.cn/' target='_blank'>Legacy Version</a> | <a href='https://0wo.top/' target='_blank'>0wo Live Version</a>  <br/>
-        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.16.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
     </section>
 </footer>
 
@@ -752,7 +651,7 @@ $$</p>
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

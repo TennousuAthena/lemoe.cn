@@ -6,32 +6,32 @@
         <description>Recent content in 生物医学 on 柠萌赛博自留地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sun, 12 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lemoe.cn/tags/%E7%94%9F%E7%89%A9%E5%8C%BB%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 17 Sep 2024 16:37:00 +0000</lastBuildDate><atom:link href="https://lemoe.cn/tags/%E7%94%9F%E7%89%A9%E5%8C%BB%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>MIMIC-iv 重症医学数据库部署与使用</title>
         <link>https://lemoe.cn/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/</link>
         <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
         
         <guid>https://lemoe.cn/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/</guid>
-        <description>&lt;img src="https://lemoe.cn/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/header.png" alt="Featured image of post MIMIC-iv 重症医学数据库部署与使用" /&gt;&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
-&lt;p&gt;医疗数据库不仅是我们进行医疗大数据分析的主要来源，同时也是科学研究的重要基础，可以用来改善患者的治疗和诊断，帮助改善医疗服务的质量。它也可以支持临床研究和政策制定，帮助改善健康管理模式，提高治疗效果，减少治疗成本。&lt;/p&gt;
+        <description>&lt;img src="https://lemoe.cn/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/header.png" alt="Featured image of post MIMIC-iv 重症医学数据库部署与使用" /&gt;&lt;h2 id=&#34;简介&#34;&gt;简介
+&lt;/h2&gt;&lt;p&gt;医疗数据库不仅是我们进行医疗大数据分析的主要来源，同时也是科学研究的重要基础，可以用来改善患者的治疗和诊断，帮助改善医疗服务的质量。它也可以支持临床研究和政策制定，帮助改善健康管理模式，提高治疗效果，减少治疗成本。&lt;/p&gt;
 &lt;p&gt;MIMIC（Medical Information Mart for Intensive Care）是一个由_麻省理工大学_联合_贝斯以色列女执事医疗中心_等共同建立的重症监护数据库，它是目前急诊和危重症领域最大、可以公开访问的临床数据库。MIMIC最新版本MIMIC-IV发布于2020年，其中最新的数据发布于2023年2月6日。&lt;/p&gt;
 &lt;p&gt;MIMIC-iv提供了一个多维度的数据集，可以支持重症医学领域的研究，它包含来自美国麻省总医院的多种类型的重症患者的数据。&lt;/p&gt;
 &lt;p&gt;尽管MIMIC是公开数据集，但是该数据集的下载需要通过考核与人工审核。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://physionet.org/content/mimiciv/2.2/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;bookmark&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;内容&#34;&gt;内容&lt;/h3&gt;
-&lt;p&gt;截至本文发布时的最新版本（v2.2）时，MIMIC IV总共公布了HOSP、ICU、ED、CXR、NOTE五大模块的数据。&lt;/p&gt;
+&lt;h3 id=&#34;内容&#34;&gt;内容
+&lt;/h3&gt;&lt;p&gt;截至本文发布时的最新版本（v2.2）时，MIMIC IV总共公布了HOSP、ICU、ED、CXR、NOTE五大模块的数据。&lt;/p&gt;
 &lt;p&gt;（目前还有waveforms待发布&lt;/p&gt;
-&lt;h2 id=&#34;部署&#34;&gt;部署&lt;/h2&gt;
-&lt;p&gt;本文将以Windows为例，将MIMIC-iv导入PostgreSQL数据库中。&lt;/p&gt;
-&lt;h3 id=&#34;下载安装postgresql&#34;&gt;下载安装PostgreSQL&lt;/h3&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.enterprisedb.com/downloads/postgres-postgresql-downloads&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h2 id=&#34;部署&#34;&gt;部署
+&lt;/h2&gt;&lt;p&gt;本文将以Windows为例，将MIMIC-iv导入PostgreSQL数据库中。&lt;/p&gt;
+&lt;h3 id=&#34;下载安装postgresql&#34;&gt;下载安装PostgreSQL
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.enterprisedb.com/downloads/postgres-postgresql-downloads&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;bookmark&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;下载数据&#34;&gt;下载数据&lt;/h3&gt;
-&lt;p&gt;略，解压到F:\mimiciv&lt;/p&gt;
+&lt;h3 id=&#34;下载数据&#34;&gt;下载数据
+&lt;/h3&gt;&lt;p&gt;略，解压到F:\mimiciv&lt;/p&gt;
 &lt;p&gt;其中.sql.gz无需解压&lt;/p&gt;
-&lt;h3 id=&#34;clone导入代码&#34;&gt;Clone导入代码&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;h3 id=&#34;clone导入代码&#34;&gt;Clone导入代码
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
@@ -47,17 +47,13 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# git clone https://git.qmcmc.cn/mirror/mimic-code&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;hospicu模块&#34;&gt;&lt;strong&gt;HOSP+ICU模块&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/d40cafe5-7edd-4e95-b75a-1a6daeec32cb.png&#34;
-	width=&#34;1050&#34;
-	height=&#34;374&#34;
-	srcset=&#34;https://lemoe.cn/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/d40cafe5-7edd-4e95-b75a-1a6daeec32cb_hude5b9173111624d3ff93f044d5eb96cf_75257_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/d40cafe5-7edd-4e95-b75a-1a6daeec32cb_hude5b9173111624d3ff93f044d5eb96cf_75257_1024x0_resize_box_3.png 1024w&#34;
+&lt;/div&gt;&lt;h3 id=&#34;hospicu模块&#34;&gt;&lt;strong&gt;HOSP+ICU模块&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/d40cafe5-7edd-4e95-b75a-1a6daeec32cb/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084115Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=129ffbc2ffcb4dd9a99c3dbd5f557b0368421ea603da1a5cf5baffc12e1e2bea&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;280&#34;
-		data-flex-basis=&#34;673px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -90,8 +86,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;F&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;mimic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;code&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;mimic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;iv&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;buildmimic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;postgres&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;validate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;sql&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;   &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;-- 验证导入
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;ed模块&#34;&gt;ED模块&lt;/h3&gt;
-&lt;p&gt;基本同理&lt;/p&gt;
+&lt;/div&gt;&lt;h3 id=&#34;ed模块&#34;&gt;ED模块
+&lt;/h3&gt;&lt;p&gt;基本同理&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -114,8 +110,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;F&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;mimic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;code&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;mimic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;iv&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ed&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;buildmimic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;postgres&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;constraint&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;sql&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;   &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;-- 导入约束
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;note模块&#34;&gt;Note模块&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;/div&gt;&lt;h3 id=&#34;note模块&#34;&gt;Note模块
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
@@ -133,8 +129,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;F&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;mimic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;code&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;mimic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;iv&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;note&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;buildmimic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;postgres&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;load_7z&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;sql&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;   &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;-- 导入数据
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;cxr模块&#34;&gt;CXR模块&lt;/h3&gt;
-&lt;p&gt;官方代码库中似乎没有导入SQL语句，我们可以手动创建&lt;/p&gt;
+&lt;/div&gt;&lt;h3 id=&#34;cxr模块&#34;&gt;CXR模块
+&lt;/h3&gt;&lt;p&gt;官方代码库中似乎没有导入SQL语句，我们可以手动创建&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -520,21 +516,17 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;F&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;mimic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cxr&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;index&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;sql&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;导入结果&#34;&gt;导入结果&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://lemoe.cn/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/0d55dcd0-5a1f-4418-8f15-d7b5a1e05826.png&#34;
-	width=&#34;311&#34;
-	height=&#34;241&#34;
-	srcset=&#34;https://lemoe.cn/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/0d55dcd0-5a1f-4418-8f15-d7b5a1e05826_hu2a8f780ef6597c61c112dd463de2b9c8_20840_480x0_resize_box_3.png 480w, https://lemoe.cn/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/0d55dcd0-5a1f-4418-8f15-d7b5a1e05826_hu2a8f780ef6597c61c112dd463de2b9c8_20840_1024x0_resize_box_3.png 1024w&#34;
+&lt;/div&gt;&lt;h3 id=&#34;导入结果&#34;&gt;导入结果
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/0d55dcd0-5a1f-4418-8f15-d7b5a1e05826/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241111T084115Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=986f2a1472f092bde8eebadad2e79cc2cdc15c6ae691a8d34be492f93b3ceb87&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
 	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;129&#34;
-		data-flex-basis=&#34;309px&#34;
-	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;使用数据&#34;&gt;使用数据&lt;/h2&gt;
-</description>
+&lt;h2 id=&#34;使用数据&#34;&gt;使用数据
+&lt;/h2&gt;</description>
         </item>
         
     </channel>

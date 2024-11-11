@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='部署与使用最新的MIMIC-iv重症监护数据库'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="部署与使用最新的MIMIC-iv重症监护数据库">
 <title>MIMIC-iv 重症医学数据库部署与使用</title>
 
 <link rel='canonical' href='https://lemoe.cn/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/'>
 
-<link rel="stylesheet" href="/scss/style.min.8191399262444ab68b72a18c97392f5349be20a1615d77445be51e974c144cff.css"><meta property='og:title' content='MIMIC-iv 重症医学数据库部署与使用'>
-<meta property='og:description' content='部署与使用最新的MIMIC-iv重症监护数据库'>
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="MIMIC-iv 重症医学数据库部署与使用">
+<meta property='og:description' content="部署与使用最新的MIMIC-iv重症监护数据库">
 <meta property='og:url' content='https://lemoe.cn/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/'>
 <meta property='og:site_name' content='柠萌赛博自留地'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='生物医学' /><meta property='article:published_time' content='2023-02-12T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-02-12T17:29:00&#43;00:00'/><meta property='og:image' content='https://lemoe.cn/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/header.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='生物医学' /><meta property='article:published_time' content='2023-02-12T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-09-17T16:37:00&#43;00:00'/><meta property='og:image' content='https://lemoe.cn/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/header.png' />
 <meta name="twitter:title" content="MIMIC-iv 重症医学数据库部署与使用">
 <meta name="twitter:description" content="部署与使用最新的MIMIC-iv重症监护数据库"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://lemoe.cn/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/header.png' />
@@ -59,7 +59,7 @@
                     
                     
                         
-                        <img src="/img/avatar_hu3d03a01dcc18bc5be0e67db3d8d209a6_71723_300x0_resize_q75_box.jpg" width="300"
+                        <img src="/img/avatar_hu11306308074117984370.jpg" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -73,9 +73,9 @@
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/">柠萌赛博自留地</a></h1>
-            <h2 class="site-description">「敩学半」</h2>
+            <h2 class="site-description">Developer, Undergraduate</h2>
         </div>
-    </header><ol class="social-menu">
+    </header><ol class="menu-social">
             
                 <li>
                     <a 
@@ -143,112 +143,11 @@
         </ol><ol class="menu" id="main-menu">
         
         
-        
-
-        <li >
-            <a href='/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <polyline points="5 12 3 12 12 3 21 12 19 12" />
-  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
-  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
-</svg>
-
-
-
-                
-                <span>首页</span>
-            </a>
-        </li>
-        
-        
-
-        <li >
-            <a href='/about/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
-  <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
-</svg>
-
-
-
-                
-                <span>关于</span>
-            </a>
-        </li>
-        
-        
-
-        <li >
-            <a href='/search/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="10" cy="10" r="7" />
-  <line x1="21" y1="21" x2="15" y2="15" />
-</svg>
-
-
-
-                
-                <span>搜索</span>
-            </a>
-        </li>
-        
-        
-
-        <li >
-            <a href='/archives/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <rect x="3" y="4" width="18" height="4" rx="2" />
-  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
-  <line x1="10" y1="12" x2="14" y2="12" />
-</svg>
-
-
-
-                
-                <span>归档</span>
-            </a>
-        </li>
-        
-        
-
-        <li >
-            <a href='/%E9%93%BE%E6%8E%A5/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-
-                
-                <span>链接</span>
-            </a>
-        </li>
-        
-
-        <div class="menu-bottom-section">
-                <li id="i18n-switch">  
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <path d="M4 5h7" />
   <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
@@ -259,19 +158,20 @@
 
 
 
-                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
-                        
-                            <option value="https://lemoe.cn/en/" >English</option>
-                        
-                            <option value="https://lemoe.cn/" selected>中文</option>
-                        
-                    </select>
-                </li>
-            
-            
-            
-                <li id="dark-mode-toggle">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://lemoe.cn/en/" >English</option>
+                                
+                                    <option value="https://lemoe.cn/" selected>中文</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <circle cx="8" cy="12" r="2" />
   <rect x="2" y="6" width="20" height="12" rx="6" />
@@ -279,7 +179,7 @@
 
 
 
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <circle cx="16" cy="12" r="2" />
   <rect x="2" y="6" width="20" height="12" rx="6" />
@@ -287,10 +187,11 @@
 
 
 
-                    <span>暗色模式</span>
-                </li>
-            
-        </div>
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
     </ol>
 </aside>
 
@@ -349,8 +250,8 @@
     <header class="article-header">
         <div class="article-image">
             <a href="/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/">
-                <img src="/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/header_hu226992930a2328fec2ed2d3b065b1ed1_450378_800x0_resize_box_3.png"
-                        srcset="/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/header_hu226992930a2328fec2ed2d3b065b1ed1_450378_800x0_resize_box_3.png 800w, /blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/header_hu226992930a2328fec2ed2d3b065b1ed1_450378_1600x0_resize_box_3.png 1600w"
+                <img src="/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/header_hu18003552490548577717.png"
+                        srcset="/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/header_hu18003552490548577717.png 800w, /blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/header_hu13208720833974214055.png 1600w"
                         width="800" 
                         height="450" 
                         loading="lazy"
@@ -421,26 +322,26 @@
     <section class="article-content">
     
     
-    <h2 id="简介">简介</h2>
-<p>医疗数据库不仅是我们进行医疗大数据分析的主要来源，同时也是科学研究的重要基础，可以用来改善患者的治疗和诊断，帮助改善医疗服务的质量。它也可以支持临床研究和政策制定，帮助改善健康管理模式，提高治疗效果，减少治疗成本。</p>
+    <h2 id="简介">简介
+</h2><p>医疗数据库不仅是我们进行医疗大数据分析的主要来源，同时也是科学研究的重要基础，可以用来改善患者的治疗和诊断，帮助改善医疗服务的质量。它也可以支持临床研究和政策制定，帮助改善健康管理模式，提高治疗效果，减少治疗成本。</p>
 <p>MIMIC（Medical Information Mart for Intensive Care）是一个由_麻省理工大学_联合_贝斯以色列女执事医疗中心_等共同建立的重症监护数据库，它是目前急诊和危重症领域最大、可以公开访问的临床数据库。MIMIC最新版本MIMIC-IV发布于2020年，其中最新的数据发布于2023年2月6日。</p>
 <p>MIMIC-iv提供了一个多维度的数据集，可以支持重症医学领域的研究，它包含来自美国麻省总医院的多种类型的重症患者的数据。</p>
 <p>尽管MIMIC是公开数据集，但是该数据集的下载需要通过考核与人工审核。</p>
 <p><a class="link" href="https://physionet.org/content/mimiciv/2.2/"  target="_blank" rel="noopener"
     >bookmark</a></p>
-<h3 id="内容">内容</h3>
-<p>截至本文发布时的最新版本（v2.2）时，MIMIC IV总共公布了HOSP、ICU、ED、CXR、NOTE五大模块的数据。</p>
+<h3 id="内容">内容
+</h3><p>截至本文发布时的最新版本（v2.2）时，MIMIC IV总共公布了HOSP、ICU、ED、CXR、NOTE五大模块的数据。</p>
 <p>（目前还有waveforms待发布</p>
-<h2 id="部署">部署</h2>
-<p>本文将以Windows为例，将MIMIC-iv导入PostgreSQL数据库中。</p>
-<h3 id="下载安装postgresql">下载安装PostgreSQL</h3>
-<p><a class="link" href="https://www.enterprisedb.com/downloads/postgres-postgresql-downloads"  target="_blank" rel="noopener"
+<h2 id="部署">部署
+</h2><p>本文将以Windows为例，将MIMIC-iv导入PostgreSQL数据库中。</p>
+<h3 id="下载安装postgresql">下载安装PostgreSQL
+</h3><p><a class="link" href="https://www.enterprisedb.com/downloads/postgres-postgresql-downloads"  target="_blank" rel="noopener"
     >bookmark</a></p>
-<h3 id="下载数据">下载数据</h3>
-<p>略，解压到F:\mimiciv</p>
+<h3 id="下载数据">下载数据
+</h3><p>略，解压到F:\mimiciv</p>
 <p>其中.sql.gz无需解压</p>
-<h3 id="clone导入代码">Clone导入代码</h3>
-<div class="highlight"><div class="chroma">
+<h3 id="clone导入代码">Clone导入代码
+</h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
@@ -456,17 +357,13 @@
 </span></span><span class="line"><span class="cl"><span class="c1"># git clone https://git.qmcmc.cn/mirror/mimic-code</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="hospicu模块"><strong>HOSP+ICU模块</strong></h3>
-<p><img src="/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/d40cafe5-7edd-4e95-b75a-1a6daeec32cb.png"
-	width="1050"
-	height="374"
-	srcset="/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/d40cafe5-7edd-4e95-b75a-1a6daeec32cb_hude5b9173111624d3ff93f044d5eb96cf_75257_480x0_resize_box_3.png 480w, /blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/d40cafe5-7edd-4e95-b75a-1a6daeec32cb_hude5b9173111624d3ff93f044d5eb96cf_75257_1024x0_resize_box_3.png 1024w"
+</div><h3 id="hospicu模块"><strong>HOSP+ICU模块</strong>
+</h3><p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/d40cafe5-7edd-4e95-b75a-1a6daeec32cb/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20241111T084115Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=129ffbc2ffcb4dd9a99c3dbd5f557b0368421ea603da1a5cf5baffc12e1e2bea&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject"
+	
+	
+	
 	loading="lazy"
 	
-	
-		class="gallery-image" 
-		data-flex-grow="280"
-		data-flex-basis="673px"
 	
 ></p>
 <div class="highlight"><div class="chroma">
@@ -499,8 +396,8 @@
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="err">\</span><span class="n">i</span><span class="w"> </span><span class="n">F</span><span class="p">:</span><span class="o">/</span><span class="n">mimic</span><span class="o">-</span><span class="n">code</span><span class="o">/</span><span class="n">mimic</span><span class="o">-</span><span class="n">iv</span><span class="o">/</span><span class="n">buildmimic</span><span class="o">/</span><span class="n">postgres</span><span class="o">/</span><span class="n">validate</span><span class="p">.</span><span class="k">sql</span><span class="p">;</span><span class="w">   </span><span class="c1">-- 验证导入
 </span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="ed模块">ED模块</h3>
-<p>基本同理</p>
+</div><h3 id="ed模块">ED模块
+</h3><p>基本同理</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -523,8 +420,8 @@
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="err">\</span><span class="n">i</span><span class="w"> </span><span class="n">F</span><span class="p">:</span><span class="o">/</span><span class="n">mimic</span><span class="o">-</span><span class="n">code</span><span class="o">/</span><span class="n">mimic</span><span class="o">-</span><span class="n">iv</span><span class="o">-</span><span class="n">ed</span><span class="o">/</span><span class="n">buildmimic</span><span class="o">/</span><span class="n">postgres</span><span class="o">/</span><span class="k">constraint</span><span class="p">.</span><span class="k">sql</span><span class="p">;</span><span class="w">   </span><span class="c1">-- 导入约束
 </span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="note模块">Note模块</h3>
-<div class="highlight"><div class="chroma">
+</div><h3 id="note模块">Note模块
+</h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
@@ -542,8 +439,8 @@
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="err">\</span><span class="n">i</span><span class="w"> </span><span class="n">F</span><span class="p">:</span><span class="o">/</span><span class="n">mimic</span><span class="o">-</span><span class="n">code</span><span class="o">/</span><span class="n">mimic</span><span class="o">-</span><span class="n">iv</span><span class="o">-</span><span class="n">note</span><span class="o">/</span><span class="n">buildmimic</span><span class="o">/</span><span class="n">postgres</span><span class="o">/</span><span class="n">load_7z</span><span class="p">.</span><span class="k">sql</span><span class="p">;</span><span class="w">   </span><span class="c1">-- 导入数据
 </span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="cxr模块">CXR模块</h3>
-<p>官方代码库中似乎没有导入SQL语句，我们可以手动创建</p>
+</div><h3 id="cxr模块">CXR模块
+</h3><p>官方代码库中似乎没有导入SQL语句，我们可以手动创建</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -929,21 +826,17 @@
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="err">\</span><span class="n">i</span><span class="w"> </span><span class="n">F</span><span class="p">:</span><span class="o">/</span><span class="n">mimic</span><span class="o">/</span><span class="n">cxr</span><span class="o">/</span><span class="k">index</span><span class="p">.</span><span class="k">sql</span><span class="p">;</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="导入结果">导入结果</h3>
-<p><img src="/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/0d55dcd0-5a1f-4418-8f15-d7b5a1e05826.png"
-	width="311"
-	height="241"
-	srcset="/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/0d55dcd0-5a1f-4418-8f15-d7b5a1e05826_hu2a8f780ef6597c61c112dd463de2b9c8_20840_480x0_resize_box_3.png 480w, /blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/0d55dcd0-5a1f-4418-8f15-d7b5a1e05826_hu2a8f780ef6597c61c112dd463de2b9c8_20840_1024x0_resize_box_3.png 1024w"
+</div><h3 id="导入结果">导入结果
+</h3><p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/0d55dcd0-5a1f-4418-8f15-d7b5a1e05826/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20241111T084115Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=986f2a1472f092bde8eebadad2e79cc2cdc15c6ae691a8d34be492f93b3ceb87&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject"
+	
+	
+	
 	loading="lazy"
 	
 	
-		class="gallery-image" 
-		data-flex-grow="129"
-		data-flex-basis="309px"
-	
 ></p>
-<h2 id="使用数据">使用数据</h2>
-
+<h2 id="使用数据">使用数据
+</h2>
 </section>
 
 
@@ -978,7 +871,7 @@
 
 
         <span>
-            最后更新于 2023-02-12 17:29 CST
+            最后更新于 2024-09-17 16:37 CST
         </span>
     </section></footer>
 
@@ -986,24 +879,25 @@
     
         <link 
                 rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
             ><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
                 defer
                 >
             </script><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
                 defer
                 >
             </script><script>
     window.addEventListener("DOMContentLoaded", () => {
-        renderMathInElement(document.querySelector(`.article-content`), {
+        renderMathInElement(document.body, {
             delimiters: [
                 { left: "$$", right: "$$", display: true },
                 { left: "$", right: "$", display: false },
                 { left: "\\(", right: "\\)", display: false },
                 { left: "\\[", right: "\\]", display: true }
-            ]
+            ],
+            ignoredClasses: ["gist"]
         });})
 </script>
     
@@ -1016,7 +910,7 @@
      
     
         
-    <script src="//cdn.jsdelivr.net/npm/twikoo@1.5.11/dist/twikoo.all.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
 <div id="tcomment"></div>
 <style>
     .twikoo {
@@ -1031,7 +925,9 @@
     }
     .twikoo .el-input-group__prepend,
     .twikoo .tk-action-icon,
+    .twikoo .tk-submit-action-icon,
     .twikoo .tk-time,
+    .twikoo .tk-comments-no,
     .twikoo .tk-comments-count {
         color: var(--twikoo-body-text-color);
     }
@@ -1045,6 +941,9 @@
     }
     .twikoo .el-button{
         color: var(--twikoo-body-text-color)!important;
+    }
+    .twikoo .el-input__count {
+        color: var(--twikoo-body-text-color) !important;
     }
     .OwO .OwO-body {
         background-color: var(--body-background) !important;
@@ -1064,14 +963,14 @@
         
             2020 - 
         
-        2023 柠萌赛博自留地
+        2024 柠萌赛博自留地
     </section>
     
     <section class="powerby">
         
             View <a href='https://legacy.lemoe.cn/' target='_blank'>Legacy Version</a> | <a href='https://0wo.top/' target='_blank'>0wo Live Version</a>  <br/>
-        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.16.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
     </section>
 </footer>
 
@@ -1160,7 +1059,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

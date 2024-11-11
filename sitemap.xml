@@ -2,16 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>https://lemoe.cn/en/sitemap.xml</loc>
+    <loc>https://lemoe.cn/zh-cn/sitemap.xml</loc>
     
-      <lastmod>2022-03-06T00:00:00+00:00</lastmod>
+      <lastmod>2024-09-17T16:37:00+00:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>https://lemoe.cn/zh-cn/sitemap.xml</loc>
-    
-      <lastmod>2023-02-13T14:39:00+00:00</lastmod>
+    <loc>https://lemoe.cn/en/sitemap.xml</loc>
     
   </sitemap>
   

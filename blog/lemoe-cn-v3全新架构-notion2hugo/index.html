@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='本文将介绍本站历史技术并分享当前采用的Notion to Hugo方案'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="本文将介绍本站历史技术并分享当前采用的Notion to Hugo方案">
 <title>Lemoe.cn v3全新架构！Notion2Hugo</title>
 
 <link rel='canonical' href='https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/'>
 
-<link rel="stylesheet" href="/scss/style.min.8191399262444ab68b72a18c97392f5349be20a1615d77445be51e974c144cff.css"><meta property='og:title' content='Lemoe.cn v3全新架构！Notion2Hugo'>
-<meta property='og:description' content='本文将介绍本站历史技术并分享当前采用的Notion to Hugo方案'>
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Lemoe.cn v3全新架构！Notion2Hugo">
+<meta property='og:description' content="本文将介绍本站历史技术并分享当前采用的Notion to Hugo方案">
 <meta property='og:url' content='https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/'>
 <meta property='og:site_name' content='柠萌赛博自留地'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Blog' /><meta property='article:tag' content='WordPress' /><meta property='article:tag' content='Hexo' /><meta property='article:tag' content='Hugo' /><meta property='article:published_time' content='2023-02-13T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-02-13T14:39:00&#43;00:00'/><meta property='og:image' content='https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/header.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Blog' /><meta property='article:tag' content='WordPress' /><meta property='article:tag' content='Hexo' /><meta property='article:tag' content='Hugo' /><meta property='article:published_time' content='2023-02-13T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-09-17T16:37:00&#43;00:00'/><meta property='og:image' content='https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/header.png' />
 <meta name="twitter:title" content="Lemoe.cn v3全新架构！Notion2Hugo">
 <meta name="twitter:description" content="本文将介绍本站历史技术并分享当前采用的Notion to Hugo方案"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/header.png' />
@@ -59,7 +59,7 @@
                     
                     
                         
-                        <img src="/img/avatar_hu3d03a01dcc18bc5be0e67db3d8d209a6_71723_300x0_resize_q75_box.jpg" width="300"
+                        <img src="/img/avatar_hu11306308074117984370.jpg" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -73,9 +73,9 @@
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/">柠萌赛博自留地</a></h1>
-            <h2 class="site-description">「敩学半」</h2>
+            <h2 class="site-description">Developer, Undergraduate</h2>
         </div>
-    </header><ol class="social-menu">
+    </header><ol class="menu-social">
             
                 <li>
                     <a 
@@ -143,112 +143,11 @@
         </ol><ol class="menu" id="main-menu">
         
         
-        
-
-        <li >
-            <a href='/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <polyline points="5 12 3 12 12 3 21 12 19 12" />
-  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
-  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
-</svg>
-
-
-
-                
-                <span>首页</span>
-            </a>
-        </li>
-        
-        
-
-        <li >
-            <a href='/about/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
-  <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
-</svg>
-
-
-
-                
-                <span>关于</span>
-            </a>
-        </li>
-        
-        
-
-        <li >
-            <a href='/search/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="10" cy="10" r="7" />
-  <line x1="21" y1="21" x2="15" y2="15" />
-</svg>
-
-
-
-                
-                <span>搜索</span>
-            </a>
-        </li>
-        
-        
-
-        <li >
-            <a href='/archives/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <rect x="3" y="4" width="18" height="4" rx="2" />
-  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
-  <line x1="10" y1="12" x2="14" y2="12" />
-</svg>
-
-
-
-                
-                <span>归档</span>
-            </a>
-        </li>
-        
-        
-
-        <li >
-            <a href='/%E9%93%BE%E6%8E%A5/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-
-                
-                <span>链接</span>
-            </a>
-        </li>
-        
-
-        <div class="menu-bottom-section">
-                <li id="i18n-switch">  
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <path d="M4 5h7" />
   <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
@@ -259,19 +158,20 @@
 
 
 
-                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
-                        
-                            <option value="https://lemoe.cn/en/" >English</option>
-                        
-                            <option value="https://lemoe.cn/" selected>中文</option>
-                        
-                    </select>
-                </li>
-            
-            
-            
-                <li id="dark-mode-toggle">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="https://lemoe.cn/en/" >English</option>
+                                
+                                    <option value="https://lemoe.cn/" selected>中文</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <circle cx="8" cy="12" r="2" />
   <rect x="2" y="6" width="20" height="12" rx="6" />
@@ -279,7 +179,7 @@
 
 
 
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <circle cx="16" cy="12" r="2" />
   <rect x="2" y="6" width="20" height="12" rx="6" />
@@ -287,10 +187,11 @@
 
 
 
-                    <span>暗色模式</span>
-                </li>
-            
-        </div>
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
     </ol>
 </aside>
 
@@ -337,8 +238,8 @@
     <header class="article-header">
         <div class="article-image">
             <a href="/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/">
-                <img src="/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/header_hu0183749f4d5fd1098182f5f12747c7d4_2014866_800x0_resize_box_3.png"
-                        srcset="/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/header_hu0183749f4d5fd1098182f5f12747c7d4_2014866_800x0_resize_box_3.png 800w, /blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/header_hu0183749f4d5fd1098182f5f12747c7d4_2014866_1600x0_resize_box_3.png 1600w"
+                <img src="/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/header_hu10927996343710814769.png"
+                        srcset="/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/header_hu10927996343710814769.png 800w, /blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/header_hu18159888420612750280.png 1600w"
                         width="800" 
                         height="533" 
                         loading="lazy"
@@ -352,8 +253,8 @@
     
     <header class="article-category">
         
-            <a href="/categories/blog/" style="background-color: #F7BA1E; color: #fff;">
-                博客
+            <a href="/categories/blog/" >
+                Blog
             </a>
         
     </header>
@@ -417,50 +318,38 @@
     <section class="article-content">
     
     
-    <h1 id="lemoe-v0">Lemoe v0</h1>
-<p>最初的Lemoe只是一个静态站（当然可以请求Github API获取一些信息</p>
+    <h1 id="lemoe-v0">Lemoe v0
+</h1><p>最初的Lemoe只是一个静态站（当然可以请求Github API获取一些信息</p>
 <p><a class="link" href="https://www.lemoe.cn/#"  target="_blank" rel="noopener"
     >bookmark</a></p>
-<p><img src="/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/86a2785e-44d6-4687-b014-e69cdf5929e2.png"
-	width="1853"
-	height="1167"
-	srcset="/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/86a2785e-44d6-4687-b014-e69cdf5929e2_hub4a36ca6a37476fe08471d35902effc0_2795491_480x0_resize_box_3.png 480w, /blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/86a2785e-44d6-4687-b014-e69cdf5929e2_hub4a36ca6a37476fe08471d35902effc0_2795491_1024x0_resize_box_3.png 1024w"
+<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/86a2785e-44d6-4687-b014-e69cdf5929e2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20241111T084115Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=fc64bd47623bb52d89fdfca086461b82c5faffcef2e563d685a2bb9e7f172ba3&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject"
+	
+	
+	
 	loading="lazy"
 	
-	
-		class="gallery-image" 
-		data-flex-grow="158"
-		data-flex-basis="381px"
 	
 ></p>
-<h1 id="lemoe-v1">Lemoe v1</h1>
-<p>也许是对这个域名爱不释手，很快本站就使用WordPress搭建为博客站</p>
-<p><img src="/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/c3192d1e-a70a-429c-ae02-55e737d35745.png"
-	width="1914"
-	height="1165"
-	srcset="/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/c3192d1e-a70a-429c-ae02-55e737d35745_hu63feeda9219426494b13d7df22957474_1314059_480x0_resize_box_3.png 480w, /blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/c3192d1e-a70a-429c-ae02-55e737d35745_hu63feeda9219426494b13d7df22957474_1314059_1024x0_resize_box_3.png 1024w"
+<h1 id="lemoe-v1">Lemoe v1
+</h1><p>也许是对这个域名爱不释手，很快本站就使用WordPress搭建为博客站</p>
+<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/c3192d1e-a70a-429c-ae02-55e737d35745/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20241111T084115Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=7c884a4c9db4c6c14e81e338c45c5886648ca9f06f6850c936d21115cd0865fc&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject"
+	
+	
+	
 	loading="lazy"
 	
-	
-		class="gallery-image" 
-		data-flex-grow="164"
-		data-flex-basis="394px"
 	
 ></p>
 <p>使用的<a class="link" href="https://github.com/ShawnZeng1996/Memory"  target="_blank" rel="noopener"
     >https://github.com/ShawnZeng1996/Memory</a>主题</p>
 <p>WordPress是有个优秀的博客程序以及CMS，然而由于其历史包袱、运维以及安全性方面考量后，该方案最终停用。</p>
-<h1 id="lemoe-v2">Lemoe v2</h1>
-<p><img src="/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/e2dfbdfa-8828-4f9d-957c-3aee966f3e80.png"
-	width="2211"
-	height="1280"
-	srcset="/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/e2dfbdfa-8828-4f9d-957c-3aee966f3e80_hu98868d46ab2e406e31b4178e64284499_2612949_480x0_resize_box_3.png 480w, /blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/e2dfbdfa-8828-4f9d-957c-3aee966f3e80_hu98868d46ab2e406e31b4178e64284499_2612949_1024x0_resize_box_3.png 1024w"
+<h1 id="lemoe-v2">Lemoe v2
+</h1><p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/e2dfbdfa-8828-4f9d-957c-3aee966f3e80/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20241111T084115Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=15fe8f045cd39254ebe96bb9377f706ea560404b2d893cb61fb3041ac14ac92f&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject"
+	
+	
+	
 	loading="lazy"
 	
-	
-		class="gallery-image" 
-		data-flex-grow="172"
-		data-flex-basis="414px"
 	
 ></p>
 <p>V2站采用Hexo构建并使用了<a class="link" href="https://github.com/YunYouJun/hexo-theme-yun"  target="_blank" rel="noopener"
@@ -469,55 +358,43 @@
     >https://legacy.lemoe.cn/</a>访问。</p>
 <p>该版本在原有主题上定制，添加了jQuery-Pjax</p>
 <p>同时，该站会在构建时生成版本信息（commit</p>
-<p><img src="/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/50f31740-5dcb-4738-985c-24e3fe4ced0f.png"
-	width="414"
-	height="130"
-	srcset="/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/50f31740-5dcb-4738-985c-24e3fe4ced0f_hu878975190a01bedb10185783f6b9cad3_75457_480x0_resize_box_3.png 480w, /blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/50f31740-5dcb-4738-985c-24e3fe4ced0f_hu878975190a01bedb10185783f6b9cad3_75457_1024x0_resize_box_3.png 1024w"
+<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/50f31740-5dcb-4738-985c-24e3fe4ced0f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20241111T084115Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=fd62a8cf6232d4692c6259f85def24882c4035bf2487991fe7af7a3742731ab2&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject"
+	
+	
+	
 	loading="lazy"
 	
-	
-		class="gallery-image" 
-		data-flex-grow="318"
-		data-flex-basis="764px"
 	
 ></p>
 <p>见<a class="link" href="https://github.com/TennousuAthena/legacy.lemoe.cn/blob/master/get-version.py"  target="_blank" rel="noopener"
     >https://github.com/TennousuAthena/legacy.lemoe.cn/blob/master/get-version.py</a></p>
-<p>不过由于便携Markdown并Push还是太麻烦（？），没有一种赛博的美。再加上与Pjax带来的兼容性问题遂放弃维护。</p>
-<h1 id="lemoe-v3-当前版本">Lemoe v3 ←当前版本</h1>
-<h2 id="0wotop">0wo.top</h2>
-<p>该实验站采用Nextjs在Vercel Edge构建</p>
-<p><a class="link" href="85a2800e-182f-4638-8ce1-7bf0f0213f0c" >link_to_page</a></p>
+<p>不过由于维护本地Markdown文件并Push还是太麻烦（？），没有一种赛博的美。再加上与Pjax带来的兼容性问题遂放弃维护。</p>
+<h1 id="lemoe-v3-当前版本">Lemoe v3 ←当前版本
+</h1><h2 id="0wotop">0wo.top
+</h2><p>该实验站采用Nextjs在Vercel Edge构建</p>
+<p><a class="link" href="2c0b42e6-5aed-4973-9fcb-6a890032b084" >link_to_page</a></p>
 <p>效果很棒，可以99%展现Notion的形态，然而构建有延迟并存在构建失败产生404的问题，目前仍在测试。</p>
-<h3 id="notion2hugo">Notion2Hugo</h3>
-<p>当前版本会使用Notion API将某个Database的内容遍历并处理为Markdown文件。</p>
+<h3 id="notion2hugo">Notion2Hugo
+</h3><p>当前版本会使用Notion API将某个Database的内容遍历并处理为Markdown文件。</p>
 <p>源代码见<a class="link" href="https://git.qmcmc.cn/qctech/notion2hugo"  target="_blank" rel="noopener"
     >https://git.qmcmc.cn/qctech/notion2hugo</a></p>
-<h3 id="自动部署">自动部署</h3>
-<p>项目采用Drone持续部署，使用n8n Notion Hook追踪Notion变化</p>
-<p><img src="/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/eea605b8-b3a9-4d7a-a905-34d934736e7c.png"
-	width="1565"
-	height="521"
-	srcset="/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/eea605b8-b3a9-4d7a-a905-34d934736e7c_hu381bfba403020b9a75fada00ec425077_80722_480x0_resize_box_3.png 480w, /blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/eea605b8-b3a9-4d7a-a905-34d934736e7c_hu381bfba403020b9a75fada00ec425077_80722_1024x0_resize_box_3.png 1024w"
+<h3 id="自动部署">自动部署
+</h3><p>项目采用Drone持续部署，使用n8n Notion Hook追踪Notion变化</p>
+<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/eea605b8-b3a9-4d7a-a905-34d934736e7c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20241111T084115Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=e9800ba00e2be76a41136ab8e1801f8250219bd99932a008be1325b7cc2c185b&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject"
+	
+	
+	
 	loading="lazy"
 	
-	
-		class="gallery-image" 
-		data-flex-grow="300"
-		data-flex-basis="720px"
 	
 ></p>
 <p>最终在CloudFlare Pages上部署</p>
-<p><img src="/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/2ad10ba5-f9d0-4429-9eed-7010ba798344.png"
-	width="674"
-	height="134"
-	srcset="/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/2ad10ba5-f9d0-4429-9eed-7010ba798344_hu8dc57600642f351b78bc2d186425dfc1_9441_480x0_resize_box_3.png 480w, /blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/2ad10ba5-f9d0-4429-9eed-7010ba798344_hu8dc57600642f351b78bc2d186425dfc1_9441_1024x0_resize_box_3.png 1024w"
+<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/2ad10ba5-f9d0-4429-9eed-7010ba798344/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241111%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20241111T084115Z&amp;X-Amz-Expires=3600&amp;X-Amz-Signature=239c14367f7a5be49d228fdceeda8214e6a8fae8a4b52443e5ae4fbacc99c7b2&amp;X-Amz-SignedHeaders=host&amp;x-id=GetObject"
+	
+	
+	
 	loading="lazy"
 	
-	
-		class="gallery-image" 
-		data-flex-grow="502"
-		data-flex-basis="1207px"
 	
 ></p>
 
@@ -561,7 +438,7 @@
 
 
         <span>
-            最后更新于 2023-02-13 14:39 CST
+            最后更新于 2024-09-17 16:37 CST
         </span>
     </section></footer>
 
@@ -569,24 +446,25 @@
     
         <link 
                 rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
             ><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
                 defer
                 >
             </script><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
                 defer
                 >
             </script><script>
     window.addEventListener("DOMContentLoaded", () => {
-        renderMathInElement(document.querySelector(`.article-content`), {
+        renderMathInElement(document.body, {
             delimiters: [
                 { left: "$$", right: "$$", display: true },
                 { left: "$", right: "$", display: false },
                 { left: "\\(", right: "\\)", display: false },
                 { left: "\\[", right: "\\]", display: true }
-            ]
+            ],
+            ignoredClasses: ["gist"]
         });})
 </script>
     
@@ -607,13 +485,13 @@
         
         
             <div class="article-image">
-                <img src="/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/header.948dd3c02a8b8ca33db390b8e93a5f83_hu9fbdf869987ffd02cbede1d9cecc3c1f_1942836_250x150_fill_box_smart1_3.png" 
+                <img src="/blog/casio-fx-991cn-x%E5%AD%A6%E7%94%9F%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AE%9E%E7%8E%B0%E6%A6%82%E7%8E%87%E5%8F%91%E7%94%9F%E5%99%A8-%E6%8A%BD%E5%8D%A1/header.3b7419c87e89eef39b73444640f1e887_hu13162508520606121378.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
                         alt="Featured image of post CASIO fx-991CN X学生科学计算器模拟器实现概率发生器（抽卡）"
                         data-key="casio-fx-991cn-x学生科学计算器模拟器实现概率发生器-抽卡" 
-                        data-hash="md5-lI3TwCqLjKM9s5C46Tpfgw==">
+                        data-hash="md5-O3QZyH6J7vObc0RGQPHohw==">
                 
             </div>
         
@@ -632,7 +510,7 @@
      
     
         
-    <script src="//cdn.jsdelivr.net/npm/twikoo@1.5.11/dist/twikoo.all.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
 <div id="tcomment"></div>
 <style>
     .twikoo {
@@ -647,7 +525,9 @@
     }
     .twikoo .el-input-group__prepend,
     .twikoo .tk-action-icon,
+    .twikoo .tk-submit-action-icon,
     .twikoo .tk-time,
+    .twikoo .tk-comments-no,
     .twikoo .tk-comments-count {
         color: var(--twikoo-body-text-color);
     }
@@ -661,6 +541,9 @@
     }
     .twikoo .el-button{
         color: var(--twikoo-body-text-color)!important;
+    }
+    .twikoo .el-input__count {
+        color: var(--twikoo-body-text-color) !important;
     }
     .OwO .OwO-body {
         background-color: var(--body-background) !important;
@@ -680,14 +563,14 @@
         
             2020 - 
         
-        2023 柠萌赛博自留地
+        2024 柠萌赛博自留地
     </section>
     
     <section class="powerby">
         
             View <a href='https://legacy.lemoe.cn/' target='_blank'>Legacy Version</a> | <a href='https://0wo.top/' target='_blank'>0wo Live Version</a>  <br/>
-        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.16.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
     </section>
 </footer>
 
@@ -776,7 +659,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

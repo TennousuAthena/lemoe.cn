@@ -2,6 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://lemoe.cn/tags/ctf/</loc>
+    <lastmod>2024-11-13T01:52:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lemoe.cn/blog/hackergame-2024-writeup/</loc>
+    <lastmod>2024-11-13T01:52:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lemoe.cn/post/</loc>
+    <lastmod>2024-11-13T01:52:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lemoe.cn/tags/</loc>
+    <lastmod>2024-11-13T01:52:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lemoe.cn/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://lemoe.cn/tags/"
+                />
+  </url><url>
+    <loc>https://lemoe.cn/</loc>
+    <lastmod>2024-11-13T01:52:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lemoe.cn/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://lemoe.cn/"
+                />
+  </url><url>
+    <loc>https://lemoe.cn/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</loc>
+    <lastmod>2024-11-13T01:52:00+00:00</lastmod>
+  </url><url>
     <loc>https://lemoe.cn/tags/blog/</loc>
     <lastmod>2024-11-11T13:17:00+00:00</lastmod>
   </url><url>
@@ -30,37 +68,8 @@
     <loc>https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/</loc>
     <lastmod>2024-11-11T13:17:00+00:00</lastmod>
   </url><url>
-    <loc>https://lemoe.cn/post/</loc>
-    <lastmod>2024-11-11T13:17:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lemoe.cn/tags/</loc>
-    <lastmod>2024-11-11T13:17:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://lemoe.cn/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://lemoe.cn/tags/"
-                />
-  </url><url>
     <loc>https://lemoe.cn/tags/wordpress/</loc>
     <lastmod>2024-11-11T13:17:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lemoe.cn/</loc>
-    <lastmod>2024-11-11T13:17:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://lemoe.cn/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://lemoe.cn/"
-                />
   </url><url>
     <loc>https://lemoe.cn/blog/mimic-iv-%E9%87%8D%E7%97%87%E5%8C%BB%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%BA%93%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/</loc>
     <lastmod>2024-09-17T16:37:00+00:00</lastmod>

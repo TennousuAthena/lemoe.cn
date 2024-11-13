@@ -6,7 +6,27 @@
         <description>Recent content in Posts on 柠萌赛博自留地</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Mon, 11 Nov 2024 13:17:00 +0000</lastBuildDate><atom:link href="https://lemoe.cn/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 13 Nov 2024 01:52:00 +0000</lastBuildDate><atom:link href="https://lemoe.cn/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hackergame 2024 Writeup</title>
+        <link>https://lemoe.cn/blog/hackergame-2024-writeup/</link>
+        <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://lemoe.cn/blog/hackergame-2024-writeup/</guid>
+        <description>&lt;img src="https://lemoe.cn/blog/hackergame-2024-writeup/header.png" alt="Featured image of post Hackergame 2024 Writeup" /&gt;&lt;blockquote&gt;
+&lt;p&gt;你居然敢参加HackerGame 2024？这可是个需要动脑子的比赛，而你上次动脑还是为了想今晚吃什么吧！你是不是觉得自己是个黑客高手，其实不过是个“Ctrl+C”和“Ctrl+V”的键盘侠？别告诉我你连SQL注入和SQL果汁都分不清！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;在这个比赛里，你的对手可都是能用代码写诗的高手，而你可能还在为“Hello World”加个感叹号而沾沾自喜。别担心，万一你迷路了，比赛里还有虚拟助手帮你导航，当然前提是你能找到打开帮助文档的按钮。
+
+
+你是不是以为参加比赛就能像电影里那样酷炫地敲键盘？醒醒吧，别再幻想自己是个黑客天才了，赶紧去看看比赛规则吧，至少知道什么时候该交答案。
+
+
+最后，祝你在比赛中好运，当然这也许是你唯一能依靠的东西了！不过没关系，比赛结束后，你至少能自豪地说：“我参加过HackerGame 2024，虽然没赢，但我努力了！”
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;以上内容由AI辅助生成&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Lemoe.cn v3全新架构！Notion2Hugo</title>
         <link>https://lemoe.cn/blog/lemoe-cn-v3%E5%85%A8%E6%96%B0%E6%9E%B6%E6%9E%84-notion2hugo/</link>
         <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
@@ -16,7 +36,7 @@
 &lt;/h1&gt;&lt;p&gt;最初的Lemoe只是一个静态站（当然可以请求Github API获取一些信息&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.lemoe.cn/#&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;bookmark&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/86a2785e-44d6-4687-b014-e69cdf5929e2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090450Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=0aa41d53488e592ff1f475b4e7f239f63adce38a44017f4cd8fd70653cb967f0&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/86a2785e-44d6-4687-b014-e69cdf5929e2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=186fc9ec3b2610cc85cef1affff7cfb81049e25dfb63ee53fe19e01e43d2237a&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -26,7 +46,7 @@
 &gt;&lt;/p&gt;
 &lt;h1 id=&#34;lemoe-v1&#34;&gt;Lemoe v1
 &lt;/h1&gt;&lt;p&gt;也许是对这个域名爱不释手，很快本站就使用WordPress搭建为博客站&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/c3192d1e-a70a-429c-ae02-55e737d35745/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090450Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=39c70da21fba9e64cfe72b12d0d6611f636afe8c0d4e3efe70fcf7b1f543ed01&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/c3192d1e-a70a-429c-ae02-55e737d35745/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=939f82e26bcb25bbdb6a737ec5422cd0c4e62e14f7bfcbcf39bc73294766bc39&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -38,7 +58,7 @@
     &gt;https://github.com/ShawnZeng1996/Memory&lt;/a&gt;主题&lt;/p&gt;
 &lt;p&gt;WordPress是有个优秀的博客程序以及CMS，然而由于其历史包袱、运维以及安全性方面考量后，该方案最终停用。&lt;/p&gt;
 &lt;h1 id=&#34;lemoe-v2&#34;&gt;Lemoe v2
-&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/e2dfbdfa-8828-4f9d-957c-3aee966f3e80/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090450Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=a77a264e91d5add3576a4ae8034d15c87f9dc15cf9d3e26470d5817074050fd0&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/e2dfbdfa-8828-4f9d-957c-3aee966f3e80/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=09804db5f58507350838139e5270e50e1d3a4e0d0e90ac38547484e7962dd11a&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -52,7 +72,7 @@
     &gt;https://legacy.lemoe.cn/&lt;/a&gt;访问。&lt;/p&gt;
 &lt;p&gt;该版本在原有主题上定制，添加了jQuery-Pjax&lt;/p&gt;
 &lt;p&gt;同时，该站会在构建时生成版本信息（commit&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/50f31740-5dcb-4738-985c-24e3fe4ced0f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090450Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=0565da2466111257d3570a0df6699e6f8710329fef82185549f8ba09c81f8421&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/50f31740-5dcb-4738-985c-24e3fe4ced0f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=c7c54b44c9fb852cabd46582bdfda034155cdbfe3ac2cf1f71ea89fed17eae9f&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -74,7 +94,7 @@
     &gt;&lt;del&gt;https://git.qmcmc.cn/qctech/notion2hugo&lt;/del&gt;&lt;/a&gt; &lt;del&gt;业务调整&lt;/del&gt;&lt;/p&gt;
 &lt;h3 id=&#34;自动部署&#34;&gt;自动部署
 &lt;/h3&gt;&lt;p&gt;项目采用Drone持续部署，使用n8n Notion Hook追踪Notion变化&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/eea605b8-b3a9-4d7a-a905-34d934736e7c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090450Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=feb01250934fadf18cc3988de4da0f84def84a2c75d5e257c3904e4befc97911&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/eea605b8-b3a9-4d7a-a905-34d934736e7c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=7661d0c1e1d41036e89ea4820d19ef9cc381aded37df2543afc762f809d127ea&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -83,7 +103,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;最终在CloudFlare Pages上部署&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/2ad10ba5-f9d0-4429-9eed-7010ba798344/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090450Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=a25edbabe328412d720ee9139f5cc9c5b425b0daa30ddcd831f34244f04e289e&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/2ad10ba5-f9d0-4429-9eed-7010ba798344/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=9f3ed7c863b4c0453a29805b8d5f412ddfde9d9823b517eff2ab696da1101915&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -99,7 +119,7 @@
     &gt;https://github.com/TennousuAthena/notion2hugo/&lt;/a&gt;，而构建好的代码存储在&lt;a class=&#34;link&#34; href=&#34;https://github.com/TennousuAthena/lemoe.cn&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/TennousuAthena/lemoe.cn&lt;/a&gt;并使用Cloudflare Pages部署。&lt;/p&gt;
 &lt;p&gt;配置该项目需要在Github 仓库中 Settings → Environments → New [&lt;strong&gt;notion2hugo] 添加如下图的配置：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/84f49e2a-2284-48ba-b22e-2fa50e1eca38/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090450Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=2cc4ee21afddad0646624352342ca843b168f45c948e299affb3a99687758ad0&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/84f49e2a-2284-48ba-b22e-2fa50e1eca38/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=53866cecac3703217c7cabc1faeba6f82239fe35f137ae321d415ad898c7d525&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -110,7 +130,7 @@
 &lt;p&gt;分别是部署SSH 私钥、Notion Database的UUID和&lt;a class=&#34;link&#34; href=&#34;https://developers.notion.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Notion Developer&lt;/a&gt;的 Internal Token。&lt;/p&gt;
 &lt;p&gt;而对于持续部署，笔者同样采用Notion实现了相似的方案&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/1d629951-3fec-46cc-b383-b5ff8119d756/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090450Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=ef171eb68d91fb7f092067a29e7946bb2e5f474422c9593858a8d8c0b5868167&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/1d629951-3fec-46cc-b383-b5ff8119d756/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=10ecca02a3a18c8fa77480f7f1dc9892acee410fc5eea3933bc769c94516fcaa&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -257,7 +277,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;hospicu模块&#34;&gt;&lt;strong&gt;HOSP+ICU模块&lt;/strong&gt;
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/d40cafe5-7edd-4e95-b75a-1a6daeec32cb/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090450Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=99493c4132dfc7a095e64088a6ef5becf738396d871ba1e6e929bf690bcc5ec5&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/d40cafe5-7edd-4e95-b75a-1a6daeec32cb/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=9b3b10eb232b2fb14f6cf4b647dcafa6d001236737379114f3985b46fe8e022f&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -726,7 +746,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;导入结果&#34;&gt;导入结果
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/0d55dcd0-5a1f-4418-8f15-d7b5a1e05826/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090450Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=788dd3358603359e1e64a4cb6eccafc32036d35e46a46cfda3ea00d36b6acd39&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/0d55dcd0-5a1f-4418-8f15-d7b5a1e05826/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=a8cf024ca51d3e6088ce503e556942092c77f43a4eeff5cbc9a1ca110440b80b&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -744,7 +764,7 @@
         
         <guid>https://lemoe.cn/blog/%E5%8D%8E%E4%B8%BA%E6%9C%8D%E5%8A%A1%E5%99%A8rh1288-%E5%AE%89%E8%A3%85proxmox%E4%BB%8E-nvme%E7%9B%98%E5%90%AF%E5%8A%A8/</guid>
         <description>&lt;img src="https://lemoe.cn/blog/%E5%8D%8E%E4%B8%BA%E6%9C%8D%E5%8A%A1%E5%99%A8rh1288-%E5%AE%89%E8%A3%85proxmox%E4%BB%8E-nvme%E7%9B%98%E5%90%AF%E5%8A%A8/header.png" alt="Featured image of post 华为服务器RH1288 安装Proxmox &amp;从 NVMe盘启动" /&gt;&lt;h2 id=&#34;问题复现安装问题&#34;&gt;问题复现:安装问题
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/36cc9f40-c0c8-4052-84e0-b231b34feac4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=c59c10967eb7e9dac930a13fa55c26ea3d61142c081898f4f42785d1af7f196d&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/36cc9f40-c0c8-4052-84e0-b231b34feac4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=acf22e35715d26c776e5e3be7c315054e15d72d9bc1b6b5aad05d9a6cd85745e&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -768,7 +788,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;在华为服务器上硬装Proxmox时可能会出现以上问题，&lt;/p&gt;
 &lt;p&gt;切换到tty2可以发现报错&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/b5944fa4-d85f-4999-b7ef-ad5f5faac797/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=bc7f76daca5e76fb19b9277b0de29080c1387c34a3af248256f582a5b92c4d55&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/b5944fa4-d85f-4999-b7ef-ad5f5faac797/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=3a7f216d2f147ba7cbf12c34058e4b3cc2a6b0969f19aab41ed0798507cb3752&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -835,7 +855,7 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://gist.github.com/sergey-cheperis/530666bc5d7064185ab72bfcaeb19ff1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;embed&lt;/a&gt;&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/3696f169-3e61-4a9e-9c69-1bcc3dce72f1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=8917754ffc2cadd1ceb0f415504e528cb282aea05f180349a2c595cb458b61ae&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/3696f169-3e61-4a9e-9c69-1bcc3dce72f1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=3fa89b49ea7b99500df6926cffa244fd8722195d911cceb24b40028f45f15561&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -849,7 +869,7 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;将 &lt;code&gt;Driver &amp;quot;modesetting&amp;quot;&lt;/code&gt;  替换为 &lt;code&gt;Driver &amp;quot;fbdev&amp;quot;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/9e51bf5a-c666-469f-bdcd-e1445ab18143/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090450Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=aa8f648bf8409fa2367a173fc2ad02a857c6d4fb595eaadf8c4c17871fceace3&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/9e51bf5a-c666-469f-bdcd-e1445ab18143/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015640Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=c4cce507cae266d06f7c54c26e24827c0e428a770e6a6d5f19f54b9165035efb&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -865,7 +885,7 @@
 &lt;p&gt;运行 &lt;code&gt;startx&lt;/code&gt;  然后就能看到安装界面了，按照步骤安装即可&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/3722a7d4-2de8-432e-876c-f792d9b2756a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=aad16ffd0af1afa4dc82186d833ea0e187a30591d72a963f3d0dbfb4be919240&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/3722a7d4-2de8-432e-876c-f792d9b2756a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=e7a5c31c7e262936429bc4312265995395310badf99d44fa67f23ce62c6ce512&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -885,7 +905,7 @@
     &gt;https://cvad-mac.narod.ru/index/bootdiskutility_exe/0-5&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;选中 U盘并format&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/742f8b6e-dd93-42d5-bfb0-7890554987cf/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=97e2360c6920c16bac52f6a94736e0d7541790fba0b0c325072a51292ddd55dd&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/742f8b6e-dd93-42d5-bfb0-7890554987cf/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=dad67b669602d1bf3d403882341b42178e71ef29360536e18a7264d6da6deb34&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -920,7 +940,7 @@
         <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
         
         <guid>https://lemoe.cn/blog/%E5%9C%A8telegram%E4%B8%8A%E5%8A%A8%E6%80%81%E5%B1%95%E7%8E%B0%E6%AD%A3%E5%9C%A8%E5%90%AC%E9%9F%B3%E4%B9%90-%E9%9F%B3%E4%B9%90%E5%8F%B0-with-n8n/</guid>
-        <description>&lt;img src="https://lemoe.cn/blog/%E5%9C%A8telegram%E4%B8%8A%E5%8A%A8%E6%80%81%E5%B1%95%E7%8E%B0%E6%AD%A3%E5%9C%A8%E5%90%AC%E9%9F%B3%E4%B9%90-%E9%9F%B3%E4%B9%90%E5%8F%B0-with-n8n/header.png" alt="Featured image of post 在Telegram上动态展现正在听音乐 | 音乐台 | With n8n" /&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/911fad26-2e11-4823-8e18-0e6fe89397b8/SHANA2022-10-13_23-30-27.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=bd13d75c40d852f0f1170b965d1239cb576137fb08454230be2e8353173ff348&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+        <description>&lt;img src="https://lemoe.cn/blog/%E5%9C%A8telegram%E4%B8%8A%E5%8A%A8%E6%80%81%E5%B1%95%E7%8E%B0%E6%AD%A3%E5%9C%A8%E5%90%AC%E9%9F%B3%E4%B9%90-%E9%9F%B3%E4%B9%90%E5%8F%B0-with-n8n/header.png" alt="Featured image of post 在Telegram上动态展现正在听音乐 | 音乐台 | With n8n" /&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/911fad26-2e11-4823-8e18-0e6fe89397b8/SHANA2022-10-13_23-30-27.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=6cca98ca6ef4d0998fb0df569fa7b38d8f321f0eb0285c812e9928d06b1eff10&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -962,7 +982,7 @@
         <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
         
         <guid>https://lemoe.cn/blog/%E8%A1%A5%E6%A1%A3-%E9%99%88%E5%B9%B3%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E5%9B%BE%E8%AE%BA%E8%AF%81%E6%98%8E%E8%B5%A2%E5%9B%BE-a-win-graph-based-proof-of-champion-inequality/</guid>
-        <description>&lt;img src="https://lemoe.cn/blog/%E8%A1%A5%E6%A1%A3-%E9%99%88%E5%B9%B3%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E5%9B%BE%E8%AE%BA%E8%AF%81%E6%98%8E%E8%B5%A2%E5%9B%BE-a-win-graph-based-proof-of-champion-inequality/header.png" alt="Featured image of post 补档：陈平不等式的图论证明——赢图（A Win-graph-based Proof of Champion Inequality）" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/97728305-2aa2-44b9-9b0c-2d9c4b43545d/A_Win-graph-based_Proof_of_Champion_Inequality_-__%282022_7_30_15_00_01%29.html?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=6e047369824abe9cc43329addfdce841528d36dcbb32dd8295718ac15f94a341&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <description>&lt;img src="https://lemoe.cn/blog/%E8%A1%A5%E6%A1%A3-%E9%99%88%E5%B9%B3%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E5%9B%BE%E8%AE%BA%E8%AF%81%E6%98%8E%E8%B5%A2%E5%9B%BE-a-win-graph-based-proof-of-champion-inequality/header.png" alt="Featured image of post 补档：陈平不等式的图论证明——赢图（A Win-graph-based Proof of Champion Inequality）" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/97728305-2aa2-44b9-9b0c-2d9c4b43545d/A_Win-graph-based_Proof_of_Champion_Inequality_-__%282022_7_30_15_00_01%29.html?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=d36e8fb83a5d2e17e21d72d1b67bbec13f51acd80a9ebdeda8659b7f934c263e&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;image&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
@@ -1000,7 +1020,7 @@
 &lt;p&gt;首先从Cygwin官网下载最新安装包文件 &lt;a class=&#34;link&#34; href=&#34;https://www.cygwin.com/setup-x86_64.exe&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.cygwin.com/setup-x86_64.exe&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;下载后的setup不必删除，如果需要安装新的包时仍然需要这个文件。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/5e6ffa4c-0044-4ed3-bafa-68d6ede04097/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090450Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=0a8dc8748df5212d41f375d93ba692769cfda9809e23191dddb57b5b5aa7623e&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/5e6ffa4c-0044-4ed3-bafa-68d6ede04097/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=689d4360236f154d29b1d3ba9e99b687abf4d862759ac9341549c34ad308a747&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1011,7 +1031,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;接着选定安装路径，请记住这个路径，因为我们即将添加到PATH环境变量&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/e8ca8d59-f615-4be1-943c-638198950b4e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090450Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=89d96d56cfb581e87c5d1bce87e14291c8ffd63b7972b4cb4db415586a2fdb16&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/e8ca8d59-f615-4be1-943c-638198950b4e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=205716ca20b034b263c7b003b6717dbca2fba0d46e9b38cdddfc431d4c6df9cf&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1027,7 +1047,7 @@
     &gt;清华大学开源软件镜像站&lt;/a&gt;为例&lt;/p&gt;
 &lt;p&gt;选择&lt;code&gt;Install from Internet&lt;/code&gt;, 在”User URL”处输入以下地址：&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;https://mirrors.tuna.tsinghua.edu.cn/cygwin/&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/04628043-2413-4981-bb89-090b823caf01/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090450Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=f67da3f160d73e53fe2c471b7c59424c589a8c9d9622879e877d1bf618a63cec&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/04628043-2413-4981-bb89-090b823caf01/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=87a965f7be833784a06228118e4a4db39f88ffb49e99ed43bb68493f35cf8517&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1036,7 +1056,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;接着需要选择要安装的包，首先我们设置View为Full，然后在Search框内添加需要的软件包，在下方结果页中的New中选择最新的版本号即可，以lynx为例，稍后我们需要lynx下载apt-cyg&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/9fc108af-5c91-4655-bcff-14c4162ab1b2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090450Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=dc5b0c2bb3efbcdc555eaa1f605f1f0a91175ca313656d10a59c696b75bea663&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/9fc108af-5c91-4655-bcff-14c4162ab1b2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=54bd0f1f5166e1ef5a4fa5f07819adb55eb47846134998bad8039819fbf2e6ed&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1045,7 +1065,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;完成！最后可以勾选创建Cygwin Terminal桌面图标与启动菜单，如果你打算用自己喜欢的终端运行（如Mobaxterm、Cmder等，稍后本文将以Windows Terminal配置方法为例）则不用勾选。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/d8885ceb-13ec-4240-ab95-9dd0935d71cb/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090450Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=9633a2ba5bf8d2c6350f1fd1b058edf366fc7acebf9b6dffd19c44a207e49300&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/d8885ceb-13ec-4240-ab95-9dd0935d71cb/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=405ddab510fe27bdc7a7e770dab3634b8be22cf4c02bc3cd560d3ab4f732f825&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1057,7 +1077,7 @@
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;设置环境变量，越往上优先级越高，不建议超过系统优先级&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/c549a1dc-88b3-4c84-a03c-2c0ed73714db/image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090450Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=5ddaca0fc3cae2387931b22160b8d8ca10929b05355aab89c0099b9616bbc94b&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/c549a1dc-88b3-4c84-a03c-2c0ed73714db/image.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=b66c0d5970dd87173eb7ff214ae67e3ddff62c5a08c3a195eb28040fa16f1361&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1137,7 +1157,7 @@
 &lt;/div&gt;&lt;p&gt;随后&lt;code&gt;$ source .bashrc&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;配置windows-terminal&#34;&gt;配置Windows Terminal
 &lt;/h3&gt;&lt;p&gt;参考内容如下&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/2e88a431-de71-44e8-85e8-d53610e72efa/image_%281%29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090450Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=328ff58c4762c9244dfdc7823cae171e36d5c7b7b4665ad9be55c27bc67f6b61&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/2e88a431-de71-44e8-85e8-d53610e72efa/image_%281%29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=33e8445312b45f554f0cac297cd1478e6ff56717601e075fe75af9f97ee25a6f&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1166,7 +1186,7 @@
         <description>&lt;img src="https://lemoe.cn/blog/mkdocs-material-%E6%B7%BB%E5%8A%A0gitalk%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/header.png" alt="Featured image of post Mkdocs Material 添加Gitalk评论系统" /&gt;&lt;h2 id=&#34;申请clientid-和clientsecret&#34;&gt;申请clientID 和clientSecret
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/settings/applications/new&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;bookmark&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/f39f9db7-696f-4e69-95aa-134ad89a35da/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=41d915ca0220f46a887610186341c82c64924ef3b869c8b47bf7b1a624940d5b&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/f39f9db7-696f-4e69-95aa-134ad89a35da/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015640Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=2568b90f8fc0817aa541e39bb96c334bd4eee3dfcb4151e2c00a4ccc9b66becd&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1179,7 +1199,7 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;bookmark&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;在项目根目录下创建 &lt;em&gt;overrides/main.html&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/08defa9f-55df-43c2-8775-77ee8555eaa0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=de32518a6456763caec208c3d679dfc1f1dc73b71899bf43955890b71f4061aa&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/08defa9f-55df-43c2-8775-77ee8555eaa0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015640Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=7da8140a8dac710cd6b48aab0f60b6f7e098a4aa851d9a55a73bce14ad3df381&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1258,7 +1278,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;完成！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/63322d15-19d9-496e-a350-82f717a2c02d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=fb81b798bec26470398f00c32cd388eb2ac0ad44d078ed9e07a42ae3a5ca9332&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/63322d15-19d9-496e-a350-82f717a2c02d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015640Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=9a70bada36ec9325e8977b29517c403c218d4b5f38589da18a05d4ac6a4adc85&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1281,7 +1301,7 @@
     &gt;微云镜像&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;在本场景中，我们只需要&lt;strong&gt;虚拟摄像头&lt;/strong&gt;，无需录像或推流。&lt;/p&gt;
 &lt;p&gt;界面大概是这样的：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/d13afa9a-e05e-4b6b-98c6-62cde368e5f2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=7ba3ba350f16fefe2c6a46ce8d76b46054b9d31a59dd82af1d966d8965e568fd&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/d13afa9a-e05e-4b6b-98c6-62cde368e5f2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=66491b0cc40bb74e5a39a14ce722fa6913ae2d30a36565325754ae13acce83a1&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1303,7 +1323,7 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;https://file-cdn.qmcmc.cn/static/clock.html
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/f4b22e50-8b18-42b3-ac97-e6805c182cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=349377bd86d038719abc31e82d4c12939e6b65c59ae4022f2cdd60ea54aa168f&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/f4b22e50-8b18-42b3-ac97-e6805c182cc4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=3e325f160b356aa19aeefa8b48a76f26f398e4379b685e4571318a49a4e6f304&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1311,7 +1331,7 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/b26a6def-d004-4eaa-b4a1-23f8030a2d7d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=71d45e0147f6ccc302b52223a0e2031b865def490af26d24df05d8c53c3a92bc&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/b26a6def-d004-4eaa-b4a1-23f8030a2d7d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=710af0c3030e7f6fedde06a7d77698aa65a9ccbe49aea508fc23cd5b55541168&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1332,7 +1352,7 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;https://file-cdn.qmcmc.cn/static/sakura.html
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/d98b6aa8-c6d8-415d-8954-15ee104789a9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=9ffc455253c0c31fb0bf67929d123a4a71729dde6f3610b902fcbb9647b72368&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/d98b6aa8-c6d8-415d-8954-15ee104789a9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=ef45d0e6912d4e839c2e6453c714e3c394b172c3c1264a93392e8a34dea8af2e&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1345,7 +1365,7 @@
 &lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://2050.earth/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;bookmark&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;如果弹出一些窗口，可以点击&lt;strong&gt;互动&lt;/strong&gt;并关闭&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/d08c132f-1dc8-4f4f-8715-7e677bb7560e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=7a76f17f2c6951810b31cf57764cc9f9abe29c7a70a5eb5461e8277b517a2bf4&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/d08c132f-1dc8-4f4f-8715-7e677bb7560e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=9631186720c53d1db9dc7d15f97985104f2742a60ac6f99eea5c99fd98c42097&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1366,7 +1386,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;虚拟桌面&#34;&gt;虚拟桌面
 &lt;/h3&gt;&lt;p&gt;首先，你需要一个纯色背景的桌面或桌布，最好为红、绿、蓝色，且确保衣着不含该颜色以免成为赛博透明人。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/5ea2d6b9-5897-4551-be8f-f79259b9c910/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=407119a98527942eadf38a8231d6d6de1d400c1cd1a0a154f4e10375f11be82e&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/5ea2d6b9-5897-4551-be8f-f79259b9c910/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=626a4e8b355917cc3eb45f1e84f64a18b5a4020f96c17844502ac122fc10a2fd&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1377,7 +1397,7 @@
 &lt;p&gt;添加视频采集设备→滤镜→色值→关键颜色类型，然后调节相似度，直到隐去桌面。&lt;/p&gt;
 &lt;p&gt;将需要的图层置于&lt;strong&gt;视频采集设备&lt;/strong&gt;以下。&lt;/p&gt;
 &lt;p&gt;效果&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/a37bb19b-4c44-41a4-b755-9490386c3bb9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=3bef271aadfb48373303c6104f1149953a19694f38b0bac174631ea4442ed236&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/a37bb19b-4c44-41a4-b755-9490386c3bb9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=7110049e7ec9fb2a199bb3a6a5a97139d7fb7e81418fc017d1c889446bc8cdf1&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1387,7 +1407,7 @@
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;自动念诗&#34;&gt;自动念诗
 &lt;/h3&gt;&lt;p&gt;原理：从Hotokoto每30s自动更新到文本&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/8809c589-34d0-4a05-b31c-112e458cbd14/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=a8cb32625a1f8ee2c4c9b15d38d5e4a2938940ccab0ec43120472d8fb2e9a345&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/8809c589-34d0-4a05-b31c-112e458cbd14/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=b0888b15849fccf6340131e5442394bd3234ee99bbedf1c5def994efb0883245&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1436,7 +1456,7 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://store.steampowered.com/app/616720/Live2DViewerEX/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;bookmark&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;效果（&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/95434670-cedb-4b09-aa9a-41595458f733/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=aba98ab8b75cdc04b685e06a835a6226e2170d3f3a8701bad816296872c6451d&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/95434670-cedb-4b09-aa9a-41595458f733/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=92646dc41313ae17a3450648c45d2d6e6edc04d0a96e11a0a49e80b48367d9bc&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1445,7 +1465,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;最终整活效果&#34;&gt;最终整活效果
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/1b5f049c-f1d7-4efb-87c9-695d914ed4cc/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=f442ff7df50856d2ce1ec9e093282b13348377601dc16bf626fce9005beb0c6a&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/1b5f049c-f1d7-4efb-87c9-695d914ed4cc/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=70f15956764e676d521c48d405d29f1daf010784e143a5c90feefb9f124a2cd1&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1482,7 +1502,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;开始&#34;&gt;开始
 &lt;/h2&gt;&lt;h3 id=&#34;notion新建一页&#34;&gt;Notion新建一页
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/09c69e23-74c8-45e9-884b-7449d440ac10/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=570f44961dc5b5d5e15f41f2837d007d8f6ec007de1afd7047fc1dab1c8e2df4&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/09c69e23-74c8-45e9-884b-7449d440ac10/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=f2d1486df83f1e8f44930617582e983bac6289e5bc4e641dc4566c5a2e2fd738&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1495,7 +1515,7 @@
 &lt;/h3&gt;&lt;p&gt;前往&lt;a class=&#34;link&#34; href=&#34;https://github.com/transitive-bullshit/nextjs-notion-starter-kit&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/transitive-bullshit/nextjs-notion-starter-kit&lt;/a&gt; ，Fork一个副本（本站为&lt;a class=&#34;link&#34; href=&#34;https://github.com/TennousuAthena/nextjs-notion&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/TennousuAthena/nextjs-notion&lt;/a&gt;）&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/3989ada4-df53-43bd-8aeb-78bc5a2b89fb/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=00a8d32bbb1e0b4e6705b5ff46b2b1197a6e772cafa32ef2cdc3a8c659a54349&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/3989ada4-df53-43bd-8aeb-78bc5a2b89fb/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=a7bb234e54a1b4802456b1f5e3c775ee9676a0ebbc99a78a02bf88cc39ab7e9b&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1637,7 +1657,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Commit并Push&lt;/p&gt;
 &lt;h3 id=&#34;配置vercel&#34;&gt;配置Vercel
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/94876bce-41b4-46ba-8fbf-3ad51d844e67/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=a457ea35f50bf5677ac68d16d1d5e68972db18893682ff51ca942da9709ebf50&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/94876bce-41b4-46ba-8fbf-3ad51d844e67/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=c0b15bbcac8976fbd674f93259321fb2301abea2be28556d14b4f1b9ea709b68&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1647,7 +1667,7 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;New Project → Import 即可&lt;/p&gt;
 &lt;h3 id=&#34;配置域名&#34;&gt;配置域名
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/16aa6b34-fc8f-4e78-be22-7af43cd7beff/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090450Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=1ea78488d2c4b7b9d22b9a18fcc3199764442ad1ba6aa784951da3a7fe44ef61&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/16aa6b34-fc8f-4e78-be22-7af43cd7beff/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=72fc99adbac1207a46ed2a11dde8de6ad4dd606f8eedbdf25d1a4cdb679961d4&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1694,7 +1714,7 @@
 &lt;/table&gt;
 &lt;p&gt;undefined
 示例如下：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/384c6824-0f26-4d99-8f7c-65789af29b7d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=eb7c2fa0c835885617a5bc4c061ae5555d0879156c8a2de95f38e3502e366fcc&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/384c6824-0f26-4d99-8f7c-65789af29b7d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=5d5920b41d570e468e0359f70ff61c2b12f2a7f015327da3d5c581ff63bbdf00&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1704,7 +1724,7 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;Update 2022-04-16 :&lt;/p&gt;
 &lt;p&gt;如何判断缓存状态：按下F12打开Network，找到图片，查看响应头&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/55c68a0c-7726-4879-b998-3a73fae46cea/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=b68ac42a901edba81546916dc3869ac766ad93f59ed09192bbddc65d5e1db3f9&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/55c68a0c-7726-4879-b998-3a73fae46cea/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=7f9d2c5005a6fff6e16853d547812e300db1700494fb25565de6d1f4ab59dec3&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1745,7 +1765,7 @@
 &lt;p&gt;undefined&lt;/p&gt;
 &lt;h3 id=&#34;google-analytics&#34;&gt;Google analytics
 &lt;/h3&gt;&lt;p&gt;若使用Tagmanager或GA4放置在页面头部可能导致图片懒加载blur异常，Vercel自带的analytics不会造成此问题。也可以使用Cloudflare的Web Analytics。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/06b031f3-0adf-4989-8919-2381781b1f94/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=fffc70edc2e4d6867441701f6745d130b022308db02dec2f9a7d8da7becbc152&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/06b031f3-0adf-4989-8919-2381781b1f94/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=ffaad159ff7e33e1207e995fe783c668527c6fbfc619c47dc92e939c88de56de&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1756,7 +1776,7 @@
 &lt;h3 id=&#34;半自动&#34;&gt;半自动
 &lt;/h3&gt;&lt;p&gt;等等，Vercel的Serverless不是能自动同步Notion上的最新内容吗？&lt;/p&gt;
 &lt;p&gt;是的……但有时候，如页面标题发生更改导致Url改变、页面结构复杂等问题会导致页面无法及时更新。解决方法是在Vercel上&lt;strong&gt;Redeploy&lt;/strong&gt;一下。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/6441deee-1ae0-4d00-90da-f1ae141dcfee/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=a53b98cddf446ea250c7059004f309b632e74969a7c036e56ec664214f9e4ae5&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/6441deee-1ae0-4d00-90da-f1ae141dcfee/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=9e1e8181606a81de1888a6d92c51308d6012eb8ba47dd373c9217216a28573f5&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1785,7 +1805,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;在紧张的学习生活中，想不想体验抽&lt;del&gt;赌&lt;/del&gt;卡&lt;del&gt;博&lt;/del&gt;的快感？想不想和同学比比谁先&lt;strong&gt;脱非入欧&lt;/strong&gt;？苦于身边没有智能设备？那就自己动手丰衣足食吧！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/65bcba40-95f9-4bdd-bf2f-581a2c2a61ae/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=c0c003e6fc2558ab1e7a2b1b65aea2cec9d7ae882786820325c542e278330e80&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/65bcba40-95f9-4bdd-bf2f-581a2c2a61ae/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=640fc7863f004da97f45cd5468923aba0b5de45af7019ce2976614f3eb693c83&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1807,7 +1827,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;原理&#34;&gt;原理
 &lt;/h2&gt;&lt;p&gt;Alpha+RanInt+范围可以产生&lt;del&gt;伪&lt;/del&gt;随机整数&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/00ce72cc-8ac4-4039-a2be-4d34ae9e69e3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090449Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=8b46e1c56bbd6125d8ace83a81ed54cb8fc3ee38a23e95a18c354b2aa8a21c48&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/00ce72cc-8ac4-4039-a2be-4d34ae9e69e3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=383ebf236c2fc9ebece2d63c5e480fd8090b0da1452e04dc6f5126a0b043e3f7&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1864,7 +1884,7 @@ $$&lt;/p&gt;
         <guid>https://lemoe.cn/blog/%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BB%8Ekindle%E5%AF%BC%E5%87%BA%E4%B9%A6%E7%B1%8D%E5%B9%B6%E8%BD%AC%E6%8D%A2%E4%B8%BApdf%E7%AD%89%E6%A0%BC%E5%BC%8F/</guid>
         <description>&lt;img src="https://lemoe.cn/blog/%E4%BC%98%E9%9B%85%E5%9C%B0%E4%BB%8Ekindle%E5%AF%BC%E5%87%BA%E4%B9%A6%E7%B1%8D%E5%B9%B6%E8%BD%AC%E6%8D%A2%E4%B8%BApdf%E7%AD%89%E6%A0%BC%E5%BC%8F/header.png" alt="Featured image of post 优雅地从Kindle导出书籍并转换为PDF等格式" /&gt;&lt;h2 id=&#34;缘起&#34;&gt;缘起
 &lt;/h2&gt;&lt;p&gt;生物竞赛学校初赛中竟然得到了前10的不虞之誉，因此开始准备复赛事宜。寻找学习材料时发现&lt;strong&gt;Kindle电子书&lt;/strong&gt;&lt;del&gt;泡面盖&lt;/del&gt;有售，可惜仅支持在自己的Kindle设备或应用上查看，无法进一步分享或在其他设备上查看。本文章将记录使用Calibre与DeDRM插件将KindleAWZ DRM加密文件转为PDF等开放格式的过程。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/74cccad0-bfda-4e14-bf57-1a96ad2425e0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090452Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=66e02b8329ac65c7ce6acfbef667aba50ddcf532bbd903ac9f4b9a95dbaa581c&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/74cccad0-bfda-4e14-bf57-1a96ad2425e0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=e58d9cd4bb88cf98d51ca359a1968db9f8a12f901813ba0e0682d42a2432dbaa&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1877,7 +1897,7 @@ $$&lt;/p&gt;
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;从Kindle→管理我的内容和设备中找到此书，点击“通过电脑下载USB传输”&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/819a135d-9e8e-45f4-ba68-a1b9404cd701/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090452Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=b8d4e7bdf6b6b1936c53031e290d73c03280d7789822c733c94b11af1ed2f8e8&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/819a135d-9e8e-45f4-ba68-a1b9404cd701/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=939f29b317e7672a34a2c76356c10102cb58a56ec47d8476edd567290363e5b4&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1885,7 +1905,7 @@ $$&lt;/p&gt;
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/b82cbf17-997c-494c-a17f-66adb3384f74/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090452Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=e39f6e3bcd4854b643aba8d2802cb1a730a5a374d26f7b6cbdd22d73655074f7&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/b82cbf17-997c-494c-a17f-66adb3384f74/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=ed9cb4d7d8cc4702ca62b280db96af6250016233fd2ec3dfc4ff28cf29cfdc0a&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1905,7 +1925,7 @@ $$&lt;/p&gt;
 &lt;p&gt;可以在这里：&lt;a class=&#34;link&#34; href=&#34;https://calibre-ebook.com/download&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://calibre-ebook.com/download&lt;/a&gt; 下载相应系统版本的Calibre，Windows下推荐Portable（绿色、编写版），安装过程略&lt;/p&gt;
 &lt;p&gt;这时添加书籍，发现……&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/b19d7778-93d1-4f12-884a-9d470a3ff139/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090452Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=905217cc5d22555cf3af214e1683ba0a3265b16d46310cae8e511849254ae471&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/b19d7778-93d1-4f12-884a-9d470a3ff139/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=d2fa89796b07fc4246af41ebb52a96f9fdefc4dd200fb93180020625ee9db5db&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1918,7 +1938,7 @@ $$&lt;/p&gt;
 &lt;p&gt;如果无法访问Github地址，请尝试&lt;a class=&#34;link&#34; href=&#34;https://file-cdn.qmcmc.cn/lemoe/2021/06/DeDRM_tools_7.2.1.zip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;本站备份&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;解压刚才下载的DeDRM_tools，并打开calibre→首选项→插件&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/629ddd08-818a-42f8-8a39-bde0ce4986d6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090452Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=4ea0e68f6c391e7178f31902cc2d64fd2077ebd55412eb715dd4140f69218cc4&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/629ddd08-818a-42f8-8a39-bde0ce4986d6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=bed599d93bc13e55ceea5ca3953a44034c609390e01778e39ebb6fce3125ebcf&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1926,7 +1946,7 @@ $$&lt;/p&gt;
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/72f50306-9a06-4b87-9a7b-ccf160c109d3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090452Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=810f8e510c93c5d2b6710c3dcaa109083d290e93e0f6ea71fb51766c648800be&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/72f50306-9a06-4b87-9a7b-ccf160c109d3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=930291a01d6d667b788e77d4893b42de958190db3792df6baa11994d8bf9f62f&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1934,7 +1954,7 @@ $$&lt;/p&gt;
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/b9e85d8c-99bb-4223-9a0a-c2d5afd88e37/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090452Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=cb37ad650d1aeff20d192eb7744d5fd8049445b8738a8a8140a4ff58e5705186&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/b9e85d8c-99bb-4223-9a0a-c2d5afd88e37/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=2d9d51cad875b629ba983c944c9d979f759254df1019aee1dc3434f955880779&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1942,7 +1962,7 @@ $$&lt;/p&gt;
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/be2581ac-6214-40b3-bad4-9890cb9a251e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090452Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=058f284b79d8ac9ab4254d3d45eee0d78a8a31cd8bd25d77dd3fad98b3d2187f&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/be2581ac-6214-40b3-bad4-9890cb9a251e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=7172e4922f608201d66057cd0e9c26eaeb75e37fc8f233c939f551f3b35c3fa0&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1951,7 +1971,7 @@ $$&lt;/p&gt;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;记得重启calibre&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/5c51fd21-10bd-4131-b058-225f26e6214f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090452Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=430e148c32dd2e4fa8bc8ce55b4c76328bd0c480cdb648d3c3e5c018e35eaf0f&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/5c51fd21-10bd-4131-b058-225f26e6214f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=5e7e56733d22907cb7f2ba311ee58c83b0658e92f3218dcfc5835dd998121664&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1960,7 +1980,7 @@ $$&lt;/p&gt;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;在插件列表中搜索&lt;strong&gt;DeDRM&lt;/strong&gt;，点击“自定义插件”，输入对应Kindle的序列号&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/e4eeb800-758f-494a-bf59-c6c299cef6e6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090452Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=da63f63fddad723237c4de662238618964c799e3420304ab3c57117a363954d5&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/e4eeb800-758f-494a-bf59-c6c299cef6e6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=40a68906a9d660cd5abc849f27da68cadabd29e16760a1bd7f617fcc32353583&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1970,7 +1990,7 @@ $$&lt;/p&gt;
 &gt;&lt;/p&gt;
 &lt;p&gt;序列号的获得方式：设备选项→设备信息→序列号（共16位，一般以&lt;strong&gt;B&lt;/strong&gt;或&lt;strong&gt;9&lt;/strong&gt;开头）&lt;/p&gt;
 &lt;p&gt;完成！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/8b92de69-4f0f-46d3-a941-2587861c19ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090452Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=39e33dcc1fb0c04af6c9cbd8ee57ec5e468e444224aa84e1e18fbc9a3434c2ec&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/8b92de69-4f0f-46d3-a941-2587861c19ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=a39062fa351064494b2436d16518c82d89791d9c3c12f9b30d8488fd45d9c859&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1979,7 +1999,7 @@ $$&lt;/p&gt;
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;格式转换&#34;&gt;格式转换
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/61bd8a02-dec2-4fd2-a1a5-f71ad1a32c2f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090452Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=eb84e23b34580964a79c3d225ce5e4b43de847fe86ec7fdb9114507ee74af011&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/61bd8a02-dec2-4fd2-a1a5-f71ad1a32c2f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=a1f782a91f2db4a60b6d2464ad6a7ad187b8be0074dd3100a62e8c0d22a5227c&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1987,7 +2007,7 @@ $$&lt;/p&gt;
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/f6387bfc-7e38-4fcd-be40-1001eb55b55e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090452Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=e208facfce1014c4c8b90bf0c183b133fc679435b6b7556c0187c93ce321ce56&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/f6387bfc-7e38-4fcd-be40-1001eb55b55e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=84df93c284d2c8337838a72410ace9f8e173265e8b4439dec8e6f8c772158828&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -1995,7 +2015,7 @@ $$&lt;/p&gt;
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/d186b8fe-2dd8-49cc-af95-0002cc1ff17d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090452Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=fcb832fdc9364dc185bfad5351b4d952a36f2fdb6466b24b0468e1cf081a8a4f&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/d186b8fe-2dd8-49cc-af95-0002cc1ff17d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=d5ef4b6ce04dfdcad9bbbf01f6c81b29b50a141436eaa523d710501a4eb5efab&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	
@@ -2003,7 +2023,7 @@ $$&lt;/p&gt;
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/ecb54c05-f607-4f6d-8e9c-7b2aee56cb5f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241112%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241112T090452Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=b50f786d98574cb7a53db94cc7053c10c53ed55968caa5f5a7f1868469f2d6aa&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
+&lt;p&gt;&lt;img src=&#34;https://prod-files-secure.s3.us-west-2.amazonaws.com/a103840d-6f4f-43c8-8ba3-978275252707/ecb54c05-f607-4f6d-8e9c-7b2aee56cb5f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;amp;X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241113%2Fus-west-2%2Fs3%2Faws4_request&amp;amp;X-Amz-Date=20241113T015639Z&amp;amp;X-Amz-Expires=3600&amp;amp;X-Amz-Signature=fcc24f60246b11c3f10e398120aa4321b7c73dbf60879413a1fbc72d1865e703&amp;amp;X-Amz-SignedHeaders=host&amp;amp;x-id=GetObject&#34;
 	
 	
 	

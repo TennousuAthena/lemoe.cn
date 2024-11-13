@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>网络安全 on 柠萌赛博自留地</title>
+        <link>https://lemoe.cn/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</link>
+        <description>Recent content in 网络安全 on 柠萌赛博自留地</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Wed, 13 Nov 2024 01:52:00 +0000</lastBuildDate><atom:link href="https://lemoe.cn/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hackergame 2024 Writeup</title>
+        <link>https://lemoe.cn/blog/hackergame-2024-writeup/</link>
+        <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://lemoe.cn/blog/hackergame-2024-writeup/</guid>
+        <description>&lt;img src="https://lemoe.cn/blog/hackergame-2024-writeup/header.png" alt="Featured image of post Hackergame 2024 Writeup" /&gt;&lt;blockquote&gt;
+&lt;p&gt;你居然敢参加HackerGame 2024？这可是个需要动脑子的比赛，而你上次动脑还是为了想今晚吃什么吧！你是不是觉得自己是个黑客高手，其实不过是个“Ctrl+C”和“Ctrl+V”的键盘侠？别告诉我你连SQL注入和SQL果汁都分不清！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;在这个比赛里，你的对手可都是能用代码写诗的高手，而你可能还在为“Hello World”加个感叹号而沾沾自喜。别担心，万一你迷路了，比赛里还有虚拟助手帮你导航，当然前提是你能找到打开帮助文档的按钮。
+
+
+你是不是以为参加比赛就能像电影里那样酷炫地敲键盘？醒醒吧，别再幻想自己是个黑客天才了，赶紧去看看比赛规则吧，至少知道什么时候该交答案。
+
+
+最后，祝你在比赛中好运，当然这也许是你唯一能依靠的东西了！不过没关系，比赛结束后，你至少能自豪地说：“我参加过HackerGame 2024，虽然没赢，但我努力了！”
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;以上内容由AI辅助生成&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
